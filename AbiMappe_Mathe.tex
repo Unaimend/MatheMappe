@@ -41,6 +41,9 @@
 %%% SECTION TITLE APPEARANCE
 \usepackage{sectsty}
 \usepackage{amsmath}
+\usepackage{float}
+\usepackage{graphicx}
+
 
 \usepackage{amssymb}
 \usepackage[ngerman]{babel}
@@ -190,15 +193,15 @@
 	\\ \textbf{Normalform:}\\
 	Der \textbf{Koeffizient $a$} gibt sowohl die Oeffnungsrichtung als auch die Steigung einer Parabel wieder, ist $a < 0$ ist die Parabel nach unten geoeffnet, ist $a > 0$ ist sie nach oben geoeffnet. Ist $a = 0$ ensteht eine lineare Funktion.\texttt{}\\
 	Ueber die Steigung kann man folgene Aussagen treffen: Ist $a > 1$ ist die Parabel gestreckt, ist $a<1$ ist sie gespreitzt, $a=1$ stellt die Normalparabel da.
+	\\\\Der \textbf{Koeffinzienten $b$} gibt die Steigung der Parabel im Schnittpunkt mit der y-Achse an, zusaetlich laesst sich am Vorzeichen ablesen
+	ob die Parabel die Y-Achse(Ordinatenachse), mit dem fallenden Ast der Parbel geschnitten wird oder mit dem Steigenden.
+	Ist $b < 0$, scheidet der fallende Ast die Ordinatenachse, sonst der Andere.
+	Eine Veraenderung des Koeffinzienten $b$ bewirkt eine Verschiebung sowohl in x- als auch in y-Richtung. Wird $b$ um eins eroeht, dann wird der Graph um 1/2a Einheiten nach links und (2b+1)/4a nach unten verschoben. Wird b um eins verringert, wird der Graph dagegen um 1/2a Einheiten nach rechts und (2b-1)/4a nach oben verschoben.
 	
-	\begin{quote}
-	Der \textbf{Parameter $b$} gibt die Steigung der Parabel im Schnittpunkt mit der y-Achse an. Insbesondere kann man am Vorzeichen von b erkennen, ob die y-Achse mit dem fallenden oder dem ansteigenden Ast der Parabel geschnitten wird. Hieraus lassen sich wiederum Rückschlüsse über die Zahl und die mögliche Lage von Nullstellen ziehen.
-	Eine Veränderung des Parameters b bewirkt eine Verschiebung sowohl in x- als auch in y-Richtung. Wird b um eins erhöht, dann wird der Graph um 1/2a Einheiten nach links und (2b+1)/4a nach unten verschoben. Wird b um eins verringert, wird der Graph dagegen um 1/2a Einheiten nach rechts und (2b-1)/4a nach oben verschoben.
-	\\Wikipedia
-	\end{quote}
+	
 
 	\hspace{-1.5 cm}
-	Der \textbf{Koeffizient $c$} bestimmt wie die Funktion auf der Y-Achse verschoben ist.
+	Der \textbf{Koeffizient $c$} bestimmt wie die Funktion auf der Ordinatenachse verschoben ist.
 
 
 	\subsubsection{Umwandlung der Normalform in die Scheitelpunktform}
@@ -240,7 +243,8 @@
 		\subsection{Exponentialfunktionen}
 		\subsubsection{Natuerliche Expoentialfunktion}
 		Als natuerliche Exponentialfunktion bezeichnet man Variationen der Funtion $f(x)=e^x$.
-
+		\subsection{Umkehrfunktion}
+		\subsection{Funktionenscharen}
 		\subsection{Herleitung}
 		\subsubsection{Trigonometrische Funktionen}
 		\subsubsection{Quadratische Ergaenzung}
@@ -251,21 +255,29 @@
 	\section{Differentialrechnung}
 	\subsection{Ableitung}
 	\subsection{Visualisierung}
-	\begin{tabular}[]{ll} 
-			\includegraphics[width=200px, height=200px]{a.eps} 
-			\begin{minipage}{0.45\textwidth}
-				\vspace{-8 cm}
-				Hier zu sehen ist der Graph $f(x)$, mit seinen Ableitungen $f'(x)$ und $f''(x)$.
-				Hier kann man sehr gut erkennen wie die Nullstellen der 1. Ableitung $f'(x)$, genau an
-				der Position liegen an der auch die Steigung von $f(x)$ gleich 0 ist.\\
-				Schaut man sich nun die 2. Ableitung an, kann man erkennen das sich Nullstelle der 2. Ableitung an der Stelle befinden wo $f(x)$ einen Wendepunkt hat.
-			\end{minipage}
+	
+
+	\begin{minipage}{0.3\textwidth}
+	\begin{figure}[H]
+	\includegraphics[width=300px, height=200px]{a.eps}
+	\caption{Rectangle}
+	\end{figure}
+	\end{minipage} \hfill
+	\begin{minipage}{0.5\textwidth}
+	
+	Hier zu sehen ist der Graph $f(x)$, mit seinen Ableitungen $f'(x)$ und $f''(x)$.
+	Hier kann man sehr gut erkennen wie die Nullstellen der 1. Ableitung $f'(x)$, genau an
+	der Position liegen an der auch die Steigung von $f(x)$ gleich 0 ist.\\
+	Schaut man sich nun die 2. Ableitung an, kann man erkennen das sich Nullstelle der 2. Ableitung an der Stelle befinden wo $f(x)$ eineWendepunkt hat.
+	
+	\end{minipage}
+
+
 			
 		
-	\end{tabular}
+%	\end{tabular}
 	\subsection{Bedeutung der 1. Ableitung}
 	\begin{tabular}[t]{l}
-	Muss Ueberarbeitete werden\\
 	Die 1. Ableitung gibt die Steigung der Originalfunktion wieder, d.h wenn die 1. Ableitung 0 ist \\hat die Originalfunktion an diesem Punkt eine 
 	Steigung von 0 und damit einen moeglichen \\Extrempunkt.
 	\end{tabular}
@@ -340,12 +352,13 @@
 	\subsection{Ableitung trigonometrischer Funktionen}
 	\subsection{Herleitungen}
 	\subsubsection{Herleitung der Ableitung mithilfe des Limes}
-	\subsubsection{Herleitung der Potenzregeln in der Menge der natuerliche Zaheln}
-	\subsubsection{Herleitung der eFunktion in der Menge der natuerliche Zaheln}
+	\subsubsection{Herleitung der Potenzregeln in  $\mathbb{N}$}
+	\subsubsection{Herleitung der $e$-Funktion in der Menge der natuerliche Exponenten}
 	\subsubsection{Herleitung der Trigofunktion mithilfe des Limes}
 	\subsubsection{Herleitung der Ableitungsregeln}
 	\section{Integralrechnung}
 	TEST
+
 	\subsection{Rotationskoerper}  
 	HALLO GITHUB                                                       
 	\subsection{Herleitungen}
@@ -382,6 +395,13 @@
 	\subsubsection{Einheitsvektor}
 	Ein Einheitsvektor ist ein Vektor der Laenge 1, d.h. dass sein Betrag = 1 ist($|\vec{a}|=1$).
 	\subsection{Rechnen mit Vektoren}
+	\subsubsection{Addition}
+	Zwei Vekotren in $\mathbb{R}^3$ $\vec{a}, \vec{b}$ werden addiert, idem man ihre Komponenten addiert.
+	\\Beipsiel
+	$\vec{a}+\vec{b}=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}+\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}=\begin{pmatrix}a_1+b_1\\a_2+b_2\\a_3+b_3\end{pmatrix}$
+	\subsubsection{s-Multilipkation}
+	Ein Vektor $\vec{a}$ wird mit einer Zahl $s$ aus $\mathbb{R}$ multipliziert, in dem seine Komponenten mit $s$ multipliziert werden.
+	$s*\vec{a}=s*\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}=\begin{pmatrix}s*a_1\\s*a_2\\s*a_3\end{pmatrix}$
 	\subsubsection{Linearkombination}
 	\subsubsection{Laenge eines Vektors}
 	\subsubsection{Skalarprodukt}
