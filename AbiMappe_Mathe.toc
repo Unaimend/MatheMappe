@@ -69,15 +69,15 @@
 \contentsline {subsection}{\numberline {5.6}Ebenen}{10}
 \contentsline {subsubsection}{\numberline {5.6.1}Ebenenformen}{11}
 \contentsline {paragraph}{\numberline {5.6.1.1}Parameterform}{11}
-\contentsline {paragraph}{\numberline {5.6.1.2}Koordinatenform}{11}
-\contentsline {paragraph}{\numberline {5.6.1.3}Normalenform}{11}
+\contentsline {paragraph}{\numberline {5.6.1.2}Normalenform}{11}
+\contentsline {paragraph}{\numberline {5.6.1.3}Koordinatenform}{11}
 \contentsline {paragraph}{\numberline {5.6.1.4}Hess'che Normalenform}{11}
 \contentsline {subsubsection}{\numberline {5.6.2}Lage Ebene Gerade}{11}
 \contentsline {paragraph}{\numberline {5.6.2.1}Parallel}{11}
 \contentsline {paragraph}{\numberline {5.6.2.2}Schnittpunkt}{11}
-\contentsline {paragraph}{\numberline {5.6.2.3}Winkel zwischen Gerade und Ebene}{11}
-\contentsline {subsubsection}{\numberline {5.6.3}Lage Ebene Ebene}{11}
-\contentsline {paragraph}{\numberline {5.6.3.1}Parallel}{11}
+\contentsline {paragraph}{\numberline {5.6.2.3}Winkel zwischen Gerade und Ebene}{12}
+\contentsline {subsubsection}{\numberline {5.6.3}Lage Ebene Ebene}{12}
+\contentsline {paragraph}{\numberline {5.6.3.1}Parallel}{12}
 \contentsline {paragraph}{\numberline {5.6.3.2}Schnittpunkt}{12}
 \contentsline {paragraph}{\numberline {5.6.3.3}Winkel zwischen Ebenen}{12}
 \contentsline {subsubsection}{\numberline {5.6.4}Abstandsberechnung im Raum}{12}
