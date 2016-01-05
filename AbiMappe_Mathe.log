@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.12.21)  5 JAN 2016 01:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.12.21)  5 JAN 2016 01:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1520,184 +1520,154 @@ File: koordinatensystem.png Graphic file (type png)
 <use koordinatensystem.png>
 Package pdftex.def Info: koordinatensystem.png used on input line 358.
 (pdftex.def)             Requested size: 200.74959pt x 200.75423pt.
- [9 <./koordinatensystem.png>]
-<Ebene.png, id=73, 175.857pt x 98.5281pt>
+ [9 <./koordinatensystem.png>] [10]
+<Ebene.png, id=76, 471.7625pt x 311.1625pt>
 File: Ebene.png Graphic file (type png)
  <use Ebene.png>
-Package pdftex.def Info: Ebene.png used on input line 387.
-(pdftex.def)             Requested size: 150.57396pt x 150.5806pt.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 393--399
+Package pdftex.def Info: Ebene.png used on input line 393.
+(pdftex.def)             Requested size: 150.56396pt x 150.56229pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--399
+Underfull \hbox (badness 10000) in paragraph at lines 399--405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--410
 
  []
 
 [11 <./Ebene.png>] [12] [13]
-Overfull \hbox (16.30983pt too wide) in paragraph at lines 446--457
+Overfull \hbox (16.30983pt too wide) in paragraph at lines 452--463
   \T1/futs/m/n/10 Ei-ne Ma-trix vom Typ $\FML/futm/m/it/10 M[]$ \T1/futs/m/n/10
  ist ei-ne Zu-sam-men-fas-sung von Wer-ten der Form $\FML/futm/m/it/10 M \FMS/f
 utm/m/n/10 Å$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--470
+Underfull \hbox (badness 10000) in paragraph at lines 465--476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--470
+Underfull \hbox (badness 10000) in paragraph at lines 465--476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--470
+Underfull \hbox (badness 10000) in paragraph at lines 465--476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--474
+Underfull \hbox (badness 10000) in paragraph at lines 478--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--480
+Underfull \hbox (badness 10000) in paragraph at lines 482--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--480
+Underfull \hbox (badness 10000) in paragraph at lines 482--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--496
+Underfull \hbox (badness 10000) in paragraph at lines 488--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--496
+Underfull \hbox (badness 10000) in paragraph at lines 488--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--496
+Underfull \hbox (badness 10000) in paragraph at lines 488--502
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 499--502
+Underfull \hbox (badness 10000) in paragraph at lines 505--508
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--502
+Underfull \hbox (badness 10000) in paragraph at lines 505--508
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--508
+Underfull \hbox (badness 10000) in paragraph at lines 510--514
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--508
+Underfull \hbox (badness 10000) in paragraph at lines 510--514
 
  []
 
 [15]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 541.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 547.
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--544
+Underfull \hbox (badness 10000) in paragraph at lines 516--550
 
  []
 
 
-Overfull \hbox (4.32166pt too wide) in paragraph at lines 510--544
+Overfull \hbox (4.32166pt too wide) in paragraph at lines 516--550
 \FML/futm/m/it/9 M \FMS/futm/m/n/9 Å \FML/futm/m/it/9 A \FMS/futm/m/n/9 Ä \FML/
 futm/m/it/9 B \FMS/futm/m/n/9 Å$ $[]$ \T1/futs/m/n/9 + $[]$ = $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--544
+Underfull \hbox (badness 10000) in paragraph at lines 516--550
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--544
+Underfull \hbox (badness 10000) in paragraph at lines 516--550
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--544
+Underfull \hbox (badness 10000) in paragraph at lines 516--550
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--568
+Underfull \hbox (badness 10000) in paragraph at lines 551--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--568
+Underfull \hbox (badness 10000) in paragraph at lines 551--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--621
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--621
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--628
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--628
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 629--630
 
  []
@@ -1714,6 +1684,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 631--632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 
  []
 
@@ -1734,7 +1734,7 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/adobe/utopia/putri8a.pfb>
-Output written on AbiMappe_Mathe.pdf (23 pages, 267552 bytes).
+Output written on AbiMappe_Mathe.pdf (23 pages, 240642 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream
