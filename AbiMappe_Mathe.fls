@@ -401,6 +401,9 @@ INPUT ./koordinatensystem.png
 INPUT Ebene.png
 INPUT ./Ebene.png
 INPUT ./Ebene.png
+INPUT pytha.png
+INPUT ./pytha.png
+INPUT ./pytha.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
