@@ -41,6 +41,10 @@
 %%% SECTION TITLE APPEARANCE
 \usepackage{sectsty}
 \usepackage{amsmath}
+\usepackage{float}
+\usepackage{graphicx}
+
+
 \usepackage{amssymb}
 \usepackage[ngerman]{babel}
 \usepackage{float}
@@ -57,7 +61,7 @@
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 \usepackage{epstopdf}
 %%% END Article customizations
-
+\usepackage{titling}
 %%VL UNNOETIG
 \usepackage{colortbl}
 \usepackage[utf8]{inputenc}
@@ -189,15 +193,15 @@
 	\\ \textbf{Normalform:}\\
 	Der \textbf{Koeffizient $a$} gibt sowohl die Oeffnungsrichtung als auch die Steigung einer Parabel wieder, ist $a < 0$ ist die Parabel nach unten geoeffnet, ist $a > 0$ ist sie nach oben geoeffnet. Ist $a = 0$ ensteht eine lineare Funktion.\texttt{}\\
 	Ueber die Steigung kann man folgene Aussagen treffen: Ist $a > 1$ ist die Parabel gestreckt, ist $a<1$ ist sie gespreitzt, $a=1$ stellt die Normalparabel da.
+	\\\\Der \textbf{Koeffinzienten $b$} gibt die Steigung der Parabel im Schnittpunkt mit der y-Achse an, zusaetlich laesst sich am Vorzeichen ablesen
+	ob die Parabel die Y-Achse(Ordinatenachse), mit dem fallenden Ast der Parbel geschnitten wird oder mit dem Steigenden.
+	Ist $b < 0$, scheidet der fallende Ast die Ordinatenachse, sonst der Andere.
+	Eine Veraenderung des Koeffinzienten $b$ bewirkt eine Verschiebung sowohl in x- als auch in y-Richtung. Wird $b$ um eins eroeht, dann wird der Graph um 1/2a Einheiten nach links und (2b+1)/4a nach unten verschoben. Wird b um eins verringert, wird der Graph dagegen um 1/2a Einheiten nach rechts und (2b-1)/4a nach oben verschoben.
 	
-	\begin{quote}
-	Der \textbf{Parameter $b$} gibt die Steigung der Parabel im Schnittpunkt mit der y-Achse an. Insbesondere kann man am Vorzeichen von b erkennen, ob die y-Achse mit dem fallenden oder dem ansteigenden Ast der Parabel geschnitten wird. Hieraus lassen sich wiederum Rückschlüsse über die Zahl und die mögliche Lage von Nullstellen ziehen.
-	Eine Veränderung des Parameters b bewirkt eine Verschiebung sowohl in x- als auch in y-Richtung. Wird b um eins erhöht, dann wird der Graph um 1/2a Einheiten nach links und (2b+1)/4a nach unten verschoben. Wird b um eins verringert, wird der Graph dagegen um 1/2a Einheiten nach rechts und (2b-1)/4a nach oben verschoben.
-	\\Wikipedia
-	\end{quote}
+	
 
 	\hspace{-1.5 cm}
-	Der \textbf{Koeffizient $c$} bestimmt wie die Funktion auf der Y-Achse verschoben ist.
+	Der \textbf{Koeffizient $c$} bestimmt wie die Funktion auf der Ordinatenachse verschoben ist.
 
 
 	\subsubsection{Umwandlung der Normalform in die Scheitelpunktform}
@@ -235,10 +239,12 @@
 		\subsubsection{Substitution}
 		\subsubsection{Polynomdivision}
 		\subsection{Trigonometrische Funktionen}
+		\subsection{Tangente und Normale}
 		\subsection{Exponentialfunktionen}
 		\subsubsection{Natuerliche Expoentialfunktion}
 		Als natuerliche Exponentialfunktion bezeichnet man Variationen der Funtion $f(x)=e^x$.
-	
+		\subsection{Umkehrfunktion}
+		\subsection{Funktionenscharen}
 		\subsection{Herleitung}
 		\subsubsection{Trigonometrische Funktionen}
 		\subsubsection{Quadratische Ergaenzung}
@@ -249,21 +255,29 @@
 	\section{Differentialrechnung}
 	\subsection{Ableitung}
 	\subsection{Visualisierung}
-	\begin{tabular}[]{ll} 
-			\includegraphics[width=200px, height=200px]{a.eps} 
-			\begin{minipage}{0.45\textwidth}
-				\vspace{-8 cm}
-				Hier zu sehen ist der Graph $f(x)$, mit seinen Ableitungen $f'(x)$ und $f''(x)$.
-				Hier kann man sehr gut erkennen wie die Nullstellen der 1. Ableitung $f'(x)$, genau an
-				der Position liegen an der auch die Steigung von $f(x)$ gleich 0 ist.\\
-				Schaut man sich nun die 2. Ableitung an, kann man erkennen das sich Nullstelle der 2. Ableitung an der Stelle befinden wo $f(x)$ einen Wendepunkt hat.
-			\end{minipage}
+	
+
+	\begin{minipage}{0.3\textwidth}
+	\begin{figure}[H]
+	\includegraphics[width=300px, height=200px]{a.eps}
+	\caption{Rectangle}
+	\end{figure}
+	\end{minipage} \hfill
+	\begin{minipage}{0.5\textwidth}
+	
+	Hier zu sehen ist der Graph $f(x)$, mit seinen Ableitungen $f'(x)$ und $f''(x)$.
+	Hier kann man sehr gut erkennen wie die Nullstellen der 1. Ableitung $f'(x)$, genau an
+	der Position liegen an der auch die Steigung von $f(x)$ gleich 0 ist.\\
+	Schaut man sich nun die 2. Ableitung an, kann man erkennen das sich Nullstelle der 2. Ableitung an der Stelle befinden wo $f(x)$ eineWendepunkt hat.
+	
+	\end{minipage}
+
+
 			
 		
-	\end{tabular}
+%	\end{tabular}
 	\subsection{Bedeutung der 1. Ableitung}
 	\begin{tabular}[t]{l}
-	Muss Ueberarbeitete werden\\
 	Die 1. Ableitung gibt die Steigung der Originalfunktion wieder, d.h wenn die 1. Ableitung 0 ist \\hat die Originalfunktion an diesem Punkt eine 
 	Steigung von 0 und damit einen moeglichen \\Extrempunkt.
 	\end{tabular}
@@ -338,16 +352,24 @@
 	\subsection{Ableitung trigonometrischer Funktionen}
 	\subsection{Herleitungen}
 	\subsubsection{Herleitung der Ableitung mithilfe des Limes}
-	\subsubsection{Herleitung der Potenzregeln in der Menge der natuerliche Zaheln}
-	\subsubsection{Herleitung der eFunktion in der Menge der natuerliche Zaheln}
+	\subsubsection{Herleitung der Potenzregeln in  $\mathbb{N}$}
+	\subsubsection{Herleitung der $e$-Funktion in der Menge der natuerliche Exponenten}
 	\subsubsection{Herleitung der Trigofunktion mithilfe des Limes}
 	\subsubsection{Herleitung der Ableitungsregeln}
 	\section{Integralrechnung}
 	TEST
+
 	\subsection{Rotationskoerper}  
 	HALLO GITHUB                                                       
 	\subsection{Herleitungen}
 	\section{Kurvendiskussion}
+	\subsection{Symmetrie}
+	\subsection{Verhalten im Unendlichen}
+	\subsection{Schnittpunkt mit der y-Achse}
+	\subsection{Nullstellen}
+	\subsection{Ableitungen}
+	\subsection{Extrema berechnen}
+	\subsection{Wendepunkte berechnen}
 	\section{Analytische Geometrie}
 	\subsection{Was ist ein Vektor}
 	Ein Vektor ist eine Menge von Pfeilen der Form $\vec{a} = \begin{pmatrix} a_1 \\ \vdots \\ a_n \end{pmatrix} $, die parallel untereinander verschoben sind.
@@ -361,15 +383,32 @@
 			\end{figure}
 		\end{minipage} 
 	\subsection{Besondere Vektoren}
-	\subsubsection{Gegenvektor}
 	\subsubsection{Nullvektor}
+	Der Nullvektor ist ein Vektor der Form $\vec{v} = \begin{pmatrix} 0 \\ \vdots \\ 0 \end{pmatrix}$, 
+	 zudem ist er das neutrale Element der Vektoraddition d.h. $ \vec{a} + \begin{pmatrix} 0 \\ \vdots \\ 0 \end{pmatrix} = \vec{a}$.
+	\subsubsection{Gegenvektor}
+	Der Gegenvektor ist das inverse Element der Vektoraddtion d.h $ \vec{a}+ -\vec{a}=0$, wobei - $0$ den Nullvektor bezeichnet.
 	\subsubsection{Ortsvektor}
+	Ein Ortsvektor beziehcnet einen Vektor der vom Koordinatenursprung aus geht d.h. er hat die Form $\vec{OP}$, wobei $P$ ein beliebiger Punkt im Raum ist.
 	\subsubsection{Normalenvektor}
+	Ein Normalenvektor ist ein Vektor der orthogonal zu seinem Bezugsobjekt z.B. einer Gerade ist. 
 	\subsubsection{Einheitsvektor}
+	Ein Einheitsvektor ist ein Vektor der Laenge 1, d.h. dass sein Betra5z5g = 1 ist($|\vec{a}|=1$).
 	\subsection{Rechnen mit Vektoren}
+	\subsubsection{Addition}
+	Zwei Vekotren in $\mathbb{R}^3$ $\vec{a}, \vec{b}$ werden addiert, idem man ihre Komponenten addiert.
+	\\Beipsiel
+	$\vec{a}+\vec{b}=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}+\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}=\begin{pmatrix}a_1+b_1\\a_2+b_2\\a_3+b_3\end{pmatrix}$
+	\subsubsection{s-Multilipkation}
+	Ein Vektor $\vec{a}$ wird mit einer Zahl $s$ aus $\mathbb{R}$ multipliziert, in dem seine Komponenten mit $s$ multipliziert werden.
+	$s*\vec{a}=s*\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}=\begin{pmatrix}s*a_1\\s*a_2\\s*a_3\end{pmatrix}$
 	\subsubsection{Linearkombination}
+	Einen Ausdruck der Form $r_1*\vec{a}_1 + r_2*\vec{a}_2 + \hdots + r_n*\vec{a}_n $ nennt man Linearekombination der Vektoren $a_1$ bis $a_n$.
+	Beachte das $a_1$ bis $a_n$ Vektoren, und keine Vektorkomponenten sind.
 	\subsubsection{Laenge eines Vektors}
+	Der Betra eines Vektors $\vec{a}$ stellt seine Laege da, d.h. $|a|=\sqrt{a_1^2+a_2^2+a_3^2}$ ist die Laenge eines Vektors.
 	\subsubsection{Skalarprodukt}
+	Das Sklalarprodukt ordnet je zwei Vektoren $\vec{a},\vec{b}$ ein Sklalar zu, ist dieses Skalar $0$ sind die Vektoren orthogonal zueinander, ist es $< 0$ sind sie parallel und gleichorientiert, ist es $> 0$, sind sie parallel und entgegengesetzt orintiert. Es wird folgendermaßen berechntet: $\vec{a} \circ \vec{b}=a_1*b_1+a_2*b_2+a_3*b_3$.
 	\subsubsection{Kreuzprodukt}
 	\paragraph{Berechnung mithilfe Determinante}
 	\subsubsection{Spatprodukt}
@@ -377,7 +416,7 @@
 	\subsubsection{Was sind Geraden}
 	\subsubsection{Lage von zwei Geraden im Raum}
 	\paragraph{Parallel}
-	%\paragraph{Identisch}	
+	\paragraph{Identisch}	
 	\paragraph{Windschief}
 	\paragraph{Schnittpunkt}
 	\paragraph{Winkel zwischen Gerade}
@@ -394,13 +433,12 @@
 	Paramterform einer Ebene: $E : \vec{x} = \vec{p}+ r*\vec{u}+s*\vec{v}$\\
 	In der Paramterform wird eine Ebene mithilfe eines Stuetzvektors(Ortsvektors) und zwei Richtungsvektoren beschrieben.
 	Es gibt zwei Moeglichkeiten wie diese Richtungsvektoren zueiander liegen duerfen um eine Ebene zu beschreiben.
-	\\\textbf{\\Geschitten}\\
+	\\\\Geschitten\\
 	Falls sich die gegebenen Richtugnsvektoren schneiden, kann die Ebene direkt zwischen ihnen aufgespannt werden.
-	
-	\textbf{\\Beispiel}
+	\\Beispiel
 	\\\textbf{\\Parallel}\\
 	Falls die gegeben Richtungsvektoren jedoch Parallel sind, muss ein Verbindungsvektor zwischen ihen hergestellt werden.
-	\\\textbf{\\Beispiel}
+	\\Beispiel
 	\paragraph{Normalenform}
 	\paragraph{Koordinatenform}
 	\paragraph{Hess'che Normalenform}
@@ -430,6 +468,18 @@
 	\paragraph{Schnittvolumen}
 	\subsection{Herleitungen}
 	\subsubsection{Satz des Pythagoras}
+	\includegraphics[width=220 px, height=103 px]{pytha.png}\\
+	Links = $c^2+ 4*(\frac{1}{2}a*b)$\\
+	Rechts = $a^2-b^2+4*(\frac{1}{2}a*b)$
+
+	\begin{align*}
+	c^2+ 4*(\frac{1}{2}a*b) &= a^2+b^2+4*(\frac{1}{2}a*b)  \hspace{0.5 cm} |-4*(\frac{1}{2}a*b)\\
+	c^2 &= a^2+b^2
+	\end{align*}
+
+
+	
+	
 	\subsubsection{Pythagoras im Raum}
 	\subsubsection{Kosinussatz}
 	\subsubsection{Skalarprodukt}
@@ -611,11 +661,11 @@
 
 
 	
-	\subsubsection{TODO: Matrizengleichungen}
+	\subsubsection{Matrizengleichungen}
 	
 
-	\subsubsection{TODO: Einstufige Prozesse}
-	\subsubsection{TODO: Mehrstufige Prozesse}
+	\subsubsection{Einstufige Prozesse}
+	\subsubsection{Mehrstufige Prozesse}
 	\paragraph{Markov-Ketten}
 	\hspace{0 cm} \\ \noindent \\
 	\subsubsection{Lineare Optimierung}
@@ -638,4 +688,16 @@
 
 	\section{Quellen}
 	[5]. „Plane equation qtl1“ von Quartl - Wikipedia
+
+	\begin{titlepage}
+	\title{Hochschulmathematik}
+	\author{Thomas Dost}
+	\date{} % Activate to display a given date or no date (if empty),
+	\maketitle
+	\newpage
+	\tableofcontents
+	\newpage
+	\end{titlepage}
+
+
 \end{document}
