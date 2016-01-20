@@ -394,14 +394,16 @@
 	Ein Normalenvektor ist ein Vektor der orthogonal zu seinem Bezugsobjekt z.B. einer Gerade ist. 
 	\subsubsection{Einheitsvektor}
 	Ein Einheitsvektor ist ein Vektor der Laenge 1, d.h. dass sein Betrag = 1 ist($|\vec{a}|=1$).
+	\\\\Beispiel\\
+	Der Einheitsvektor $\vec{e_a}$ des Vektors $\vec{a}$ wird berechnet indem man $\frac{1}{|a|}*\vec{a}$ rechnet.
 	\subsection{Rechnen mit Vektoren}
 	\subsubsection{Addition}
 	Zwei Vekotren in $\mathbb{R}^3$ $\vec{a}, \vec{b}$ werden addiert, idem man ihre Komponenten addiert.
-	\\Beipsiel
-	$\vec{a}+\vec{b}=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}+\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}=\begin{pmatrix}a_1+b_1\\a_2+b_2\\a_3+b_3\end{pmatrix}$
+	\\Beipsiel\\
+	\begin{align*} \vec{a}+\vec{b}=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}+\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}=\begin{pmatrix}a_1+b_1\\a_2+b_2\\a_3+b_3\end{pmatrix} \end{align*}
 	\subsubsection{s-Multilipkation}
-	Ein Vektor $\vec{a}$ wird mit einer Zahl $s$ aus $\mathbb{R}$ multipliziert, in dem seine Komponenten mit $s$ multipliziert werden.\\Beispiel
-	$s*\vec{a}=s*\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}=\begin{pmatrix}s*a_1\\s*a_2\\s*a_3\end{pmatrix}$
+	Ein Vektor $\vec{a}$ aus $\mathbb{R}^3$  wird mit einer Zahl $s$ aus $\mathbb{R}$ multipliziert, in dem seine Komponenten mit $s$ multipliziert werden.\\Beispiel
+	\begin{align*}  s*\vec{a}=s*\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}=\begin{pmatrix}s*a_1\\s*a_2\\s*a_3\end{pmatrix} \end{align*}
 	\subsubsection{Linearkombination}
 	Einen Ausdruck der Form $r_1*\vec{a}_1 + r_2*\vec{a}_2 + \hdots + r_n*\vec{a}_n $ nennt man Linearekombination der Vektoren $a_1$ bis $a_n$.
 	Beachte das $a_1$ bis $a_n$ Vektoren keine Vektorkomponenten sind.
@@ -414,7 +416,7 @@
 	Falls es ein $s$ in $\mathbb{R}$ gibt das die Gleichung erfuellt ist $\vec{v}$ linear Abhaengig von $\vec{b}$.
 	\pagebreak
 	\subsubsection{Skalarprodukt}
-	Das Sklalarprodukt ordnet je zwei Vektoren $\vec{a},\vec{b}$ ein Sklalar zu, ist dieses Skalar $0$ sind die Vektoren orthogonal zueinander, ist es $< 0$ sind sie parallel und gleichorientiert, ist es $> 0$, sind sie parallel und entgegengesetzt orintiert.\\\\Beispiel $\vec{a} \circ \vec{b}=a_1*b_1+a_2*b_2+a_3*b_3$.
+	Das Sklalarprodukt ordnet je zwei Vektoren $\vec{a},\vec{b}$ ein Sklalar zu, ist dieses Skalar $0$ sind die Vektoren orthogonal zueinander.\\\\Beispiel  \begin{align*} \vec{a} \circ \vec{b}=a_1*b_1+a_2*b_2+a_3*b_3. \end{align*}
 	\subsubsection{Kreuzprodukt}
 	\paragraph{Berechnung mithilfe der Determinante}
 	\hspace{0 cm} \\ \noindent \\
@@ -547,7 +549,7 @@
 	 \hspace{0 cm} \\ \noindent \\
 	 Seien  $M$ und $I$ beliebige quadratische Matrizen und $E$ die Einheitsmatrix, dann nennt man die Matrix $I$ die, die Gleichung $M*I=I*M=E$ erfuellt, Inverse der Matrix $M$. Sie wird mit $M^{-1}$ dargestellt.\\
 	 Eine Matrix mit einer Inversen nennt man regluaere Matrix.
-	 \\\\Beispiel:\\
+	 \\GAUSS UND ADJUNKTE
 	\paragraph{Einheitsmatrix} 
 	 \hspace{0 cm} \\ \noindent \\ Eine Einheitsmatrix ist eine quadratische Matrix, bei der alle Elemente auf der Hauptdiagonale gleich 1 sind.\\
 	Sie ist das neutrale Element der Matrizenmultiplikation d.h. $M*E = E*M = M$ wobei $M$ eine beliebige regulaere Matrix ist, und $E$ ihre Einheitsmatrix ist.\\

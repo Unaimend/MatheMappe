@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.12.21)  20 JAN 2016 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.12.21)  20 JAN 2016 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1536,65 +1536,75 @@ File: koordinatensystem.png Graphic file (type png)
 <use koordinatensystem.png>
 Package pdftex.def Info: koordinatensystem.png used on input line 380.
 (pdftex.def)             Requested size: 200.74959pt x 200.75423pt.
- [9] [10 <./koordinatensystem.png>]
-Overfull \hbox (4.7543pt too wide) in paragraph at lines 411--413
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 396--399
+
+ []
+
+[10 <./koordinatensystem.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
+
+ []
+
+
+Overfull \hbox (4.7543pt too wide) in paragraph at lines 413--415
 \T1/futs/m/n/10 Die Li-nea-re Anhae-nig-keit be-schreibt die Ei-gen-schaft ei-n
 es Vek-tors $[]$ sich mit Hil-fe der s-Multiplikation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--413
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--413
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--430
+Underfull \hbox (badness 10000) in paragraph at lines 422--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--442
+Underfull \hbox (badness 10000) in paragraph at lines 437--444
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--442
+Underfull \hbox (badness 10000) in paragraph at lines 437--444
 
  []
 
 
-Overfull \hbox (1.52489pt too wide) in paragraph at lines 435--442
+Overfull \hbox (1.52489pt too wide) in paragraph at lines 437--444
 \T1/futs/m/n/10 Hat sich je-doch er-ge-ben dass die Rich-tungs-vek-to-ren li-ne
 -ar Un-abhaen-gig sind, mu-ess wird als naechs-
  []
 
-<Ebene.png, id=80, 471.7625pt x 311.1625pt>
+[12] <Ebene.png, id=83, 471.7625pt x 311.1625pt>
 File: Ebene.png Graphic file (type png)
  <use Ebene.png>
-Package pdftex.def Info: Ebene.png used on input line 446.
+Package pdftex.def Info: Ebene.png used on input line 448.
 (pdftex.def)             Requested size: 150.56396pt x 150.56229pt.
- [12]
-Underfull \hbox (badness 10000) in paragraph at lines 452--464
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--466
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--464
+Underfull \hbox (badness 10000) in paragraph at lines 454--466
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--464
+Underfull \hbox (badness 10000) in paragraph at lines 454--466
 
  []
 
@@ -1628,16 +1638,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 532--543
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 545--547
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--553
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--553
 
  []
 
@@ -1802,7 +1802,7 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/adobe/utopia/putri8a.pfb>
-Output written on AbiMappe_Mathe.pdf (27 pages, 253085 bytes).
+Output written on AbiMappe_Mathe.pdf (27 pages, 253250 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream
