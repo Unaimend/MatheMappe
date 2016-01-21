@@ -435,12 +435,15 @@
 	Eine Gerade im 3-Dimensionalen Raum ist eine unendliche Ausdehnung in eine Koordinatenrichtungen.
 	\subsubsection{Lage von zwei Geraden im Raum}
 	Um die Lage zweier Gerade zueiander zu bestimmen muss zuert auf lineare Anhaengigkeit geprueft werden.
-	Sind die Richtungsvektoren linear Abhaengig, sind die Gerade etweder Parralel oder Identisch, sind sie jedoch linear Unabhaengig
+	Sind die Richtungsvektoren linear Abhaengig, sind die Gerade etweder Parallel oder Identisch, sind sie jedoch linear Unabhaengig
 	muss geprueft werden ob sie einen Schnittpunkt besitzen oder windschief sind.
-	\\\\Beispiel \textbf{Parralel}
+	\\\\Beispiel \textbf{Parallel}
 	\\Fall wir herrausgefunden haben dass die Richtungsvektoren lineare Abhaengig sind, muessen wir als naechstes schauen ob der Ortsvektor eine beteiligten Gerade auf der anderen Gerade liegt um zu pruefen ob die Gerade Identisch sind.
 	\\\\Beispiel \textbf{Windschief}
 	\\Hat sich jedoch ergeben dass die Richtungsvektoren linear  Unabhaengig sind, muess wird als naechstes schauen die Geraden einen Schnittpunkt besitzen um zu pruefen ob sie windschief sind.
+	\paragraph{Abstand Gerade Gerade}
+	\subparagraph{Windschief}
+	\subparagraph{Parallel}
 	\paragraph{Winkel zwischen Gerade}
 	\subsection{Ebenen}
 	Eine Ebene im 3-Dimensionalen Raum ist eine unendliche Ausdehnung in zwei Koordinatenrichtungen.
@@ -458,22 +461,42 @@
 	\\\\ Beispiel \textbf{Parallel}\\
 	Falls die gegeben Richtungsvektoren jedoch Parallel sind, muss ein Verbindungsvektor zwischen ihen hergestellt werden.
 	\\Beispiel\\
-	Fuer die Pruefung ob die Gerade Parralel sind siehe Lage Gerade Gerade.\\
-	Seien die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ und $ g_2: \vec{x}=\vec{o_2}+s*\vec{b} $ parralel.\\
+	Fuer die Pruefung ob die Gerade Parallel sind siehe Lage Gerade Gerade.\\
+	Seien die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ und $ g_2: \vec{x}=\vec{o_2}+s*\vec{b} $ parallel.\\
 	Dann kann die Ebene mit Hilfe des Richtungsvektors von einer der Geraden und und eines beliebigen Verbindungsvektors der zwei Geraden gebildet werden. 
 	\\\\ Beispiel \textbf{Geschitten}\\
 	Falls sich die gegebenen Richtugnsvektoren schneiden, kann die Ebene direkt zwischen ihnen aufgespannt werden.
 	\paragraph{Normalenform}
+		\hspace{0 cm} \\ \noindent \\
+		Normalenform einer Ebene $E : \vec{x} = \vec{n}\circ\left[\left(\vec{x}-\vec{p}\right)   \right]$\\
+		In der Normalenform wird eine Ebene mit Hilfe ihrer Normale($\vec{n}$) und der Differenz eines Punktes aus der Ebene mit einem beliebigen anderen Punkt beschrieben($\vec{x}-\vec{p}$) wobei $\vec{p}$ einen beliebigen Punkt in der Ebene, und $\vec{x}$ einen beliebigen anderen Punkt darstellt. Alle Differenzen die orthogonal zum Normalenvektor der Ebene liegen beschreiben daher Vektoren die in der Ebene liegen.
+
 	\paragraph{Koordinatenform}
+		\hspace{0 cm} \\ \noindent \\
+		Koordinatenform der Ebene: $E: n_1*x_1+n_2*x_2+n_3*x_3=c$\\
+		Die Koordinatenform der Ebene ist die ausmultiplizierte Normalenform einer Ebene.
+		\\\\Beispiel
 	\paragraph{Hess'che Normalenform}
 	\subsubsection{Lage Ebene Gerade}
-	\paragraph{Parallel}
+	Um die Lage einer Gerade zu Ebene zu bestimment, muss man zuert ueberpruefen ob die Gerade echt parallel, dies kann man mit Hilfe der Normale der Ebene und des Richtungsvektors der Gerade ueberpruefen indem man ueberprueft ob die Normale orthogonal zum Richtungsvektor der Gerade liegt.
+	Fall die Gerade parallel zur Ebene liegt, kann man nun den Ortsvektor der Gerade in die Ebene einsetzen um zu ueberpruefen ob sie identisch sind.
+	Falls die Gerade sich jedoch nicht parallel zur Ebene verhaelt hat sie garantiert einen Schnittpunkt mit der Ebene. 
 	\paragraph{Schnittpunkt}
+		\hspace{0 cm} \\ \noindent \\
+		Um den Schnittpunkt einer Gerade mit einer Ebene zu berechnen, bringt man die Ebene in Koordinatenform und setzt die Gerade dann in diese ein.
+		\\\\Beispiel
+	\paragraph{Abstand Gerade Ebene}
 	\paragraph{Winkel zwischen Gerade und Ebene}
 	\subsubsection{Lage Ebene Ebene}
-	\paragraph{Parallel}
-	%\subparagraph{Identisch}
-	\paragraph{Schnittpunkt}
+	Um die Lage einer Ebene zu einer anderen Ebene stellt man zuerst fest ob sie parallel zueiander liegen, die kann man ueberprufen indem man die beiden Normalen der Ebene auf lineare Abhaengigkeit ueberprueft.
+	\paragraph{Identisch}
+		\hspace{0 cm} \\ \noindent \\
+	Um nun zu ueberpruefen ob die Ebenen identisch sind, setzt einen belibigen Punkt der einen Ebene in die andere Ebene ein.
+	\paragraph{Schnittgerade}
+	\paragraph{Abstand Ebene Ebene}
+		\hspace{0 cm} \\ \noindent \\
+	Um den Abstand zweier Ebenen zu berechnen muessen diese selbstverstaendlich parallel zueiandern liegen, nun berechnet man von einer der Ebenen die Normale und stellt mit ihrer Hilfe eine Gerade auf, dann berechnet man den Schnittpunkt dieser Gerade mit der anderen Ebene.\\
+	Nun berechnet man den Vektor zwischen dem Ortsvektor der Normale und dem Schnittpunkt, der Betrag dieses Vektors ist der Abstand zwischen den beiden Ebenen.
 	\paragraph{Winkel zwischen Ebenen}
 	\subsection{Kugeln}
 	\subsubsection{Was ist eine Kugel}
@@ -483,12 +506,16 @@
 	Eine Kugel in der Analytischen Geometrie wird mit der Gleichung\\ $|\vec{p}-\vec{M}|^2=r^2$ oder
 	$(p_1-M_1)^2+(p_2-M_2)^2+(p_3-M_3)^2=r^2$ beschrieben, wo $M$ den Mittelpunkt als Vektor, $p$ einen beliebigen Punkt als Vektor, und $r$ den Radius als reele Zahl darstellt.
 	\subsubsection{Lage Kugel Punkt}
+	\paragraph{Abstand}
 	\subsubsection{Lage Kugel Gerade}
+	\paragraph{Abstand}
 	\paragraph{Schnittpunkt}
 	\subsubsection{Lage Kugel Ebene}
+	\paragraph{Abstand}
 	\paragraph{Schnittebene}
 	\subsubsection{Lage Kugel Kugel}
-	\paragraph{Schnittvolumen}
+	\paragraph{Abstand}
+	%\paragraph{Schnittvolumen}
 	\subsection{Herleitungen}
 	\subsubsection{Satz des Pythagoras}
 	\includegraphics[width=220 px, height=103 px]{pytha.png}\\

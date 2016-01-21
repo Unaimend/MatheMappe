@@ -75,64 +75,71 @@
 \contentsline {subsection}{\numberline {5.5}Geraden}{12}
 \contentsline {subsubsection}{\numberline {5.5.1}Was sind Geraden}{12}
 \contentsline {subsubsection}{\numberline {5.5.2}Lage von zwei Geraden im Raum}{12}
-\contentsline {paragraph}{\numberline {5.5.2.1}Winkel zwischen Gerade}{13}
+\contentsline {paragraph}{\numberline {5.5.2.1}Abstand Gerade Gerade}{13}
+\contentsline {subparagraph}{Windschief}{13}
+\contentsline {subparagraph}{Parallel}{13}
+\contentsline {paragraph}{\numberline {5.5.2.2}Winkel zwischen Gerade}{13}
 \contentsline {subsection}{\numberline {5.6}Ebenen}{13}
 \contentsline {subsubsection}{\numberline {5.6.1}Ebenenformen}{13}
 \contentsline {paragraph}{\numberline {5.6.1.1}Parameterform}{13}
-\contentsline {paragraph}{\numberline {5.6.1.2}Normalenform}{13}
-\contentsline {paragraph}{\numberline {5.6.1.3}Koordinatenform}{13}
-\contentsline {paragraph}{\numberline {5.6.1.4}Hess'che Normalenform}{13}
+\contentsline {paragraph}{\numberline {5.6.1.2}Normalenform}{14}
+\contentsline {paragraph}{\numberline {5.6.1.3}Koordinatenform}{14}
+\contentsline {paragraph}{\numberline {5.6.1.4}Hess'che Normalenform}{14}
 \contentsline {subsubsection}{\numberline {5.6.2}Lage Ebene Gerade}{14}
-\contentsline {paragraph}{\numberline {5.6.2.1}Parallel}{14}
-\contentsline {paragraph}{\numberline {5.6.2.2}Schnittpunkt}{14}
+\contentsline {paragraph}{\numberline {5.6.2.1}Schnittpunkt}{14}
+\contentsline {paragraph}{\numberline {5.6.2.2}Abstand Gerade Ebene}{14}
 \contentsline {paragraph}{\numberline {5.6.2.3}Winkel zwischen Gerade und Ebene}{14}
 \contentsline {subsubsection}{\numberline {5.6.3}Lage Ebene Ebene}{14}
-\contentsline {paragraph}{\numberline {5.6.3.1}Parallel}{14}
-\contentsline {paragraph}{\numberline {5.6.3.2}Schnittpunkt}{14}
-\contentsline {paragraph}{\numberline {5.6.3.3}Winkel zwischen Ebenen}{14}
-\contentsline {subsection}{\numberline {5.7}Kugeln}{14}
-\contentsline {subsubsection}{\numberline {5.7.1}Was ist eine Kugel}{14}
-\contentsline {subsubsection}{\numberline {5.7.2}Kugelgleichung}{14}
-\contentsline {subsubsection}{\numberline {5.7.3}Lage Kugel Punkt}{14}
-\contentsline {subsubsection}{\numberline {5.7.4}Lage Kugel Gerade}{14}
-\contentsline {paragraph}{\numberline {5.7.4.1}Schnittpunkt}{14}
-\contentsline {subsubsection}{\numberline {5.7.5}Lage Kugel Ebene}{14}
-\contentsline {paragraph}{\numberline {5.7.5.1}Schnittebene}{14}
-\contentsline {subsubsection}{\numberline {5.7.6}Lage Kugel Kugel}{14}
-\contentsline {paragraph}{\numberline {5.7.6.1}Schnittvolumen}{14}
-\contentsline {subsection}{\numberline {5.8}Herleitungen}{15}
-\contentsline {subsubsection}{\numberline {5.8.1}Satz des Pythagoras}{15}
-\contentsline {subsubsection}{\numberline {5.8.2}Pythagoras im Raum}{15}
-\contentsline {subsubsection}{\numberline {5.8.3}Kosinussatz}{15}
-\contentsline {subsubsection}{\numberline {5.8.4}Skalarprodukt}{15}
-\contentsline {subsubsection}{\numberline {5.8.5}Kreutzprodukt}{15}
-\contentsline {subsubsection}{\numberline {5.8.6}Spatprodukt}{15}
-\contentsline {subsubsection}{\numberline {5.8.7}Hesse'sche Normalform}{15}
-\contentsline {section}{\numberline {6}Lineare Algebra}{15}
-\contentsline {subsection}{\numberline {6.1}Loesungsverfahren fuer LGS}{15}
-\contentsline {subsubsection}{\numberline {6.1.1}Treppenstuffen Verfahren}{15}
-\contentsline {subsubsection}{\numberline {6.1.2}Koeffizienten Matrix}{15}
-\contentsline {subsubsection}{\numberline {6.1.3}Determinante}{15}
-\contentsline {subsection}{\numberline {6.2}Matrizen}{16}
-\contentsline {subsubsection}{\numberline {6.2.1}Besondere Matrizen}{16}
-\contentsline {paragraph}{\numberline {6.2.1.1}Nullmatrix }{16}
-\contentsline {paragraph}{\numberline {6.2.1.2}Stochastische Matrix }{16}
-\contentsline {paragraph}{\numberline {6.2.1.3}Inverse }{16}
-\contentsline {paragraph}{\numberline {6.2.1.4}Einheitsmatrix}{16}
-\contentsline {paragraph}{\numberline {6.2.1.5}Fixvektor}{17}
-\contentsline {paragraph}{\numberline {6.2.1.6}Grenzmatrix}{17}
-\contentsline {subsubsection}{\numberline {6.2.2}Rechenregeln}{18}
-\contentsline {subsubsection}{\numberline {6.2.3}Matrizengleichungen}{19}
-\contentsline {subsubsection}{\numberline {6.2.4}Einstufige Prozesse}{19}
-\contentsline {subsubsection}{\numberline {6.2.5}Mehrstufige Prozesse}{19}
-\contentsline {paragraph}{\numberline {6.2.5.1}Markov-Ketten}{19}
-\contentsline {subsubsection}{\numberline {6.2.6}Lineare Optimierung}{19}
-\contentsline {paragraph}{\numberline {6.2.6.1}Maximierungsprobleme}{19}
-\contentsline {paragraph}{\numberline {6.2.6.2}Minimierungsprobleme}{19}
-\contentsline {paragraph}{\numberline {6.2.6.3}Sonderfaelle und Loesbarkeit}{19}
-\contentsline {paragraph}{\numberline {6.2.6.4}Simplex-Verfahren}{19}
-\contentsline {paragraph}{\numberline {6.2.6.5}Simplex-Algorithmus}{19}
-\contentsline {section}{\numberline {7}Taschenrechner}{19}
-\contentsline {section}{\numberline {8}Beispielaufgaben}{19}
-\contentsline {section}{\numberline {9}Vielleicht falls bock}{19}
-\contentsline {section}{\numberline {10}Quellen}{19}
+\contentsline {paragraph}{\numberline {5.6.3.1}Identisch}{14}
+\contentsline {paragraph}{\numberline {5.6.3.2}Schnittgerade}{15}
+\contentsline {paragraph}{\numberline {5.6.3.3}Abstand Ebene Ebene}{15}
+\contentsline {paragraph}{\numberline {5.6.3.4}Winkel zwischen Ebenen}{15}
+\contentsline {subsection}{\numberline {5.7}Kugeln}{15}
+\contentsline {subsubsection}{\numberline {5.7.1}Was ist eine Kugel}{15}
+\contentsline {subsubsection}{\numberline {5.7.2}Kugelgleichung}{15}
+\contentsline {subsubsection}{\numberline {5.7.3}Lage Kugel Punkt}{15}
+\contentsline {paragraph}{\numberline {5.7.3.1}Abstand}{15}
+\contentsline {subsubsection}{\numberline {5.7.4}Lage Kugel Gerade}{15}
+\contentsline {paragraph}{\numberline {5.7.4.1}Abstand}{15}
+\contentsline {paragraph}{\numberline {5.7.4.2}Schnittpunkt}{15}
+\contentsline {subsubsection}{\numberline {5.7.5}Lage Kugel Ebene}{15}
+\contentsline {paragraph}{\numberline {5.7.5.1}Abstand}{15}
+\contentsline {paragraph}{\numberline {5.7.5.2}Schnittebene}{15}
+\contentsline {subsubsection}{\numberline {5.7.6}Lage Kugel Kugel}{16}
+\contentsline {paragraph}{\numberline {5.7.6.1}Abstand}{16}
+\contentsline {subsection}{\numberline {5.8}Herleitungen}{16}
+\contentsline {subsubsection}{\numberline {5.8.1}Satz des Pythagoras}{16}
+\contentsline {subsubsection}{\numberline {5.8.2}Pythagoras im Raum}{16}
+\contentsline {subsubsection}{\numberline {5.8.3}Kosinussatz}{16}
+\contentsline {subsubsection}{\numberline {5.8.4}Skalarprodukt}{16}
+\contentsline {subsubsection}{\numberline {5.8.5}Kreutzprodukt}{16}
+\contentsline {subsubsection}{\numberline {5.8.6}Spatprodukt}{16}
+\contentsline {subsubsection}{\numberline {5.8.7}Hesse'sche Normalform}{16}
+\contentsline {section}{\numberline {6}Lineare Algebra}{16}
+\contentsline {subsection}{\numberline {6.1}Loesungsverfahren fuer LGS}{16}
+\contentsline {subsubsection}{\numberline {6.1.1}Treppenstuffen Verfahren}{16}
+\contentsline {subsubsection}{\numberline {6.1.2}Koeffizienten Matrix}{16}
+\contentsline {subsubsection}{\numberline {6.1.3}Determinante}{16}
+\contentsline {subsection}{\numberline {6.2}Matrizen}{17}
+\contentsline {subsubsection}{\numberline {6.2.1}Besondere Matrizen}{17}
+\contentsline {paragraph}{\numberline {6.2.1.1}Nullmatrix }{17}
+\contentsline {paragraph}{\numberline {6.2.1.2}Stochastische Matrix }{17}
+\contentsline {paragraph}{\numberline {6.2.1.3}Inverse }{17}
+\contentsline {paragraph}{\numberline {6.2.1.4}Einheitsmatrix}{17}
+\contentsline {paragraph}{\numberline {6.2.1.5}Fixvektor}{18}
+\contentsline {paragraph}{\numberline {6.2.1.6}Grenzmatrix}{18}
+\contentsline {subsubsection}{\numberline {6.2.2}Rechenregeln}{19}
+\contentsline {subsubsection}{\numberline {6.2.3}Matrizengleichungen}{20}
+\contentsline {subsubsection}{\numberline {6.2.4}Einstufige Prozesse}{20}
+\contentsline {subsubsection}{\numberline {6.2.5}Mehrstufige Prozesse}{20}
+\contentsline {paragraph}{\numberline {6.2.5.1}Markov-Ketten}{20}
+\contentsline {subsubsection}{\numberline {6.2.6}Lineare Optimierung}{20}
+\contentsline {paragraph}{\numberline {6.2.6.1}Maximierungsprobleme}{20}
+\contentsline {paragraph}{\numberline {6.2.6.2}Minimierungsprobleme}{20}
+\contentsline {paragraph}{\numberline {6.2.6.3}Sonderfaelle und Loesbarkeit}{20}
+\contentsline {paragraph}{\numberline {6.2.6.4}Simplex-Verfahren}{20}
+\contentsline {paragraph}{\numberline {6.2.6.5}Simplex-Algorithmus}{20}
+\contentsline {section}{\numberline {7}Taschenrechner}{20}
+\contentsline {section}{\numberline {8}Beispielaufgaben}{20}
+\contentsline {section}{\numberline {9}Vielleicht falls bock}{20}
+\contentsline {section}{\numberline {10}Quellen}{20}
