@@ -39,12 +39,15 @@
 \contentsline {subsection}{\numberline {2.9}Herleitungen}{8}
 \contentsline {subsubsection}{\numberline {2.9.1}Herleitung der Ableitung mithilfe des Limes}{8}
 \contentsline {subsubsection}{\numberline {2.9.2}Herleitung der Potenzregeln in $\math@bb {N}$}{8}
-\contentsline {subsubsection}{\numberline {2.9.3}Herleitung der $e$-Funktion in der Menge der natuerliche Exponenten}{8}
-\contentsline {subsubsection}{\numberline {2.9.4}Herleitung der Trigofunktion mithilfe des Limes}{8}
+\contentsline {subsubsection}{\numberline {2.9.3}Herleitung der Ableitung der $e$-Funktion in $\math@bb {N}$ mit Hilfe des Limes}{8}
+\contentsline {subsubsection}{\numberline {2.9.4}Herleitung der Ableitung der Trigofunktion mithilfe des Limes}{8}
 \contentsline {subsubsection}{\numberline {2.9.5}Herleitung der Ableitungsregeln}{8}
 \contentsline {section}{\numberline {3}Integralrechnung}{8}
-\contentsline {subsection}{\numberline {3.1}Rotationskoerper}{8}
-\contentsline {subsection}{\numberline {3.2}Herleitungen}{9}
+\contentsline {subsection}{\numberline {3.1}Unbestimmtes Intgral}{8}
+\contentsline {subsection}{\numberline {3.2}Bestimmtes Intgral}{8}
+\contentsline {subsection}{\numberline {3.3}Rotationskoerper}{8}
+\contentsline {subsection}{\numberline {3.4}Herleitungen}{9}
+\contentsline {subsubsection}{\numberline {3.4.1}Flaeche mit dem Riemann-Integral}{9}
 \contentsline {section}{\numberline {4}Kurvendiskussion}{9}
 \contentsline {subsection}{\numberline {4.1}Symmetrie}{9}
 \contentsline {subsection}{\numberline {4.2}Verhalten im Unendlichen}{9}
@@ -89,8 +92,8 @@
 \contentsline {paragraph}{\numberline {5.6.2.1}Schnittpunkt}{14}
 \contentsline {paragraph}{\numberline {5.6.2.2}Abstand Gerade Ebene}{14}
 \contentsline {paragraph}{\numberline {5.6.2.3}Winkel zwischen Gerade und Ebene}{14}
-\contentsline {subsubsection}{\numberline {5.6.3}Lage Ebene Ebene}{14}
-\contentsline {paragraph}{\numberline {5.6.3.1}Identisch}{14}
+\contentsline {subsubsection}{\numberline {5.6.3}Lage Ebene Ebene}{15}
+\contentsline {paragraph}{\numberline {5.6.3.1}Identisch}{15}
 \contentsline {paragraph}{\numberline {5.6.3.2}Schnittgerade}{15}
 \contentsline {paragraph}{\numberline {5.6.3.3}Abstand Ebene Ebene}{15}
 \contentsline {paragraph}{\numberline {5.6.3.4}Winkel zwischen Ebenen}{15}
@@ -101,45 +104,45 @@
 \contentsline {paragraph}{\numberline {5.7.3.1}Abstand}{15}
 \contentsline {subsubsection}{\numberline {5.7.4}Lage Kugel Gerade}{15}
 \contentsline {paragraph}{\numberline {5.7.4.1}Abstand}{15}
-\contentsline {paragraph}{\numberline {5.7.4.2}Schnittpunkt}{15}
-\contentsline {subsubsection}{\numberline {5.7.5}Lage Kugel Ebene}{15}
-\contentsline {paragraph}{\numberline {5.7.5.1}Abstand}{15}
-\contentsline {paragraph}{\numberline {5.7.5.2}Schnittebene}{15}
+\contentsline {paragraph}{\numberline {5.7.4.2}Schnittpunkt}{16}
+\contentsline {subsubsection}{\numberline {5.7.5}Lage Kugel Ebene}{16}
+\contentsline {paragraph}{\numberline {5.7.5.1}Abstand}{16}
+\contentsline {paragraph}{\numberline {5.7.5.2}Schnittebene}{16}
 \contentsline {subsubsection}{\numberline {5.7.6}Lage Kugel Kugel}{16}
 \contentsline {paragraph}{\numberline {5.7.6.1}Abstand}{16}
 \contentsline {subsection}{\numberline {5.8}Herleitungen}{16}
 \contentsline {subsubsection}{\numberline {5.8.1}Satz des Pythagoras}{16}
-\contentsline {subsubsection}{\numberline {5.8.2}Pythagoras im Raum}{16}
-\contentsline {subsubsection}{\numberline {5.8.3}Kosinussatz}{16}
-\contentsline {subsubsection}{\numberline {5.8.4}Skalarprodukt}{16}
-\contentsline {subsubsection}{\numberline {5.8.5}Kreutzprodukt}{16}
-\contentsline {subsubsection}{\numberline {5.8.6}Spatprodukt}{16}
-\contentsline {subsubsection}{\numberline {5.8.7}Hesse'sche Normalform}{16}
-\contentsline {section}{\numberline {6}Lineare Algebra}{16}
-\contentsline {subsection}{\numberline {6.1}Loesungsverfahren fuer LGS}{16}
-\contentsline {subsubsection}{\numberline {6.1.1}Treppenstuffen Verfahren}{16}
-\contentsline {subsubsection}{\numberline {6.1.2}Koeffizienten Matrix}{16}
-\contentsline {subsubsection}{\numberline {6.1.3}Determinante}{16}
-\contentsline {subsection}{\numberline {6.2}Matrizen}{17}
-\contentsline {subsubsection}{\numberline {6.2.1}Besondere Matrizen}{17}
-\contentsline {paragraph}{\numberline {6.2.1.1}Nullmatrix }{17}
-\contentsline {paragraph}{\numberline {6.2.1.2}Stochastische Matrix }{17}
-\contentsline {paragraph}{\numberline {6.2.1.3}Inverse }{17}
-\contentsline {paragraph}{\numberline {6.2.1.4}Einheitsmatrix}{17}
-\contentsline {paragraph}{\numberline {6.2.1.5}Fixvektor}{18}
-\contentsline {paragraph}{\numberline {6.2.1.6}Grenzmatrix}{18}
-\contentsline {subsubsection}{\numberline {6.2.2}Rechenregeln}{19}
-\contentsline {subsubsection}{\numberline {6.2.3}Matrizengleichungen}{20}
-\contentsline {subsubsection}{\numberline {6.2.4}Einstufige Prozesse}{20}
-\contentsline {subsubsection}{\numberline {6.2.5}Mehrstufige Prozesse}{20}
-\contentsline {paragraph}{\numberline {6.2.5.1}Markov-Ketten}{20}
-\contentsline {subsubsection}{\numberline {6.2.6}Lineare Optimierung}{20}
-\contentsline {paragraph}{\numberline {6.2.6.1}Maximierungsprobleme}{20}
-\contentsline {paragraph}{\numberline {6.2.6.2}Minimierungsprobleme}{20}
-\contentsline {paragraph}{\numberline {6.2.6.3}Sonderfaelle und Loesbarkeit}{20}
-\contentsline {paragraph}{\numberline {6.2.6.4}Simplex-Verfahren}{20}
-\contentsline {paragraph}{\numberline {6.2.6.5}Simplex-Algorithmus}{20}
-\contentsline {section}{\numberline {7}Taschenrechner}{20}
-\contentsline {section}{\numberline {8}Beispielaufgaben}{20}
-\contentsline {section}{\numberline {9}Vielleicht falls bock}{20}
-\contentsline {section}{\numberline {10}Quellen}{20}
+\contentsline {subsubsection}{\numberline {5.8.2}Pythagoras im Raum}{17}
+\contentsline {subsubsection}{\numberline {5.8.3}Kosinussatz}{17}
+\contentsline {subsubsection}{\numberline {5.8.4}Skalarprodukt}{17}
+\contentsline {subsubsection}{\numberline {5.8.5}Kreutzprodukt}{17}
+\contentsline {subsubsection}{\numberline {5.8.6}Spatprodukt}{17}
+\contentsline {subsubsection}{\numberline {5.8.7}Hesse'sche Normalform}{17}
+\contentsline {section}{\numberline {6}Lineare Algebra}{17}
+\contentsline {subsection}{\numberline {6.1}Loesungsverfahren fuer LGS}{17}
+\contentsline {subsubsection}{\numberline {6.1.1}Treppenstuffen Verfahren}{17}
+\contentsline {subsubsection}{\numberline {6.1.2}Koeffizienten Matrix}{17}
+\contentsline {subsubsection}{\numberline {6.1.3}Determinante}{17}
+\contentsline {subsection}{\numberline {6.2}Matrizen}{18}
+\contentsline {subsubsection}{\numberline {6.2.1}Besondere Matrizen}{18}
+\contentsline {paragraph}{\numberline {6.2.1.1}Nullmatrix }{18}
+\contentsline {paragraph}{\numberline {6.2.1.2}Stochastische Matrix }{18}
+\contentsline {paragraph}{\numberline {6.2.1.3}Inverse }{18}
+\contentsline {paragraph}{\numberline {6.2.1.4}Einheitsmatrix}{18}
+\contentsline {paragraph}{\numberline {6.2.1.5}Fixvektor}{19}
+\contentsline {paragraph}{\numberline {6.2.1.6}Grenzmatrix}{19}
+\contentsline {subsubsection}{\numberline {6.2.2}Rechenregeln}{20}
+\contentsline {subsubsection}{\numberline {6.2.3}Matrizengleichungen}{21}
+\contentsline {subsubsection}{\numberline {6.2.4}Einstufige Prozesse}{21}
+\contentsline {subsubsection}{\numberline {6.2.5}Mehrstufige Prozesse}{21}
+\contentsline {paragraph}{\numberline {6.2.5.1}Markov-Ketten}{21}
+\contentsline {subsubsection}{\numberline {6.2.6}Lineare Optimierung}{21}
+\contentsline {paragraph}{\numberline {6.2.6.1}Maximierungsprobleme}{21}
+\contentsline {paragraph}{\numberline {6.2.6.2}Minimierungsprobleme}{21}
+\contentsline {paragraph}{\numberline {6.2.6.3}Sonderfaelle und Loesbarkeit}{21}
+\contentsline {paragraph}{\numberline {6.2.6.4}Simplex-Verfahren}{21}
+\contentsline {paragraph}{\numberline {6.2.6.5}Simplex-Algorithmus}{21}
+\contentsline {section}{\numberline {7}Taschenrechner}{21}
+\contentsline {section}{\numberline {8}Beispielaufgaben}{21}
+\contentsline {section}{\numberline {9}Vielleicht falls bock}{21}
+\contentsline {section}{\numberline {10}Quellen}{21}
