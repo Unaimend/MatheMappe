@@ -396,7 +396,7 @@
 	Ein Normalenvektor ist ein Vektor der orthogonal zu seinem Bezugsobjekt z.B. einer Gerade ist. 
 	\subsubsection{Einheitsvektor}
 	Ein Einheitsvektor ist ein Vektor der Laenge 1, d.h. dass sein Betrag = 1 ist($|\vec{a}|=1$).
-	\\\\Beispiel\\
+	\\\\\textbf{Beispiel}\\
 	Der Einheitsvektor $\vec{e_a}$ des Vektors $\vec{a}$ wird berechnet indem man $\frac{1}{|a|}*\vec{a}$ rechnet.
 	\subsection{Rechnen mit Vektoren}
 	\subsubsection{Addition}
@@ -443,10 +443,15 @@
 	\\Fall wir herrausgefunden haben dass die Richtungsvektoren lineare Abhaengig sind, muessen wir als naechstes schauen ob der Ortsvektor eine beteiligten Gerade auf der anderen Gerade liegt um zu pruefen ob die Gerade Identisch sind.
 	\\\\Beispiel \textbf{Windschief}
 	\\Hat sich jedoch ergeben dass die Richtungsvektoren linear  Unabhaengig sind, muess wird als naechstes schauen die Geraden einen Schnittpunkt besitzen um zu pruefen ob sie windschief sind.
+	\paragraph{Abstand Punkt Gerade}
+	\hspace{0 cm} \\ \noindent \\
+	\\\textbf{Abstand mit Hilfe der 2D-HNF}
 	\paragraph{Abstand Gerade Gerade}
+	\hspace{0 cm} \\ \noindent \\
 	\subparagraph{Windschief}
-	\subparagraph{Parallel}
-	\paragraph{Winkel zwischen Gerade}
+	\subparagraph{Parallel\\}
+	\textbf{Abstand mit Hilfe der 2D-HNF}
+	\paragraph{Winkel zwischen Geraden}
 	\subsection{Ebenen}
 	Eine Ebene im 3-Dimensionalen Raum ist eine unendliche Ausdehnung in zwei Koordinatenrichtungen.
 	\begin{figure}[H]
@@ -459,15 +464,13 @@
 		\hspace{0 cm} \\ \noindent \\
 	Paramterform einer Ebene: $E : \vec{x} = \vec{p}+ r*\vec{u}+s*\vec{v}$\\
 	In der Paramterform wird eine Ebene mithilfe eines Stuetzvektors(Ortsvektors) und zwei Richtungsvektoren beschrieben.
-	Es gibt zwei Moeglichkeiten wie diese Richtungsvektoren zueiander liegen duerfen um eine Ebene zu beschreiben.
-	\\\\ Beispiel \textbf{Parallel}\\
+	Es gibt zwei Moeglichkeiten wie diese Richtungsvektoren zueiander liegen duerfen um eine Ebene zu beschreiben, parallel und geschnitten. Falls sich die gegebenen Richtugnsvektoren schneiden, kann die Ebene direkt zwischen ihnen aufgespannt werden.
 	Falls die gegeben Richtungsvektoren jedoch Parallel sind, muss ein Verbindungsvektor zwischen ihen hergestellt werden.
-	\\Beispiel\\
+	\\\\\textbf{Beispiel}\\
 	Fuer die Pruefung ob die Gerade Parallel sind siehe Lage Gerade Gerade.\\
-	Seien die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ und $ g_2: \vec{x}=\vec{o_2}+s*\vec{b} $ parallel.\\
-	Dann kann die Ebene mit Hilfe des Richtungsvektors von einer der Geraden und und eines beliebigen Verbindungsvektors der zwei Geraden gebildet werden. 
-	\\\\ Beispiel \textbf{Geschitten}\\
-	Falls sich die gegebenen Richtugnsvektoren schneiden, kann die Ebene direkt zwischen ihnen aufgespannt werden.
+	Seien die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ und $ g_2: \vec{x}=\vec{o_2}+s*\vec{b} $ parallel,
+	dann kann die Ebene mit Hilfe des Richtungsvektors von einer der Geraden und eines beliebigen Verbindungsvektors der zwei Geraden gebildet werden.
+	\pagebreak
 	\paragraph{Normalenform}
 		\hspace{0 cm} \\ \noindent \\
 		Normalenform einer Ebene $E : \vec{x} = \vec{n}\circ\left[\left(\vec{x}-\vec{p}\right)   \right]$\\
@@ -478,9 +481,9 @@
 		Koordinatenform der Ebene: $E: n_1*x_1+n_2*x_2+n_3*x_3=c$\\
 		Die Koordinatenform der Ebene ist die ausmultiplizierte Normalenform einer Ebene.
 		\\\\Beispiel
-	\paragraph{Hess'che Normalenform}
+	\paragraph{Hesse'che Normalenform}
 	\subsubsection{Lage Ebene Gerade}
-	Um die Lage einer Gerade zu Ebene zu bestimment, muss man zuert ueberpruefen ob die Gerade echt parallel, dies kann man mit Hilfe der Normale der Ebene und des Richtungsvektors der Gerade ueberpruefen indem man ueberprueft ob die Normale orthogonal zum Richtungsvektor der Gerade liegt.
+	Um die Lage einer Gerade zu Ebene zu bestimment, muss man zuert ueberpruefen ob die Gerade echt parallel ist, dies kann man mit Hilfe der Normale der Ebene und des Richtungsvektors der Gerade ueberpruefen indem man ueberprueft ob die Normale orthogonal zum Richtungsvektor der Gerade liegt.
 	Fall die Gerade parallel zur Ebene liegt, kann man nun den Ortsvektor der Gerade in die Ebene einsetzen um zu ueberpruefen ob sie identisch sind.
 	Falls die Gerade sich jedoch nicht parallel zur Ebene verhaelt hat sie garantiert einen Schnittpunkt mit der Ebene. 
 	\paragraph{Schnittpunkt}
@@ -503,6 +506,7 @@
 	\paragraph{Identisch}
 		\hspace{0 cm} \\ \noindent \\
 	Um nun zu ueberpruefen ob die Ebenen identisch sind, setzt einen belibigen Punkt der einen Ebene in die andere Ebene ein.
+	(Koennte Schnittgerade sein, Loesung 3 Punkte einsetzen die zsm keine Gerade werden koennen)
 	\paragraph{Schnittgerade}
 	\paragraph{Abstand Ebene Ebene}
 		\hspace{0 cm} \\ \noindent \\
@@ -517,17 +521,33 @@
 	\subsubsection{Kugelgleichung}
 	Eine Kugel in der Analytischen Geometrie wird mit der Gleichung\\ $|\vec{p}-\vec{M}|^2=r^2$ oder
 	$(p_1-M_1)^2+(p_2-M_2)^2+(p_3-M_3)^2=r^2$ beschrieben, wo $M$ den Mittelpunkt als Vektor, $p$ einen beliebigen Punkt als Vektor, und $r$ den Radius als reele Zahl darstellt.
-	\subsubsection{Lage Kugel Punkt}
-	\paragraph{Abstand}
 	\subsubsection{Lage Kugel Gerade}
+	Im $\mathbb{R}^3$ gibt es zwei Moeglichkeiten wie eine Gerade zu einer Kugel liegen kann, ersten wenn ie Kugel von der Geradeb geschnitten wird und zweitens wenn ebendies nicht zutrifft. Dies kann man feststellen indem man den Abstand der Gerade zur Kugel berechnet, ist dieser Abstand groesser als der Kugelradius haben die Gerade und die Kugel keine gemeinsamen Punkte, ist er jedoch kleiner enstehen zwei Schnittpunkte.
 	\paragraph{Abstand}
-	\paragraph{Schnittpunkt}
+	\hspace{0 cm} \\ \noindent \\
+	Siehe Abstand Punkt Gerade, wobei der Punkt den Kugelmittelpunkt darstellt.
+	\paragraph{Schnittpunkte}
 	\subsubsection{Lage Kugel Ebene}
+	Im $\mathbb{R}^3$ gibt es zwei Moeglichkeiten wie eine Ebene zu einer Kugel liegen kann, erstens wenn die Kugel von der Ebene geschnitten wird und zweitens wenn ebendies nicht zutrifft. Dies kann man festellen indem man den Abstand der Ebene zur Kugel berechnet, ist dieser Abstand groesser als der Kugelradius haben die Ebene und die Kugel keine gemeinsamen Punkte, ist er jedoch kleiner ensteht eine Schnittkreis.
 	\paragraph{Abstand}
-	\paragraph{Schnittebene}
+	\hspace{0 cm} \\ \noindent \\
+	Siehe Abstand Punkt Ebene, wobei die Normale den Richtungsvektor und der Kugelmittelpunkt den Ortsvektor der Gerade darstellt.
+	\\\\\textbf{Beispiel}
+	\paragraph{Flaeche der Schnittkreis}
+	\hspace{0 cm} \\ \noindent \\
+	Um die Flaeche des Schnittkreises zu berechnen muss zunaechste der Radius des Kreises berechnet werden,
+	diesen kann man mit Hilfe der Entfernung der Ebene zum Mittelpunkt und des Kugelradius berechen.
+	Es gilt:
+	\begin{align*}
+	r_{Kreis}^2 &=r_{Kugel}^2-(Abstand Kugel Ebene)^2\\
+	A_{Kreis} &= \pi*r_{Kreis}^2
+	\end{align*}
+
 	\subsubsection{Lage Kugel Kugel}
+	Im $\mathbb{R}^3$ gibt zwei Moeglichkeiten wie eine Kugel zu einer anderen Kugel liegen kann, ersten wenn die eine Kugel die anderen schneidet und zweitens wenn ebendies nicht zutrifft. Dies kann man festellen indem man der Abstand der beiden Mittelpunkte berechnet, ist dieser groesser als die Summe der beiden Kugelradien haben die Kugeln keine gemeinsamen Punkte, ist er jedoch kleiner entsteht ein Schnittkoeper.
 	\paragraph{Abstand}
-	%\paragraph{Schnittvolumen}
+	\hspace{0 cm} \\ \noindent \\
+	Trivial(Abstand Punkt Punkt).
 	\subsection{Herleitungen}
 	\subsubsection{Satz des Pythagoras}
 	\includegraphics[width=220 px, height=103 px]{pytha.png}\\
@@ -548,6 +568,7 @@
 	\subsubsection{Kreutzprodukt}
 	\subsubsection{Spatprodukt}
 	\subsubsection{Hesse'sche Normalform}
+	\subsubsection{2D-Hesse'sche Normalform}
 	\section{Lineare Algebra}
 	\subsection{Loesungsverfahren fuer LGS}
 	\subsubsection{Treppenstuffen Verfahren}
