@@ -196,7 +196,7 @@
 	\\\\Der \textbf{Koeffinzienten $b$} gibt die Steigung der Parabel im Schnittpunkt mit der y-Achse an, zusaetlich laesst sich am Vorzeichen ablesen
 	ob die Parabel die Y-Achse(Ordinatenachse), mit dem fallenden Ast der Parbel geschnitten wird oder mit dem Steigenden.
 	Ist $b < 0$, scheidet der fallende Ast die Ordinatenachse, sonst der Andere.
-	Eine Veraenderung des Koeffinzienten $b$ bewirkt eine Verschiebung sowohl in x- als auch in y-Richtung. Wird $b$ um eins eroeht, dann wird der Graph um 1/2a Einheiten nach links und (2b+1)/4a nach unten verschoben. Wird b um eins verringert, wird der Graph dagegen um 1/2a Einheiten nach rechts und (2b-1)/4a nach oben verschoben.
+	Eine Veraenderung des Koeffinzienten $b$ bewirkt eine Verschiebung sowohl in x- als auch in y-Richtung. Wird $b$ um eins eroeht, dann wird der Graph um $\frac{1}{2a}$ Einheiten nach links und $\frac{2b+1}{4a}$ nach unten verschoben. Wird b um eins verringert, wird der Graph dagegen um $\frac{1}{2a}$ Einheiten nach rechts und $\frac{2b-1}{4a}$ nach oben verschoben.
 	
 	
 
@@ -239,10 +239,19 @@
 		\subsubsection{Substitution}
 		\subsubsection{Polynomdivision}
 		\subsection{Trigonometrische Funktionen}
+		Trigonmetrische Funktionen sind Funktionen der Form $a*<trig>(b*x+c)+d$, wobei $<trig>$ fuer einen Ausdruck wie die Sinus- oder Kosinusfunktion stehen kann z.B. ist $a*sin(x+5)$ eine trigonometrische Funktion.
+		\subsubsection{Eigenschaften Trigonometrische Fuktionen\\}
+		\textbf{Funktionen der Form $a*<trig>(x)$\\}
+		Der Parameter \textbf{a} bestimmt die Auslenkung in Ordinatenrichtung, d.h. die Funktionswerte einer trigonometrischen Fuktion gehen von $-a$ bis  $a$.\\\\
+		\textbf{Funktionen der Form $a*<trig>(x)+d$\\}
+		Der Parameter \textbf{d} bestimmt die Verschiebung in Ordinatenrichtung d.h. die Funktionswerte gehen von $-a$ bis $a$ aber um $d$ verschoben.\\\\
+		\textbf{Funktionen der Form $a*<trig>(b*x)+d$\\}
+
 		\subsection{Tangente und Normale}
 		\subsection{Exponentialfunktionen}
 		\subsubsection{Natuerliche Expoentialfunktion}
 		Als natuerliche Exponentialfunktion bezeichnet man Variationen der Funtion $f(x)=e^x$.
+		\paragraph{Eigenschaften der Natuerlichen Exponential Fuktion}
 		\subsection{Umkehrfunktion}
 		\subsection{Funktionenscharen}
 		\subsection{Herleitung}
@@ -349,6 +358,7 @@
 		f(x)&=5e^x\\
 		f'(x)&=5e^x
 	\end{align*}
+	\subsubsection{Ableiten komplizierter $e$-Funktionen}
 	\subsection{Ableitung trigonometrischer Funktionen}
 	\subsection{Herleitungen}
 	\subsubsection{Herleitung der Ableitung mithilfe des Limes}
@@ -372,6 +382,7 @@
 	\subsection{Ableitungen}
 	\subsection{Extrema berechnen}
 	\subsection{Wendepunkte berechnen}
+	\pagebreak
 	\section{Analytische Geometrie}
 	\subsection{Was ist ein Vektor}
 	Ein Vektor ist eine Menge von Pfeilen der Form $\vec{a} = \begin{pmatrix} a_1 \\ \vdots \\ a_n \end{pmatrix} $, die parallel untereinander verschoben sind.
@@ -397,7 +408,7 @@
 	\subsubsection{Einheitsvektor}
 	Ein Einheitsvektor ist ein Vektor der Laenge 1, d.h. dass sein Betrag = 1 ist($|\vec{a}|=1$).
 	\\\\\textbf{Beispiel}\\
-	Der Einheitsvektor $\vec{e_a}$ des Vektors $\vec{a}$ wird berechnet indem man $\frac{1}{|a|}*\vec{a}$ rechnet.
+	Der Einheitsvektor $\vec{e_a}$ des Vektors $\vec{a}$ wird berechnet indem man $\frac{\vec{a}}{|a|}$ rechnet.
 	\subsection{Rechnen mit Vektoren}
 	\subsubsection{Addition}
 	Zwei Vekotren in $\mathbb{R}^3$ $\vec{a}, \vec{b}$ werden addiert, idem man ihre Komponenten addiert.
@@ -427,7 +438,7 @@
 	$\begin{array}{cc}
 	\vec{a} x \vec{b}=det\begin{pmatrix} e_1 & a_1 & b_1 \\ e_2 & a_2 & b_2  \\ e_3 & a_3 & b_3  \end{pmatrix} 
 	&= e_1\left|\begin{array}{cc} a_2 & b_2 \\ a_3 & b_3\end{array} \right|-e_2\left|\begin{array}{cc} a_1 & b_1 \\ a_3 & b_3\end{array} \right|+e_3\left|\begin{array}{cc} a_1 & b_1 \\ a_2 & b_2\end{array} \right|\\
-	&= e_1\left|\begin{array}{cc} b_1 & a_1 \\ b_3 & a_3\end{array} \right|+e_2\left|\begin{array}{cc} a_3 & b_3 \\ a_1 & b_1\end{array} \right|+e_3\left|\begin{array}{cc} a_1 & b_1 \\ a_2 & b_2\end{array} \right|\\
+	&= e_1\left|\begin{array}{cc} a_2 & b_2 \\ a_3 & b_3\end{array} \right|+e_2\left|\begin{array}{cc} a_3 & b_3 \\ a_1 & b_1\end{array} \right|+e_3\left|\begin{array}{cc} a_1 & b_1 \\ a_2 & b_2\end{array} \right|\\
 	&= e_1(a_2*b_3-a_3*b_2)+e_2(a_3*b_1-a_1*b_3)+e_3(a_1*b_2-a_2*b_1)\\
 	&=\begin{pmatrix} e_1 \\ e_2 \\ e_3 \end{pmatrix} \circ \begin{pmatrix} a_2*b_3-a_3*b_2 \\ a_3*b_1-a_1*b_3 \\ a_1*b_2-a_2*b_1 \end{pmatrix} 
 	\end{array}$
@@ -440,20 +451,27 @@
 	Sind die Richtungsvektoren linear Abhaengig, sind die Gerade etweder Parallel oder Identisch, sind sie jedoch linear Unabhaengig
 	muss geprueft werden ob sie einen Schnittpunkt besitzen oder windschief sind.
 	\\\\Beispiel \textbf{Parallel}
-	\\Fall wir herrausgefunden haben dass die Richtungsvektoren lineare Abhaengig sind, muessen wir als naechstes schauen ob der Ortsvektor eine beteiligten Gerade auf der anderen Gerade liegt um zu pruefen ob die Gerade Identisch sind.
+	\\Fall wir herrausgefunden haben dass die Richtungsvektoren lineare Abhaengig sind, muessen wir als naechstes schauen ob der Ortsvektor einer beteiligten Gerade auf der anderen Gerade liegt um zu pruefen ob die Gerade Identisch sind.
 	\\\\Beispiel \textbf{Windschief}
 	\\Hat sich jedoch ergeben dass die Richtungsvektoren linear  Unabhaengig sind, muess wird als naechstes schauen die Geraden einen Schnittpunkt besitzen um zu pruefen ob sie windschief sind.
 	\paragraph{Abstand Punkt Gerade}
 	\hspace{0 cm} \\ \noindent \\
-	\\\textbf{Abstand mit Hilfe der 2D-HNF}
+	Um den Abstand von einem Punkt($\vec{p}$) zu einer Geraden($g: \vec{x}=\vec{o}+r*\vec{s}$) berechnen, bilden wir einen Vektor von einem beliebingen Punkt auf der Gerade zu dem Punkt zu dem wir den Abstand berechnen wollen. Nun berechnen wir den Betrag von Kreuzprodukt dieses Vektors und dem Richtungsvektor von $g$, dies stell die Flaeche des Parallelogramms dar das sie aufspannen,
+	da die Flaecheformdel des Parallelogramms $A=g*h$ ist berechnen wir nun den Betrag des Richtungsvektors von $g$ und stellen die Flaechenformel nach $h$ um, dann setzen wir die Werte die wir eben berechnet haben ein.
+	%\\\textbf{Abstand mit Hilfe der 2D-HNF}
 	\paragraph{Abstand Gerade Gerade}
 	\hspace{0 cm} \\ \noindent \\
 	\subparagraph{Windschief}
 	\subparagraph{Parallel\\}
-	\textbf{Abstand mit Hilfe der 2D-HNF}
+	Siehe Abstand Gerade Punkt, wobei der Punkt ein beliebiger Punkt der 2. Gerade ist.
 	\paragraph{Winkel zwischen Geraden}
+	\hspace{0 cm} \\ \noindent \\
+	Seien die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ und $ g_2: \vec{x}=\vec{o_2}+s*\vec{b} $  geschnitten, dann berechnet sich der Winkel zwischen ihnen folgendermassen: 
+	\begin{align*}
+		cos(\phi)= \frac{\vec{a} \circ \vec{b}}{|\vec{a}|*|\vec{b}|}
+	\end{align*}
 	\subsection{Ebenen}
-	Eine Ebene im 3-Dimensionalen Raum ist eine unendliche Ausdehnung in zwei Koordinatenrichtungen.
+	Eine Ebene im 3-Dimensionalen Raum ist eine unendliche Ausdehnung in zwei Vektorrichtungen.
 	\begin{figure}[H]
 				\includegraphics[width=150px, height=150px]{Ebene.png}$^{[5]}$
 					\captionsetup{labelformat=empty}
@@ -464,16 +482,15 @@
 		\hspace{0 cm} \\ \noindent \\
 	Paramterform einer Ebene: $E : \vec{x} = \vec{p}+ r*\vec{u}+s*\vec{v}$\\
 	In der Paramterform wird eine Ebene mithilfe eines Stuetzvektors(Ortsvektors) und zwei Richtungsvektoren beschrieben.
-	Es gibt zwei Moeglichkeiten wie diese Richtungsvektoren zueiander liegen duerfen um eine Ebene zu beschreiben, parallel und geschnitten. Falls sich die gegebenen Richtugnsvektoren schneiden, kann die Ebene direkt zwischen ihnen aufgespannt werden.
-	Falls die gegeben Richtungsvektoren jedoch Parallel sind, muss ein Verbindungsvektor zwischen ihen hergestellt werden.
+	Es gibt zwei Moeglichkeiten wie diese Richtungsvektoren zueiander liegen duerfen um eine Ebene zu beschreiben,echt parallel und geschnitten. Falls sich die gegebenen Richtugnsvektoren schneiden, kann die Ebene direkt zwischen ihnen aufgespannt werden.
+	Falls die gegeben Richtungsvektoren jedoch echt parallel sind, muss ein Verbindungsvektor zwischen ihen hergestellt werden, wobei einer der beiden echt parallelen Richtungsvektoren ausgetauscht werden muss.
 	\\\\\textbf{Beispiel}\\
 	Fuer die Pruefung ob die Gerade Parallel sind siehe Lage Gerade Gerade.\\
-	Seien die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ und $ g_2: \vec{x}=\vec{o_2}+s*\vec{b} $ parallel,
+	Seien die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ und $ g_2: \vec{x}=\vec{o_2}+s*\vec{b} $ echt parallel,
 	dann kann die Ebene mit Hilfe des Richtungsvektors von einer der Geraden und eines beliebigen Verbindungsvektors der zwei Geraden gebildet werden.
-	\pagebreak
 	\paragraph{Normalenform}
 		\hspace{0 cm} \\ \noindent \\
-		Normalenform einer Ebene $E : \vec{x} = \vec{n}\circ\left[\left(\vec{x}-\vec{p}\right)   \right]$\\
+		Normalenform einer Ebene $E : 0 = \vec{n}\circ\left[\left(\vec{x}-\vec{p}\right)   \right]$\\
 		In der Normalenform wird eine Ebene mit Hilfe ihrer Normale($\vec{n}$) und der Differenz eines Punktes aus der Ebene mit einem beliebigen anderen Punkt beschrieben($\vec{x}-\vec{p}$) wobei $\vec{p}$ einen beliebigen Punkt in der Ebene, und $\vec{x}$ einen beliebigen anderen Punkt darstellt. Alle Differenzen die orthogonal zum Normalenvektor der Ebene liegen beschreiben daher Vektoren die in der Ebene liegen.
 
 	\paragraph{Koordinatenform}
@@ -481,7 +498,11 @@
 		Koordinatenform der Ebene: $E: n_1*x_1+n_2*x_2+n_3*x_3=c$\\
 		Die Koordinatenform der Ebene ist die ausmultiplizierte Normalenform einer Ebene.
 		\\\\Beispiel
-	\paragraph{Hesse'che Normalenform}
+	\paragraph{Hessesche Normalenform(HNF)}
+	\hspace{0 cm} \\ \noindent \\
+	HNF einer Ebene $E : d = \vec{n_0}\circ\left[\left(\vec{x}-\vec{p}\right)   \right]$\\
+	Die HNF ist eine abgewandelte Form der Normalenform, sie unterscheidet sich dadurch das ihr Normalenvektor($\vec{n_0}$)
+	normiert ist, d.h er hat die Laenge 1, dadurch kann der Abstand von einer mit ihr beschrieben Ebene zu einem anderen Objekt sehr einfach durch das einsetzen dieses Objekts berechnet werden. 
 	\subsubsection{Lage Ebene Gerade}
 	Um die Lage einer Gerade zu Ebene zu bestimment, muss man zuert ueberpruefen ob die Gerade echt parallel ist, dies kann man mit Hilfe der Normale der Ebene und des Richtungsvektors der Gerade ueberpruefen indem man ueberprueft ob die Normale orthogonal zum Richtungsvektor der Gerade liegt.
 	Fall die Gerade parallel zur Ebene liegt, kann man nun den Ortsvektor der Gerade in die Ebene einsetzen um zu ueberpruefen ob sie identisch sind.
@@ -492,15 +513,24 @@
 		\\\\Beispiel
 	\paragraph{Abstand Gerade Ebene}
 	\hspace{0 cm} \\ \noindent \\
-	Damit eine Gerade und eine Ebene ueberhaupt einen Abstand haben, muessen sie selbstverstaendlich echt parralel sein,
+	Damit eine Gerade und eine Ebene ueberhaupt einen Abstand haben, muessen sie selbstverstaendlich echt parallel sein,
 	um dies festzustellen ueberprueft man den Normalenvektor der Ebene und den Richtungsvektor der Gerdade auf orthogonalitaet.
 	Falls die Orthogonalitaetsbedingung erfuellt ist, waehlt man nun ein beliebigen Punkt auf der Ebene und bildet mit der Hilfe von
 	diesem Punkt und der Normale der Ebene eine Gerade, nun berechnet man den Schnittpunkt von dieser Gerade mit der Ebene.
 	Nun bildet man den Vektor zwischen dem Ortsvektor der neuen Gerade und de Schittpunkt der Ebene, der Betrag dieses Vektors
 	ist dann der Abstand von der Gerade zur Ebene.\\\\
-	\textbf{Abstand mit Hilfe der HNF}
-
+	\textbf{Abstand ohne die HNF}\\
+	\textbf{Abstand mit Hilfe der HNF}\\
+	Siehe Abstand Ebene Ebene, wobei der Punkt ein beliebiger der Geraden sein kann.
+	\pagebreak
 	\paragraph{Winkel zwischen Gerade und Ebene}
+	\hspace{0 cm} \\ \noindent \\
+	Sei die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ nicht parallel zu $E : \vec{x} = \vec{p}+ r*\vec{u}+s*\vec{v}$, dann existiert ein Winklel($\phi$) zwischen ihnen, der sich mit Hilfe der Normalenvektors der Ebene($\vec{n}$) folgendermassen berechnen laesst:
+	\begin{align*}
+		sin(\phi)= \frac{|\vec{a} \circ \vec{n}|}{|\vec{a}|*|\vec{n}|}
+	\end{align*}
+	\textbf{Bermerkung:}
+	Ergibt sich $sin(\phi)=0$, ist die Gerade parallel oder identisch zu der Ebene.
 	\subsubsection{Lage Ebene Ebene}
 	Um die Lage einer Ebene zu einer anderen Ebene stellt man zuerst fest ob sie parallel zueiander liegen, dies kann man ueberprufen indem man die beiden Normalen der Ebene auf lineare Abhaengigkeit ueberprueft.
 	\paragraph{Identisch}
@@ -510,10 +540,19 @@
 	\paragraph{Schnittgerade}
 	\paragraph{Abstand Ebene Ebene}
 		\hspace{0 cm} \\ \noindent \\
+	\textbf{Abstand ohne die HNF}\\
 	Um den Abstand zweier Ebenen zu berechnen muessen diese selbstverstaendlich parallel zueiandern liegen, nun berechnet man von einer der Ebenen die Normale und stellt mit ihrer Hilfe eine Gerade auf, dann berechnet man den Schnittpunkt dieser Gerade mit der anderen Ebene.\\
 	Nun berechnet man den Vektor zwischen dem Ortsvektor der Normale und dem Schnittpunkt, der Betrag dieses Vektors ist der Abstand zwischen den beiden Ebenen.\\\\
-	\textbf{Abstand mit Hilfe der HNF}
+	\textbf{Abstand mit Hilfe der HNF}\\
+	Da zwei Ebene parallel zueiander liegen muessen um einen Abstand zu haben, kann man um den Abstand von zwei Ebenen einfach berechnen indem man einen belibiegen Punkt der einen Ebene in die HNF der anderen einsetzt.
 	\paragraph{Winkel zwischen Ebenen}
+	\hspace{0 cm} \\ \noindent \\
+	Seien $E_1$ und $E_2$ zwei Ebenen, dann gilt fuer ihren Schnittwinkel:
+	\begin{align*}
+		cos(\phi)= \frac{|\vec{n_1} \circ \vec{n_2}|}{|\vec{n_1}|*|\vec{n_2}|}
+	\end{align*}\\\\
+	\textbf{Bermerkung:}
+	Ergibt sich $cos(\phi)=1$, sind die Ebenen parallel oder identisch.
 	\subsection{Kugeln}
 	\subsubsection{Was ist eine Kugel}
 	Eine Kugel ist eine Menge von Punkten im 3-Dimensionalen Raum, die von einem festen Punkt $M$ den gleichen Abstand $r$ haben,
@@ -522,13 +561,13 @@
 	Eine Kugel in der Analytischen Geometrie wird mit der Gleichung\\ $|\vec{p}-\vec{M}|^2=r^2$ oder
 	$(p_1-M_1)^2+(p_2-M_2)^2+(p_3-M_3)^2=r^2$ beschrieben, wo $M$ den Mittelpunkt als Vektor, $p$ einen beliebigen Punkt als Vektor, und $r$ den Radius als reele Zahl darstellt.
 	\subsubsection{Lage Kugel Gerade}
-	Im $\mathbb{R}^3$ gibt es zwei Moeglichkeiten wie eine Gerade zu einer Kugel liegen kann, ersten wenn ie Kugel von der Geradeb geschnitten wird und zweitens wenn ebendies nicht zutrifft. Dies kann man feststellen indem man den Abstand der Gerade zur Kugel berechnet, ist dieser Abstand groesser als der Kugelradius haben die Gerade und die Kugel keine gemeinsamen Punkte, ist er jedoch kleiner enstehen zwei Schnittpunkte.
+	Im $\mathbb{R}^3$ gibt es zwei Moeglichkeiten wie eine Gerade zu einer Kugel liegen kann, ersten wenn ie Kugel von der Geradeb geschnitten wird und zweitens wenn ebendies nicht zutrifft. Dies kann man feststellen indem man den Abstand der Gerade zum Kugelmittelpunkt berechnet, ist dieser Abstand groesser als der Kugelradius haben die Gerade und die Kugel keine gemeinsamen Punkte, ist er jedoch kleiner enstehen zwei Schnittpunkte.
 	\paragraph{Abstand}
 	\hspace{0 cm} \\ \noindent \\
 	Siehe Abstand Punkt Gerade, wobei der Punkt den Kugelmittelpunkt darstellt.
 	\paragraph{Schnittpunkte}
 	\subsubsection{Lage Kugel Ebene}
-	Im $\mathbb{R}^3$ gibt es zwei Moeglichkeiten wie eine Ebene zu einer Kugel liegen kann, erstens wenn die Kugel von der Ebene geschnitten wird und zweitens wenn ebendies nicht zutrifft. Dies kann man festellen indem man den Abstand der Ebene zur Kugel berechnet, ist dieser Abstand groesser als der Kugelradius haben die Ebene und die Kugel keine gemeinsamen Punkte, ist er jedoch kleiner ensteht eine Schnittkreis.
+	Im $\mathbb{R}^3$ gibt es zwei Moeglichkeiten wie eine Ebene zu einer Kugel liegen kann, erstens wenn die Kugel von der Ebene geschnitten wird und zweitens wenn ebendies nicht zutrifft. Dies kann man festellen indem man den Abstand der Ebene zum Kugelmittelpunkt berechnet, ist dieser Abstand groesser als der Kugelradius haben die Ebene und die Kugel keine gemeinsamen Punkte, ist er jedoch kleiner ensteht eine Schnittkreis.
 	\paragraph{Abstand}
 	\hspace{0 cm} \\ \noindent \\
 	Siehe Abstand Punkt Ebene, wobei die Normale den Richtungsvektor und der Kugelmittelpunkt den Ortsvektor der Gerade darstellt.
@@ -539,10 +578,10 @@
 	diesen kann man mit Hilfe der Entfernung der Ebene zum Mittelpunkt und des Kugelradius berechen.
 	Es gilt:
 	\begin{align*}
-	r_{Kreis}^2 &=r_{Kugel}^2-(Abstand Kugel Ebene)^2\\
+	r_{Kreis}^2 &=r_{Kugel}^2-(Abstand Kugelmittelpunkt Ebene)^2\\
 	A_{Kreis} &= \pi*r_{Kreis}^2
 	\end{align*}
-
+	\subsubsection{Tangentialebene}
 	\subsubsection{Lage Kugel Kugel}
 	Im $\mathbb{R}^3$ gibt zwei Moeglichkeiten wie eine Kugel zu einer anderen Kugel liegen kann, ersten wenn die eine Kugel die anderen schneidet und zweitens wenn ebendies nicht zutrifft. Dies kann man festellen indem man der Abstand der beiden Mittelpunkte berechnet, ist dieser groesser als die Summe der beiden Kugelradien haben die Kugeln keine gemeinsamen Punkte, ist er jedoch kleiner entsteht ein Schnittkoeper.
 	\paragraph{Abstand}
@@ -567,7 +606,7 @@
 	\subsubsection{Skalarprodukt}
 	\subsubsection{Kreutzprodukt}
 	\subsubsection{Spatprodukt}
-	\subsubsection{Hesse'sche Normalform}
+	\subsubsection{Hessesche Normalform}
 	\subsubsection{2D-Hesse'sche Normalform}
 	\section{Lineare Algebra}
 	\subsection{Loesungsverfahren fuer LGS}
@@ -767,6 +806,7 @@
 	logarithmus-(funktion), verschiedene beweise/herleitung
 	quar ergaenzung sekante tangene normale
 	Begriffserklaerung
+	Gradelage Diagramm
 
 	\section{Quellen}
 	[5]. „Plane equation qtl1“ von Quartl - Wikipedia
