@@ -193,9 +193,9 @@
 	\\ \textbf{Normalform:}\\
 	Der \textbf{Koeffizient $a$} gibt sowohl die Oeffnungsrichtung als auch die Steigung einer Parabel wieder, ist $a < 0$ ist die Parabel nach unten geoeffnet, ist $a > 0$ ist sie nach oben geoeffnet. Ist $a = 0$ ensteht eine lineare Funktion.\texttt{}\\
 	Ueber die Steigung kann man folgene Aussagen treffen: Ist $a > 1$ ist die Parabel gestreckt, ist $a<1$ ist sie gespreitzt, $a=1$ stellt die Normalparabel da.
-	\\\\Der \textbf{Koeffinzienten $b$} gibt die Steigung der Parabel im Schnittpunkt mit der y-Achse an, zusaetlich laesst sich am Vorzeichen ablesen
-	ob die Parabel die Y-Achse(Ordinatenachse), mit dem fallenden Ast der Parbel geschnitten wird oder mit dem Steigenden.
-	Ist $b < 0$, scheidet der fallende Ast die Ordinatenachse, sonst der Andere.
+	\\\\Der \textbf{Koeffinzienten $b$} gibt die Steigung der Parabel im Schnittpunkt mit der Ordinate an, zusaetlich laesst sich am Vorzeichen ablesen
+	ob die Parabel die Ordinate, mit dem fallenden Ast der Parbel geschnitten wird oder mit dem Steigenden.
+	Ist $b < 0$, scheidet der fallende Ast die Ordinate, sonst der Andere.
 	Eine Veraenderung des Koeffinzienten $b$ bewirkt eine Verschiebung sowohl in x- als auch in y-Richtung. Wird $b$ um eins eroeht, dann wird der Graph um $\frac{1}{2a}$ Einheiten nach links und $\frac{2b+1}{4a}$ nach unten verschoben. Wird b um eins verringert, wird der Graph dagegen um $\frac{1}{2a}$ Einheiten nach rechts und $\frac{2b-1}{4a}$ nach oben verschoben.
 	
 	
@@ -262,14 +262,13 @@
 		\subsubsection{Horner Schema}
 	\newpage
 	\section{Differentialrechnung}
-	\subsection{Ableitung}
 	\subsection{Visualisierung}
 	
 
 	\begin{minipage}{0.3\textwidth}
 	\begin{figure}[H]
 	\includegraphics[width=300px, height=200px]{a.eps}
-	\caption{Rectangle}
+	\caption{}
 	\end{figure}
 	\end{minipage} \hfill
 	\begin{minipage}{0.5\textwidth}
@@ -298,9 +297,12 @@
 	
 	Das Ableiten besitzt eine Kurzform, ohne jedes mal den Limes benutzen zu muessen, dabei muss man die Ableitungsregeln sowie die Tatsache dass ein konstanten Summand beim Ableiten wegfaellt beachten(Summenregel).
 \\	Beispiel:\\
-	$f(x)  =5x^2+3x^1-5x^0$\\
-	$f'(x)  =2*5x^{2-1}+1*3x^{1-1} = 10x^1+3x^0$\\
+		\begin{align*}
+	f(x)  &= 5x^2+3x^1-5x^0\\
+	f'(x)  &= 2*5x^{2-1}+1*3x^{1-1} = 10x^1+3x^0\\
+	\end{align*}
 	In Worte gefasst bedeutet dass, das der Originalexponent vor den Koeffizenten gezogen und mit diesem multipliziert wird, danach wird der Exponent um 1 dekrementiert.
+	
 	\subsection{Ableitungsregeln}
 	\subsubsection{Summenregel}
 	Summen von Funktionen werden getrennt abgeleitet. \\
@@ -366,18 +368,50 @@
 	\subsubsection{Herleitung der Ableitung der $e$-Funktion in $\mathbb{N}$ mit Hilfe des Limes}
 	\subsubsection{Herleitung der Ableitung der Trigofunktion mithilfe des Limes}
 	\subsubsection{Herleitung der Ableitungsregeln}
+	\pagebreak
 	\section{Integralrechnung}
-	\subsection{Unbestimmtes Intgral}
-	\subsection{Bestimmtes Intgral}
-
+	\subsection{Integrationsregeln}
+	\subsection{Unbestimmtes Integral}
+	Unbestimte Integrale haben die Form\\\\
+	\begin{align*}
+	\int f(x)=F(x)+C\\
+	\end{align*}\\
+	Unbestimmte Integrale existieren auf Grund der Eingeschaft dass beim Ableiten Informationen verloren gehen.\\
+	Beispiel\\
+	\begin{align*}
+	f(x) & =x^2+5\\
+	f'(x) & =2x
+	\end{align*}\\
+	Wenn man nun $f'(x)$ integriert erhaellt man $F(x) =x^2$, $+5$ ist also verloren gegangen.
+	Um dies darzustellen wird eine Integrationskonstante an $F(x)$ angehaengt, die korrekte Stammfunktion waere also $F(x)=x^2+C$.
+	\subsection{Bestimmtes Integral}
+	Um das bestimmte Integral einer Funktion zu berechnen muss, muss ein Wertepaar der Funktion gegeben sein, zum Beispiel
+	das Wertepaar $(2;4,667)$ und die Stammfunktion $F(x)=\frac{1}{3}x^3+C$ oder ihre Ableitung.\\
+	\begin{align*}
+	F(x) & =\frac{1}{3}x^3+C\\
+	4,667 &= \frac{1}{3}*8+C\\
+	4,667 &= \frac{8}{3}+C\\
+	2 & =C
+	\end{align*}\\
+	Die Funktion lautet also $F(x)=\frac{1}{3}*x^3+2$
+	\subsection{Flaechenberechnung}
+	\subsubsection{Flaeche unter Kurve}
+	\subsubsection{Flaeche unter der Abszisse}
+	\subsubsection{Flaeche zwischen Kurven}
+	\subsection{Mittelwert einer Funktion}
+	Sekante Integral
 	\subsection{Rotationskoerper}  
 	HALLO GITHUB                                                       
 	\subsection{Herleitungen}
-	\subsubsection{Flaeche mit dem Riemann-Integral}
+	\subsubsection{Flaeche mit Hilfe des Riemann-Integrals}
 	\section{Kurvendiskussion}
 	\subsection{Symmetrie}
+	Um herauszufinden ob eine Funktion Y-Achsensymmetrisch oder Ursprungspunktsymmetrisch ist, muss man die Exponenten einer Funktion betrachen, falls alle Exponenten einer Funktion gerade sind ist sie Achsensymmetrisch, sonst ist die Funktion Ursprungspuktsymmetrisch. Trifft keiner der beiden Bedingungen auf die Funktion zu laesst sich ihre Symmetrie nicht bestimmen.
 	\subsection{Verhalten im Unendlichen}
+	Das Verhalten in Unendlichen haengt vom hoechsten Exponenten und dem zugehoerigen Koeffizienten der Funktion ab, ist der Exponent gerade und der Koeffizient positiv, verlaueft die Funktion vom 2. zum 1. Quadranten, also von positiv unendlich nach positiv unendlich, ist der Koeffizient jedoch negativ, verlaueft die Funktion vom 3. zum 4. Quadranten, also von negativ unendlich nach negativ unendlich.\\
+	Ist der Exponent ungerade und der Koeffizient positiv verlaueft die Funktion vom 3. zum 1. Quadranten also negativ unendlich nach positiv unendlich, ist der Koeffizient jedoch negativ verlaueft sie von 2. zum 4. Quadranten also von positiv unendlich nach negativ unendlich.
 	\subsection{Schnittpunkt mit der y-Achse}
+	Um den Schnittpunkt mit der Y-Achsen herauszufinden, muss man die Variable der Funktion 0 setzen.
 	\subsection{Nullstellen}
 	\subsection{Ableitungen}
 	\subsection{Extrema berechnen}
@@ -424,17 +458,16 @@
 	Der Betrag eines Vektors $\vec{a}$ stellt seine Laege da, d.h. $|a|=\sqrt{a_1^2+a_2^2+a_3^2}$ ist die Laenge eines Vektors.
 	\subsubsection{Lineare Abhaengigkeit}
 	Die Lineare Anhaenigkeit beschreibt die Eigenschaft eines Vektors $\vec{v}$ sich mit Hilfe der s-Multiplikation und eines beliebigen Vektors $\vec{b}$ herstellen zu lassen.
-	\\\\Beispiel:\\
+	\\\\Beispiel:
 	\begin{align*} \vec{v}=s*\vec{b} \end{align*}
 	Falls es ein $s$ in $\mathbb{R}$ gibt das die Gleichung erfuellt ist $\vec{v}$ linear Abhaengig von $\vec{b}$.
-	\pagebreak
 	\subsubsection{Skalarprodukt}
 	Das Sklalarprodukt ordnet je zwei Vektoren $\vec{a},\vec{b}$ ein Sklalar zu, ist dieses Skalar $0$ sind die Vektoren orthogonal zueinander.\\\\Beispiel  \begin{align*} \vec{a} \circ \vec{b}=a_1*b_1+a_2*b_2+a_3*b_3. \end{align*}
 	\subsubsection{Kreuzprodukt}
 	\paragraph{Berechnung mithilfe der Determinante}
 	\hspace{0 cm} \\ \noindent \\
 	Das Kreuzprodukt leasst sich auch mithilfe der Determinante berechnen indem man, eine quadr. Matrix mit der Standardbasis und zwei sich schneidende Vektoren
-	bildet.\\
+	bildet.\\\\
 	$\begin{array}{cc}
 	\vec{a} x \vec{b}=det\begin{pmatrix} e_1 & a_1 & b_1 \\ e_2 & a_2 & b_2  \\ e_3 & a_3 & b_3  \end{pmatrix} 
 	&= e_1\left|\begin{array}{cc} a_2 & b_2 \\ a_3 & b_3\end{array} \right|-e_2\left|\begin{array}{cc} a_1 & b_1 \\ a_3 & b_3\end{array} \right|+e_3\left|\begin{array}{cc} a_1 & b_1 \\ a_2 & b_2\end{array} \right|\\
@@ -461,8 +494,10 @@
 	%\\\textbf{Abstand mit Hilfe der 2D-HNF}
 	\paragraph{Abstand Gerade Gerade}
 	\hspace{0 cm} \\ \noindent \\
-	\subparagraph{Windschief}
-	\subparagraph{Parallel\\}
+	\textbf{Windschief\\}
+	Der Abstand von zwei windschiefen Geraden laesst sich mit Hilfe einer Hilfsebene berechnen, indem man zuerst den Normaleneinheitsvektor der beiden Richtungsvektoren berechnet, nun kann man die Hessesche Normalenform verwenden um den Abstand zu berechnen.\\\\
+	Beispiel\\
+	\textbf{Parallel\\}
 	Siehe Abstand Gerade Punkt, wobei der Punkt ein beliebiger Punkt der 2. Gerade ist.
 	\paragraph{Winkel zwischen Geraden}
 	\hspace{0 cm} \\ \noindent \\
@@ -522,7 +557,7 @@
 	\textbf{Abstand ohne die HNF}\\
 	\textbf{Abstand mit Hilfe der HNF}\\
 	Siehe Abstand Ebene Ebene, wobei der Punkt ein beliebiger der Geraden sein kann.
-	\pagebreak
+	
 	\paragraph{Winkel zwischen Gerade und Ebene}
 	\hspace{0 cm} \\ \noindent \\
 	Sei die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ nicht parallel zu $E : \vec{x} = \vec{p}+ r*\vec{u}+s*\vec{v}$, dann existiert ein Winklel($\phi$) zwischen ihnen, der sich mit Hilfe der Normalenvektors der Ebene($\vec{n}$) folgendermassen berechnen laesst:
@@ -537,7 +572,7 @@
 		\hspace{0 cm} \\ \noindent \\
 	Um nun zu ueberpruefen ob die Ebenen identisch sind, setzt einen belibigen Punkt der einen Ebene in die andere Ebene ein.
 	(Koennte Schnittgerade sein, Loesung 3 Punkte einsetzen die zsm keine Gerade werden koennen)
-	\paragraph{Schnittgerade}
+	%\paragraph{Schnittgerade}
 	\paragraph{Abstand Ebene Ebene}
 		\hspace{0 cm} \\ \noindent \\
 	\textbf{Abstand ohne die HNF}\\
@@ -565,7 +600,7 @@
 	\paragraph{Abstand}
 	\hspace{0 cm} \\ \noindent \\
 	Siehe Abstand Punkt Gerade, wobei der Punkt den Kugelmittelpunkt darstellt.
-	\paragraph{Schnittpunkte}
+	%\paragraph{Schnittpunkte}
 	\subsubsection{Lage Kugel Ebene}
 	Im $\mathbb{R}^3$ gibt es zwei Moeglichkeiten wie eine Ebene zu einer Kugel liegen kann, erstens wenn die Kugel von der Ebene geschnitten wird und zweitens wenn ebendies nicht zutrifft. Dies kann man festellen indem man den Abstand der Ebene zum Kugelmittelpunkt berechnet, ist dieser Abstand groesser als der Kugelradius haben die Ebene und die Kugel keine gemeinsamen Punkte, ist er jedoch kleiner ensteht eine Schnittkreis.
 	\paragraph{Abstand}
@@ -581,7 +616,7 @@
 	r_{Kreis}^2 &=r_{Kugel}^2-(Abstand Kugelmittelpunkt Ebene)^2\\
 	A_{Kreis} &= \pi*r_{Kreis}^2
 	\end{align*}
-	\subsubsection{Tangentialebene}
+	%\subsubsection{Tangentialebene}
 	\subsubsection{Lage Kugel Kugel}
 	Im $\mathbb{R}^3$ gibt zwei Moeglichkeiten wie eine Kugel zu einer anderen Kugel liegen kann, ersten wenn die eine Kugel die anderen schneidet und zweitens wenn ebendies nicht zutrifft. Dies kann man festellen indem man der Abstand der beiden Mittelpunkte berechnet, ist dieser groesser als die Summe der beiden Kugelradien haben die Kugeln keine gemeinsamen Punkte, ist er jedoch kleiner entsteht ein Schnittkoeper.
 	\paragraph{Abstand}
@@ -604,7 +639,7 @@
 	\subsubsection{Pythagoras im Raum}
 	\subsubsection{Kosinussatz}
 	\subsubsection{Skalarprodukt}
-	\subsubsection{Kreutzprodukt}
+	\subsubsection{Kreuzprodukt}
 	\subsubsection{Spatprodukt}
 	\subsubsection{Hessesche Normalform}
 	\subsubsection{2D-Hesse'sche Normalform}
@@ -612,8 +647,14 @@
 	\subsection{Loesungsverfahren fuer LGS}
 	\subsubsection{Treppenstuffen Verfahren}
 	\subsubsection{Koeffizienten Matrix}
-	\subsubsection{Determinante}
 	\pagebreak
+	
+	\subsubsection{Determinante} 
+	Die Determinante einer Matrix laesst sich mit Hilfe des Laplacescher Entwicklungssatz in zwei ...Richtungs" entwickeln.\\
+	$det A = \sum\limits_{i=1}^{n}(-1)^{j+i}*a_{ij}*detA_{ij} $ (Entwicklung nach der $j$-ten Spalte)\\
+	$det A = \sum\limits_{j=1}^{n}(-1)^{j+i}*a_{ij}*detA_{ij} $ (Entwicklung nach der $i$-ten Zeile)\\\\
+	wobei $A_{ij}$ die ${(n-1)} \times {(n-1)}$-Untermatrix von $A$ ist, um diese zu Erhalten muss jeweil die $i-te$ Zeile und die $j-te$ Spalten gestrichen werden.
+	\\\\Beispiel
 	\subsection{Matrizen}
 	 \hspace{0 cm} 
 	Eine Matrix vom Typ $M_{m,n}$ ist eine Zusammenfassung von Werten der Form $M =$
@@ -648,9 +689,11 @@
 	 \hspace{0 cm} \\ \noindent \\
 	 Seien  $M$ und $I$ beliebige quadratische Matrizen und $E$ die Einheitsmatrix, dann nennt man die Matrix $I$ die, die Gleichung $M*I=I*M=E$ erfuellt, Inverse der Matrix $M$. Sie wird mit $M^{-1}$ dargestellt.\\
 	 Eine Matrix mit einer Inversen nennt man regluaere Matrix.
-	 \\GAUSS UND ADJUNKTE
+	 \\\\\textbf{Inverse mit Hilfe der Determinante}
+	 \\\\\textbf{Inverse mit Hilfe der Einheitsmatrix}
+
 	\paragraph{Einheitsmatrix} 
-	 \hspace{0 cm} \\ \noindent \\ Eine Einheitsmatrix ist eine quadratische Matrix, bei der alle Elemente auf der Hauptdiagonale gleich 1 sind.\\
+	 \hspace{0 cm} \\ \noindent \\ Eine Einheitsmatrix ist eine quadratische Matrix, bei der alle Elemente auf der Hauptdiagonale gleich 1 sind.
 	Sie ist das neutrale Element der Matrizenmultiplikation d.h. $M*E = E*M = M$ wobei $M$ eine beliebige regulaere Matrix ist, und $E$ ihre Einheitsmatrix ist.\\
 	Sie ist symmetrisch, d.h $E^{t}=E$.\\
 	Sie ist selbstinvers, d.h $E^{-1}=E$\\
@@ -676,7 +719,6 @@
 	Sei $M$ eine beliebige Matrix, dann nennt man eine Matrix die Gleichung $M * M = M$ erfuellt Grenzmatrix der Matrix $M$.
 	\\\\
 	Beispiel:
-	\newpage
 	\subsubsection{Rechenregeln}
 	\textbf{Addition}\\
 	Die Summe zweier Matrizen, berechnet man in dem man sie komponentenweise addiert.\\\\
@@ -737,51 +779,43 @@
 		Es koennen nur Matrizen multipliziert wenn die \textbf{Spaltenanzahl} der 1. Matrix mit der \textbf{Zeilenanzahl} der 2. Matrix uebereinstimmt.\\
 		Die Matrizenmultiplikation ist im allgemeinen\textbf{ nicht} kommutativ$(A*B\neq B*A)$, daraus folgt dass beim \textbf{Distributivgesetz} die Richtung eine Rolle spielt$(A*(B+C)\neq (B+C)*A)$.
 	
-
-		\begin{tabular}{c|c}
+		\begin{align*}
+			\begin{tabular}{c|c}
 		$A_{2,3}*B_{3,4} = C_{2,4}$  & 		
-
-
-		
 		$\left(\begin{array}{cccc}
 			a_{11} 	&  a_{12}  &	a_{13} 	&	 a_{14}  \\ 
 			a_{21}  &  a_{22}  &	a_{23} 	&	 a_{24}  \\
 			a_{31}  &  a_{32}  &	a_{33}  &	 a_{34}  \\
 		\end{array}\right)$ \\
 		\hline \\
-		
-		
 		$				 
 		\left(\begin{array}{ccc}
 		 b_{11} 	&  b_{12} &	b_{13}\\  
 		 b_{21} 	&  b_{22} &	b_{23}\\
 		\end{array}\right) 
 		$ & 
-
 		$\left(\begin{array}{cccc}
 			c_{11} 	& c_{12} &	c_{13}	&	c_{14} \\ 
 			c_{21} 	&  c_{22} &	c_{23}	&	 c_{24} \\
 		\end{array}\right)$ \\
 		\end{tabular}
-
-		$\\
-		c_{11}=b_{11}*a_{11}+b_{12}*a_{21}+b_{13}*a_{31}\\\\
-		c_{12}=b_{11}*a_{12}+b_{12}*a_{22}+b_{13}*a_{32}\\\\
-		c_{13}=b_{11}*a_{13}+b_{12}*a_{23}+b_{13}*a_{33}\\\\
-		c_{14}=b_{11}*a_{14}+b_{12}*a_{24}+b_{13}*a_{34} 
-		$
-
-		$
-		\\
-		c_{21}=b_{21}*a_{11}+b_{22}*a_{21}+b_{23}*a_{31}\\\\
-		c_{22}=b_{21}*a_{12}+b_{22}*a_{22}+b_{23}*a_{32}\\\\
-		c_{23}=b_{21}*a_{13}+b_{22}*a_{23}+b_{23}*a_{33}\\\\
-		c_{24}=b_{21}*a_{14}+b_{22}*a_{24}+b_{23}*a_{34}
-		$
-
-
-
+		\end{align*}
 	
+
+		\begin{align*}
+		c_{11}=b_{11}*a_{11}+b_{12}*a_{21}+b_{13}*a_{31}\\
+		c_{12}=b_{11}*a_{12}+b_{12}*a_{22}+b_{13}*a_{32}\\
+		c_{13}=b_{11}*a_{13}+b_{12}*a_{23}+b_{13}*a_{33}\\
+		c_{14}=b_{11}*a_{14}+b_{12}*a_{24}+b_{13}*a_{34} 
+		\\\\
+		c_{21}=b_{21}*a_{11}+b_{22}*a_{21}+b_{23}*a_{31}\\
+		c_{22}=b_{21}*a_{12}+b_{22}*a_{22}+b_{23}*a_{32}\\
+		c_{23}=b_{21}*a_{13}+b_{22}*a_{23}+b_{23}*a_{33}\\
+		c_{24}=b_{21}*a_{14}+b_{22}*a_{24}+b_{23}*a_{34}
+		\end{align*}
+
+
+
 	\subsubsection{Matrizengleichungen}
 	
 
