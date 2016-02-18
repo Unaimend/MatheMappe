@@ -290,7 +290,6 @@
 	Steigung von 0 und damit einen moeglichen Extrempunkt.
 	
 	\subsection{Bedeutung der 2. Ableitung}
-	Muss Ueberarbeitete werden\\
 	Die 2. Ableitung gibt die Steigung der 1. Ableitung wieder, d.h wenn die 2. Ableitung 0 ist \\hat die 1. Ableitung an diesem Punkt eine 
 	Steigung von 0. und damit hat die Originalfunktion an diesem Punkt einen Steigunswechsel
 	\subsection{Kurzform des Ableitens}
@@ -329,8 +328,8 @@
 		f'(x)&= 10x*8x+5x^2*8
 	\end{align*}
 	\subsubsection{Kettenregel}
-	"Auesere mal innere Ableitung".\\
-	Ist eine Funktion das Ergebnis der Vekettungs von 2 anderen Funktionen dann gilt:\\
+	"Auessere mal innere Ableitung".\\
+	Ist eine Funktion das Ergebnis der Vekettung von 2 anderen Funktionen dann gilt:\\
 	 \begin{align*}
 		f(x)&=(u \circ v)(x)\\
 		f'(x)&=u'(v(x))*v'(x)
@@ -361,7 +360,22 @@
 		f'(x)&=5e^x
 	\end{align*}
 	\subsubsection{Ableiten komplizierter $e$-Funktionen}
+	Beim Ableiten der $e$-Funktion ist zu beachten, dass aufgrund der Position der Variable die \textbf{Kettenregel}
+	beachtet werden muss.\\\\
+	Beispiel
+	\\\begin{align*}
+	f(x)&=5e^{4x-2}\\
+	f'(x) &=4*5e^{4x-2} \hspace{0.5cm} 
+	\end{align*} 
 	\subsection{Ableitung trigonometrischer Funktionen}
+	\begin{align*}
+	f(x) &= sin(x)\\
+	f'(x) &= cos(x)\\
+	f''(x) &= -sin(x)\\
+	f'''(x) &= -cos(x)\\
+	f''''(x) &= sin(x)
+ 	\end{align*}
+ 	\subsubsection{Ableitung komplizierter trigonometrischer Funktionen}
 	\subsection{Herleitungen}
 	\subsubsection{Herleitung der Ableitung mithilfe des Limes}
 	\subsubsection{Herleitung der Potenzregeln in  $\mathbb{N}$}
@@ -399,9 +413,8 @@
 	\subsubsection{Flaeche unter der Abszisse}
 	\subsubsection{Flaeche zwischen Kurven}
 	\subsection{Mittelwert einer Funktion}
-	Sekante Integral
-	\subsection{Rotationskoerper}  
-	HALLO GITHUB                                                       
+	%Sekante Integral
+	\subsection{Rotationskoerper}                                                      
 	\subsection{Herleitungen}
 	\subsubsection{Flaeche mit Hilfe des Riemann-Integrals}
 	\section{Kurvendiskussion}
@@ -415,6 +428,9 @@
 	\subsection{Nullstellen}
 	\subsection{Ableitungen}
 	\subsection{Extrema berechnen}
+	Um die Extrema einer Funktion zu erhalten muss ihre erste Ableitung 0 gesetzt werden, nun muss man die Punkte in die 2. Ableitung 
+	einsetzen um herrauszufinden ob es um einen Hoch(Maximum) -oder Tiefpunkt(Minimum) handelt. Ist das Ergebnis des letzten Schrittes groesser 0
+	handelt es sich um ein lokales Minimum, andernfalls handelt es sich um ein lokales Maximum. Besitzt die Funktion jedoch keine 2. Ableitung muessen die Umgebungswerte der Steigung der Punkte betrachtet werden, wechselt die Steigung von negativ zu positiv hat man ein lokales  Minimum, sonst ein lokales Maximum, um nun herrauszufinden ob ein globales Extrema vorliegt muessen alle loaklen Extrema verglichen werden.
 	\subsection{Wendepunkte berechnen}
 	\pagebreak
 	\section{Analytische Geometrie}
@@ -475,7 +491,7 @@
 	&= e_1(a_2*b_3-a_3*b_2)+e_2(a_3*b_1-a_1*b_3)+e_3(a_1*b_2-a_2*b_1)\\
 	&=\begin{pmatrix} e_1 \\ e_2 \\ e_3 \end{pmatrix} \circ \begin{pmatrix} a_2*b_3-a_3*b_2 \\ a_3*b_1-a_1*b_3 \\ a_1*b_2-a_2*b_1 \end{pmatrix} 
 	\end{array}$
-	\subsubsection{Spatprodukt}
+	%Be\subsubsection{Spatprodukt}
 	\subsection{Geraden}
 	\subsubsection{Was sind Geraden}
 	Eine Gerade im 3-Dimensionalen Raum ist eine unendliche Ausdehnung in eine Koordinatenrichtungen.
@@ -836,24 +852,24 @@
 	 \hspace{0 cm} \\ \noindent \\
 	\section{Taschenrechner}
 	\section{Beispielaufgaben}
-	\section{Vielleicht falls bock}
-	logarithmus-(funktion), verschiedene beweise/herleitung
-	quar ergaenzung sekante tangene normale
-	Begriffserklaerung
-	Gradelage Diagramm
+	%\section{Vielleicht falls bock}
+	%logarithmus-(funktion), verschiedene beweise/herleitung
+	%quar ergaenzung sekante tangene normale
+	%Begriffserklaerung
+	%Gradelage Diagramm
 
-	\section{Quellen}
-	[5]. „Plane equation qtl1“ von Quartl - Wikipedia
+	%\section{Quellen}
+	%[5]. „Plane equation qtl1“ von Quartl - Wikipedia
 
-	\begin{titlepage}
-	\title{Hochschulmathematik}
-	\author{Thomas Dost}
-	\date{} % Activate to display a given date or no date (if empty),
-	\maketitle
-	\newpage
-	\tableofcontents
-	\newpage
-	\end{titlepage}
+	%\begin{titlepage}
+	%\title{Hochschulmathematik}
+	%\author{Thomas Dost}
+	%\date{} % Activate to display a given date or no date (if empty),
+	%\maketitle
+	%\newpage
+	%\tableofcontents
+	%\newpage
+	%end{titlepage}
 
 
 \end{document}
