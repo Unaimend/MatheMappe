@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  18 FEB 2016 22:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  18 FEB 2016 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1444,10 +1444,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 \tf@toc=\write4
 \openout4 = `AbiMappe_Mathe.toc'.
 
- [6] [7]
+ [6]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 106.
- <lineare.pdf, id=32, 2870.725pt x 1574.88374pt>
+ <lineare.pdf, id=28, 2870.725pt x 1574.88374pt>
 File: lineare.pdf Graphic file (type pdf)
 
 <use lineare.pdf>
@@ -1458,7 +1458,7 @@ Overfull \hbox (20.93071pt too wide) in paragraph at lines 117--132
 []$[]$  $[]$ 
  []
 
-[1 <./lineare.pdf>] <lineare2.pdf, id=40, 2870.725pt x 1574.88374pt>
+[1 <./lineare.pdf>] <lineare2.pdf, id=36, 2870.725pt x 1574.88374pt>
 File: lineare2.pdf Graphic file (type pdf)
 
 <use lineare2.pdf>
@@ -1469,7 +1469,7 @@ Overfull \hbox (20.93071pt too wide) in paragraph at lines 141--164
 []$[]$  $[]$ 
  []
 
-[2 <./lineare2.pdf>] <quadr-B.pdf, id=45, 963.6pt x 527.9725pt>
+[2 <./lineare2.pdf>] <quadr-B.pdf, id=41, 963.6pt x 527.9725pt>
 File: quadr-B.pdf Graphic file (type pdf)
 
 <use quadr-B.pdf>
@@ -1514,7 +1514,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--249
 
  []
 
-[5] [6]
+[5]
 Package epstopdf Info: Source file: <a.eps>
 (epstopdf)                    date: 2016-01-07 23:08:02
 (epstopdf)                    size: 9781585 bytes
@@ -1525,7 +1525,7 @@ Package epstopdf Info: Source file: <a.eps>
 ps>
 (epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
- <a-eps-converted-to.pdf, id=61, 3119.655pt x 1711.39375pt>
+ <a-eps-converted-to.pdf, id=53, 3119.655pt x 1711.39375pt>
 File: a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use a-eps-converted-to.pdf>
@@ -1546,7 +1546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--309
 
  []
 
-[7 <./a-eps-converted-to.pdf>]
+[6 <./a-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
@@ -1566,7 +1566,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 336--338
 
  []
 
-[8]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 352--354
 
  []
@@ -1586,7 +1586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--366
 
  []
 
-[9] [10]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
@@ -1621,7 +1621,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--424
 
  []
 
-[11]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 425--428
 
  []
@@ -1636,13 +1636,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--428
 
  []
 
-[12] [13] <koordinatensystem.png, id=87, 555.07375pt x 483.8075pt>
+[10] [11] <koordinatensystem.png, id=76, 555.07375pt x 483.8075pt>
 File: koordinatensystem.png Graphic file (type png)
 
 <use koordinatensystem.png>
 Package pdftex.def Info: koordinatensystem.png used on input line 448.
 (pdftex.def)             Requested size: 200.74959pt x 200.75423pt.
- [14 <./koordinatensystem.png>]
+ [12 <./koordinatensystem.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 464--467
 
  []
@@ -1663,7 +1663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 481--483
 
  []
 
-[15]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 486--486
 
  []
@@ -1694,7 +1694,7 @@ Overfull \hbox (1.52489pt too wide) in paragraph at lines 505--512
 -ar Un-abhaen-gig sind, mu-ess wird als naechs-
  []
 
-[16]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 513--517
 
  []
@@ -1714,12 +1714,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 525--527
 
  []
 
-<Ebene.png, id=99, 471.7625pt x 311.1625pt>
+<Ebene.png, id=90, 471.7625pt x 311.1625pt>
 File: Ebene.png Graphic file (type png)
  <use Ebene.png>
 Package pdftex.def Info: Ebene.png used on input line 533.
 (pdftex.def)             Requested size: 150.56396pt x 150.56229pt.
- [17]
+ [15]
 Underfull \hbox (badness 10000) in paragraph at lines 539--548
 
  []
@@ -1749,7 +1749,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 559--563
 
  []
 
-[18 <./Ebene.png>]
+[16 <./Ebene.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 568--571
 
  []
@@ -1779,7 +1779,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 594--598
 
  []
 
-[19]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 599--605
 
  []
@@ -1799,7 +1799,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 610--613
 
  []
 
-[20]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 623--626
 
  []
@@ -1824,12 +1824,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 645--647
 
  []
 
-<pytha.png, id=114, 220.825pt x 103.38625pt>
+<pytha.png, id=104, 220.825pt x 103.38625pt>
 File: pytha.png Graphic file (type png)
  <use pytha.png>
 Package pdftex.def Info: pytha.png used on input line 649.
 (pdftex.def)             Requested size: 220.83455pt x 103.38913pt.
- [21] [22 <./pytha.png>]
+ [19] [20 <./pytha.png>]
 Overfull \hbox (2.70436pt too wide) in paragraph at lines 675--680
 \T1/futs/m/n/10 Die De-ter-mi-nan-te ei-ner Ma-trix laesst sich mit Hil-fe des 
 La-pla-ce-scher Ent-wick-lungs-satz in zwei ...Rich-
@@ -1902,7 +1902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 718--732
 
  []
 
-[23] [24]
+[21] [22]
 Underfull \hbox (badness 10000) in paragraph at lines 735--738
 
  []
@@ -1960,7 +1960,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 780--803
 
  []
 
-[25]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 847--848
 
  []
@@ -2020,13 +2020,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 858--859
 
  []
 
-[26] (./AbiMappe_Mathe.aux) ) 
+[24] (./AbiMappe_Mathe.aux) ) 
 Here is how much of TeX's memory you used:
- 18625 strings out of 493089
- 353947 string characters out of 6134843
+ 18627 strings out of 493089
+ 353968 string characters out of 6134843
  403622 words of memory out of 5000000
  21629 multiletter control sequences out of 15000+600000
- 83584 words of font info for 104 fonts, out of 8000000 for 9000
+ 84001 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,23n,75p,460b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvip
@@ -2038,10 +2038,10 @@ ier-ms.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/put
 b8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on AbiMappe_Mathe.pdf (33 pages, 277016 bytes).
+Output written on AbiMappe_Mathe.pdf (30 pages, 272145 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 154 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
