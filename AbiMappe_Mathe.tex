@@ -420,11 +420,24 @@
 	\section{Kurvendiskussion}
 	\subsection{Symmetrie}
 	Um herauszufinden ob eine Funktion Y-Achsensymmetrisch oder Ursprungspunktsymmetrisch ist, muss man die Exponenten einer Funktion betrachen, falls alle Exponenten einer Funktion gerade sind ist sie Achsensymmetrisch, sonst ist die Funktion Ursprungspuktsymmetrisch. Trifft keiner der beiden Bedingungen auf die Funktion zu laesst sich ihre Symmetrie nicht bestimmen.
-	\\\\FORMAL HIZNUFUEGEN\\\\
+	\begin{align*}
+	& Achsensymmetrie:  & f(x)&=f(-x)\\
+		& Ursprungspunktsymmetrie:  & f(x)&=-f(x)
+	\end{align*}
 	\subsection{Verhalten im Unendlichen}
 	Das Verhalten in Unendlichen haengt vom hoechsten Exponenten und dem zugehoerigen Koeffizienten der Funktion ab, ist der Exponent gerade und der Koeffizient positiv, verlaueft die Funktion vom 2. zum 1. Quadranten, also von positiv unendlich nach positiv unendlich, ist der Koeffizient jedoch negativ, verlaueft die Funktion vom 3. zum 4. Quadranten, also von negativ unendlich nach negativ unendlich.\\
-	Ist der Exponent ungerade und der Koeffizient positiv verlaueft die Funktion vom 3. zum 1. Quadranten also negativ unendlich nach positiv unendlich, ist der Koeffizient jedoch negativ verlaueft sie von 2. zum 4. Quadranten also von positiv unendlich nach negativ unendlich.
-	\\\\FORMAL HIZNUFUEGEN\\\\
+	Ist der Exponent ungerade und der Koeffizient positiv verlaueft die Funktion vom 3. zum 1. Quadranten also negativ unendlich nach positiv unendlich, ist der Koeffizient jedoch negativ verlaueft sie von 2. zum 4. Quadranten also von positiv unendlich nach negativ unendlich.\\
+	Formal: \\
+	Falls der hoechste Exponent ungerade und positiv ist gilt fuer $x\rightarrow\infty+ = f(x)\rightarrow\infty+$\\
+	\hspace*{8.9cm} 	$x\rightarrow\infty- = f(x)\rightarrow\infty-$\\\\
+	%Falls der hoechste Exponent ungerade und negativ ist gilt fuer $x\rightarrow\infty+ = f(x)\rightarrow 0$\\\\
+	%\hspace*{8.9cm} 	$x\rightarrow\infty- = f(x)\rightarrow\infty-$\\
+	Falls der hoechste Exponent gerade und positiv ist gilt fuer $x\rightarrow\infty+ = f(x)\rightarrow\infty+$\\
+	\hspace*{8.5cm} 	$x\rightarrow\infty- = f(x)\rightarrow\infty+$\\
+	\textbf{Beachte} den Koeffizienten vor dem hoechsten Exponenten!
+	
+	%\begin{align*}
+	%\end{align*}
 
 	\subsection{Schnittpunkt mit der y-Achse}
 	Um den Schnittpunkt mit der Y-Achsen herauszufinden, muss man die Variable der Funktion 0 setzen.
@@ -433,10 +446,20 @@
 	\subsection{Extrema berechnen}
 	Um die Extrema einer Funktion zu erhalten muss ihre erste Ableitung $0$ gesetzt werden, nun muss man die Punkte in die 2. Ableitung 
 	einsetzen um herrauszufinden ob es um einen Hoch(Maximum) -oder Tiefpunkt(Minimum) handelt. Ist das Ergebnis des letzten Schrittes groesser 0
-	handelt es sich um ein lokales Minimum, andernfalls handelt es sich um ein lokales Maximum. Besitzt die Funktion jedoch keine 2. Ableitung muessen die Umgebungswerte der Steigung der Punkte betrachtet werden, wechselt die Steigung von negativ zu positiv hat man ein lokales  Minimum, sonst ein lokales Maximum, um nun herrauszufinden ob ein globales Extrema vorliegt muessen alle loaklen Extrema verglichen werden.
+	handelt es sich um ein lokales Minimum, andernfalls handelt es sich um ein lokales Maximum. Besitzt die Funktion jedoch keine 2. Ableitung muessen die Umgebungswerte der Steigung der Punkte betrachtet werden, wechselt die Steigung von negativ zu positiv hat man ein lokales  Minimum, sonst ein lokales Maximum, um nun herrauszufinden ob ein globales Extrema vorliegt muessen alle loaklen Extrema verglichen werden.\\\\
+	\begin{align*}
+		&Notwendige\enspace Bedingung\enspace &f'(x_0)&=0\\
+		&Hinreichende\enspace Bedingung\enspace Hochpunkt\enspace &f''(x_0)&<0\enspace \lor \enspace f'(x_0)+\rightarrow f'(x_0)- \\
+		&Hinreichende\enspace Bedingung\enspace Tiefpunkt\enspace &f''(x_0&>0\enspace \lor \enspace f'(x_0)+\rightarrow f'(x_0)-
+	\end{align*}
+
 
 	\subsection{Wendepunkte berechnen}
 	Um die Wendepunkte einer Funktion zu berechen muss die 2. Ableitung 0 gesetzt werden, um nun zu ueberpruefen ob der Punkt ein Sattelpunt ist muss falls die Funktion eine 3. Ableitung besitzt diese an dem vorher berechneten Punt $\neq 0$ sein, ist die 3. Ableitung nicht vorhanden muss an diesem Punkt ein Vorzeichenwechsel stattfinden.
+	\begin{align*}
+		&Notwendige\enspace Bedingung\enspace &f''(x_0)&=0\\
+		&Hinreichende\enspace Bedingung\enspace Wendepunkt\enspace &f'''(x_0)& \neq 0\enspace \lor \enspace f''(x_0)\pm\rightarrow f''(x_0)\mp \\
+	\end{align*}
 	\pagebreak
 	\section{Analytische Geometrie}
 	\subsection{Was ist ein Vektor}

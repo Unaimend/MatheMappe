@@ -87,12 +87,13 @@
 \contentsline {paragraph}{\numberline {5.6.2.3}Winkel zwischen Gerade und Ebene}{17}
 \contentsline {subsubsection}{\numberline {5.6.3}Lage Ebene Ebene}{17}
 \contentsline {paragraph}{\numberline {5.6.3.1}Identisch}{18}
-\contentsline {paragraph}{\numberline {5.6.3.2}Abstand Ebene Ebene}{18}
-\contentsline {paragraph}{\numberline {5.6.3.3}Winkel zwischen Ebenen}{18}
+\contentsline {paragraph}{\numberline {5.6.3.2}Schnittgerade}{18}
+\contentsline {paragraph}{\numberline {5.6.3.3}Abstand Ebene Ebene}{18}
+\contentsline {paragraph}{\numberline {5.6.3.4}Winkel zwischen Ebenen}{18}
 \contentsline {subsection}{\numberline {5.7}Kugeln}{18}
 \contentsline {subsubsection}{\numberline {5.7.1}Was ist eine Kugel}{18}
 \contentsline {subsubsection}{\numberline {5.7.2}Kugelgleichung}{18}
-\contentsline {subsubsection}{\numberline {5.7.3}Lage Kugel Gerade}{18}
+\contentsline {subsubsection}{\numberline {5.7.3}Lage Kugel Gerade}{19}
 \contentsline {paragraph}{\numberline {5.7.3.1}Abstand}{19}
 \contentsline {subsubsection}{\numberline {5.7.4}Lage Kugel Ebene}{19}
 \contentsline {paragraph}{\numberline {5.7.4.1}Abstand}{19}
