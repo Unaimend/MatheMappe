@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {1.5}Tangente und Normale}{5}
 \contentsline {subsection}{\numberline {1.6}Exponentialfunktionen}{5}
 \contentsline {subsubsection}{\numberline {1.6.1}Natuerliche Expoentialfunktion}{5}
-\contentsline {paragraph}{\numberline {1.6.1.1}Eigenschaften der Natuerlichen Exponential Fuktion}{5}
+\contentsline {paragraph}{\numberline {1.6.1.1}Eigenschaften der Natuerlichen Exponentialfunktion}{5}
 \contentsline {subsection}{\numberline {1.7}Umkehrfunktion}{5}
 \contentsline {subsection}{\numberline {1.8}Funktionenscharen}{5}
 \contentsline {section}{\numberline {2}Differentialrechnung}{6}
