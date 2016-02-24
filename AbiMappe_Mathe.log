@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  21 FEB 2016 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  24 FEB 2016 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1587,110 +1587,120 @@ Underfull \hbox (badness 10000) in paragraph at lines 364--367
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--396
+Underfull \hbox (badness 10000) in paragraph at lines 392--395
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--405
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
+ []
+
+<Integral_1.png, id=67, 1583.1948pt x 922.8879pt>
+File: Integral_1.png Graphic file (type png)
+ <use Integral_1.png>
+Package pdftex.def Info: Integral_1.png used on input line 417.
+(pdftex.def)             Requested size: 301.12419pt x 200.74057pt.
+
+Overfull \hbox (177.35344pt too wide) in paragraph at lines 417--419
+[][] 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 429--439
+Underfull \hbox (badness 1072) in paragraph at lines 424--429
+\T1/futs/m/n/10 Kur-ve laesst sich mit Hil-fe des In-te-grals leicht
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--451
+Underfull \hbox (badness 1946) in paragraph at lines 424--429
+\T1/futs/m/n/10 Um die Flae-che der Funk-ti-on $\FML/futm/m/it/10 f\T1/futs/m/n
+/10 (\FML/futm/m/it/10 x\T1/futs/m/n/10 ) \FMS/futm/m/n/10 Å \FML/futm/m/it/10 
+x[] \FMS/futm/m/n/10 ^^@ \T1/futs/m/n/10 2\FML/futm/m/it/10 x$
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 424--429
+\T1/futs/m/n/10 im In-ter-vall [2;2,5] zu be-rech-nen muss zu-
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 424--429
+\T1/futs/m/n/10 ert das In-te-gral ge-bil-det wer-den, die-ses lau-tet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--451
+Underfull \hbox (badness 10000) in paragraph at lines 434--440
 
  []
 
-[10] [11] <koordinatensystem.png, id=76, 555.07375pt x 483.8075pt>
+[10 <./Integral_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 444--447
+
+ []
+
+<Integral_2.png, id=76, 839.2956pt x 485.1726pt>
+File: Integral_2.png Graphic file (type png)
+ <use Integral_2.png>
+Package pdftex.def Info: Integral_2.png used on input line 454.
+(pdftex.def)             Requested size: 301.12166pt x 200.75063pt.
+
+Overfull \hbox (177.3509pt too wide) in paragraph at lines 454--456
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--460
+
+ []
+
+[11 <./Integral_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 485--495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--507
+
+ []
+
+[12] [13] <koordinatensystem.png, id=88, 555.07375pt x 483.8075pt>
 File: koordinatensystem.png Graphic file (type png)
 
 <use koordinatensystem.png>
-Package pdftex.def Info: koordinatensystem.png used on input line 472.
+Package pdftex.def Info: koordinatensystem.png used on input line 528.
 (pdftex.def)             Requested size: 200.74959pt x 200.75423pt.
- [12 <./koordinatensystem.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 488--491
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--495
-
- []
-
-
-Overfull \hbox (4.7543pt too wide) in paragraph at lines 505--507
-\T1/futs/m/n/10 Die Li-nea-re Anhae-nig-keit be-schreibt die Ei-gen-schaft ei-n
-es Vek-tors $[]$ sich mit Hil-fe der s-Multiplikation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 505--507
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 513--525
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 513--525
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 529--536
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 529--536
-
- []
-
-
-Overfull \hbox (1.52489pt too wide) in paragraph at lines 529--536
-\T1/futs/m/n/10 Hat sich je-doch er-ge-ben dass die Rich-tungs-vek-to-ren li-ne
--ar Un-abhaen-gig sind, mu-ess wird als naechs-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 537--541
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 542--548
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 542--548
+ [14 <./koordinatensystem.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 544--547
 
  []
 
@@ -1699,318 +1709,380 @@ Underfull \hbox (badness 10000) in paragraph at lines 549--551
 
  []
 
-<Ebene.png, id=90, 471.7625pt x 311.1625pt>
+
+Overfull \hbox (4.7543pt too wide) in paragraph at lines 561--563
+\T1/futs/m/n/10 Die Li-nea-re Anhae-nig-keit be-schreibt die Ei-gen-schaft ei-n
+es Vek-tors $[]$ sich mit Hil-fe der s-Multiplikation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--563
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 566--566
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--592
+
+ []
+
+
+Overfull \hbox (1.52489pt too wide) in paragraph at lines 585--592
+\T1/futs/m/n/10 Hat sich je-doch er-ge-ben dass die Rich-tungs-vek-to-ren li-ne
+-ar Un-abhaen-gig sind, mu-ess wird als naechs-
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 593--597
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--604
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--604
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--607
+
+ []
+
+<Ebene.png, id=100, 471.7625pt x 311.1625pt>
 File: Ebene.png Graphic file (type png)
  <use Ebene.png>
-Package pdftex.def Info: Ebene.png used on input line 557.
+Package pdftex.def Info: Ebene.png used on input line 613.
 (pdftex.def)             Requested size: 150.56396pt x 150.56229pt.
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 563--572
+ [17]
+Underfull \hbox (badness 10000) in paragraph at lines 619--628
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--572
+Underfull \hbox (badness 10000) in paragraph at lines 619--628
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--576
+Underfull \hbox (badness 10000) in paragraph at lines 629--632
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--582
+Underfull \hbox (badness 10000) in paragraph at lines 634--638
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--582
+Underfull \hbox (badness 10000) in paragraph at lines 634--638
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 583--587
+Underfull \hbox (badness 10000) in paragraph at lines 639--643
 
  []
 
-[16 <./Ebene.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 592--595
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 592--595
+[18 <./Ebene.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 648--651
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--606
+Underfull \hbox (badness 10000) in paragraph at lines 648--651
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--606
+Underfull \hbox (badness 10000) in paragraph at lines 652--662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 608--610
+Underfull \hbox (badness 10000) in paragraph at lines 652--662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--621
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 625--631
+Underfull \hbox (badness 10000) in paragraph at lines 664--666
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--631
+Underfull \hbox (badness 10000) in paragraph at lines 674--677
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 681--687
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--634
+Underfull \hbox (badness 10000) in paragraph at lines 681--687
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--639
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 650--653
+Underfull \hbox (badness 10000) in paragraph at lines 688--690
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--659
+Underfull \hbox (badness 10000) in paragraph at lines 692--695
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 706--709
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--659
+Underfull \hbox (badness 10000) in paragraph at lines 712--715
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--664
+Underfull \hbox (badness 10000) in paragraph at lines 712--715
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--674
+Underfull \hbox (badness 10000) in paragraph at lines 716--720
 
  []
 
-<pytha.png, id=104, 220.825pt x 103.38625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--730
+
+ []
+
+<pytha.png, id=115, 220.825pt x 103.38625pt>
 File: pytha.png Graphic file (type png)
  <use pytha.png>
-Package pdftex.def Info: pytha.png used on input line 676.
+Package pdftex.def Info: pytha.png used on input line 732.
 (pdftex.def)             Requested size: 220.83455pt x 103.38913pt.
- [19] [20 <./pytha.png>]
-Overfull \hbox (2.70436pt too wide) in paragraph at lines 702--707
+ [21] [22 <./pytha.png>]
+Overfull \hbox (2.70436pt too wide) in paragraph at lines 758--763
 \T1/futs/m/n/10 Die De-ter-mi-nan-te ei-ner Ma-trix laesst sich mit Hil-fe des 
 La-pla-ce-scher Ent-wick-lungs-satz in zwei ...Rich-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--707
+Underfull \hbox (badness 10000) in paragraph at lines 758--763
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--707
+Underfull \hbox (badness 10000) in paragraph at lines 758--763
 
  []
 
 
-Overfull \hbox (16.30983pt too wide) in paragraph at lines 708--719
+Overfull \hbox (16.30983pt too wide) in paragraph at lines 764--775
   \T1/futs/m/n/10 Ei-ne Ma-trix vom Typ $\FML/futm/m/it/10 M[]$ \T1/futs/m/n/10
  ist ei-ne Zu-sam-men-fas-sung von Wer-ten der Form $\FML/futm/m/it/10 M \FMS/f
 utm/m/n/10 Å$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--732
+Underfull \hbox (badness 10000) in paragraph at lines 777--788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--732
+Underfull \hbox (badness 10000) in paragraph at lines 777--788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--732
+Underfull \hbox (badness 10000) in paragraph at lines 777--788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--736
+Underfull \hbox (badness 10000) in paragraph at lines 790--792
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--743
+Underfull \hbox (badness 10000) in paragraph at lines 794--799
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--743
+Underfull \hbox (badness 10000) in paragraph at lines 794--799
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--743
+Underfull \hbox (badness 10000) in paragraph at lines 794--799
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 745--759
+Underfull \hbox (badness 10000) in paragraph at lines 801--815
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 745--759
+Underfull \hbox (badness 10000) in paragraph at lines 801--815
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 745--759
+Underfull \hbox (badness 10000) in paragraph at lines 801--815
 
  []
 
-[21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 762--765
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 762--765
+[23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 818--821
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--771
+Underfull \hbox (badness 10000) in paragraph at lines 818--821
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--771
+Underfull \hbox (badness 10000) in paragraph at lines 823--827
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 823--827
 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 803.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 859.
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--806
+Underfull \hbox (badness 10000) in paragraph at lines 828--862
 
  []
 
 
-Overfull \hbox (4.32166pt too wide) in paragraph at lines 772--806
+Overfull \hbox (4.32166pt too wide) in paragraph at lines 828--862
 \FML/futm/m/it/9 M \FMS/futm/m/n/9 Å \FML/futm/m/it/9 A \FMS/futm/m/n/9 Ä \FML/
 futm/m/it/9 B \FMS/futm/m/n/9 Å$ $[]$ \T1/futs/m/n/9 + $[]$ = $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--806
+Underfull \hbox (badness 10000) in paragraph at lines 828--862
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--806
+Underfull \hbox (badness 10000) in paragraph at lines 828--862
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--806
+Underfull \hbox (badness 10000) in paragraph at lines 828--862
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--830
+Underfull \hbox (badness 10000) in paragraph at lines 863--886
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--830
+Underfull \hbox (badness 10000) in paragraph at lines 863--886
 
  []
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 874--875
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 874--875
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+Underfull \hbox (badness 10000) in paragraph at lines 933--934
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--880
+Underfull \hbox (badness 10000) in paragraph at lines 933--934
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--880
+Underfull \hbox (badness 10000) in paragraph at lines 935--936
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 881--882
+Underfull \hbox (badness 10000) in paragraph at lines 935--936
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 881--882
+Underfull \hbox (badness 10000) in paragraph at lines 937--938
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 883--884
+Underfull \hbox (badness 10000) in paragraph at lines 937--938
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 883--884
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 885--886
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 885--886
+Underfull \hbox (badness 10000) in paragraph at lines 941--942
 
  []
 
-[24] (./AbiMappe_Mathe.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 941--942
+
+ []
+
+[26] (./AbiMappe_Mathe.aux) ) 
 Here is how much of TeX's memory you used:
- 18627 strings out of 493089
- 353968 string characters out of 6134843
+ 18637 strings out of 493089
+ 354146 string characters out of 6134843
  403622 words of memory out of 5000000
- 21629 multiletter control sequences out of 15000+600000
+ 21637 multiletter control sequences out of 15000+600000
  84001 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,23n,75p,460b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2023,10 +2095,10 @@ ier-ms.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/put
 b8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on AbiMappe_Mathe.pdf (30 pages, 274361 bytes).
+Output written on AbiMappe_Mathe.pdf (32 pages, 772614 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 165 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

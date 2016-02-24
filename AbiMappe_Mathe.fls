@@ -399,6 +399,12 @@ INPUT ./a-eps-converted-to.pdf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/public/fourier/futmi.vf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
+INPUT Integral_1.png
+INPUT ./Integral_1.png
+INPUT ./Integral_1.png
+INPUT Integral_2.png
+INPUT ./Integral_2.png
+INPUT ./Integral_2.png
 INPUT koordinatensystem.png
 INPUT ./koordinatensystem.png
 INPUT ./koordinatensystem.png

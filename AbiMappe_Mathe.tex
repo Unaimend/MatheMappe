@@ -385,7 +385,6 @@
 	%\subsubsection{Herleitung der Ableitungsregeln}
 	\pagebreak
 	\section{Integralrechnung}
-	\subsection{Integrationsregeln}
 	\subsection{Unbestimmtes Integral}
 	Unbestimte Integrale haben die Form,\\\\
 	\begin{align*}
@@ -409,10 +408,67 @@
 	2 & =C
 	\end{align*}\\
 	Die Funktion lautet also $F(x)=\frac{1}{3}*x^3+2$
+	\subsection{Integrationsregeln}
 	\subsection{Flaechenberechnung}
 	\subsubsection{Flaeche unter Kurve}
-	\subsubsection{Flaeche unter der Abszisse}
+
+	\begin{minipage}{0.3\textwidth}
+	\begin{figure}[H]
+	\includegraphics[width=300px, height=200px]{Integral_1.png}
+	%\includegraphics[width=300px, height=200px]{Ableitung_1.png}
+	\caption{}
+	\end{figure}
+	\end{minipage} \hfill
+
+	\begin{minipage}{0.5\textwidth}
+	Die Flaeche ueber der Abszisse und unter einer Kurve laesst sich mit Hilfe des Integrals leicht berechnen.\\
+	\textbf{Beispiel}\\\\
+	Um die Flaeche der Funktion $f(x)=x^2-2x$ im Intervall [2;2,5] zu berechnen muss zuert das Integral gebildet werden,
+	dieses lautet $\int f(x)=F(x)=\frac{1}{3}x^3-1x^2+c$, nun setzen wir die Intervallgrenzen ein um die Flaeche zu berechnen.\\
+	$F(2,5)-F(2)=\frac{1}{3}*2,5^3-1*2,5^2-\frac{1}{3}*2^3-1*2^2=0,29FE$
+	
+	\end{minipage}
+	
+
+	\subsubsection{Gemischte Flaechen}
+	Falls die zu berechnende Flaeche sich jedoch zum Teil unter der Abszisse befindet, muss man beachte das
+	man nicht ueber Abszissenschittpunkte integrieren darf d.h. befindet sich in dem zu bestimmmenden Intervall eine
+	Nullstelle der Funktion muss man diese als Integrationsgrenze benutzen.\\
+	\textbf{Beispiel}\\\\
+	Flaeche der Funktion $f(x)=x^2-2x$ im Intervall $[0;2,5]$.\\
+	Nun berechnet man die Nullstellen um herrauszufinden ob sie im Intervall liegen.\\
+	\begin{align*}
+	0=&x^2-2x\\
+	0=&x(x-2)\\
+	x_1=&0,x_2=2
+	\end{align*}\\
+	Da $2$ im Intervall liegt muss sie als Integrationsgrenze benutzt werden d.h. fuer die Flaeche gilt 
+	$A=-\int f(x)+\int f(x)=-(F(2)-F(0))+F(2,5)-F(2)=1,63FE$, da die Flaeche unter der Abszisse negativ ist muss man hier das Vorzeichen beachten.\\
 	\subsubsection{Flaeche zwischen Kurven}
+	Falls man die Flaeche zwischen zwei Funktionen berechnen soll, muss man falls sich Schittpunkte der Graphen im Intervall befinden
+	diese als Integrationsgrenzen benutzen.\\
+	\textbf{Beispiel}\\\\
+	Flaeche zwischen den Funktionen $f(x)=0,25x^2$ und $g(x)=0,3x$ im Intervall $[0;1,6]$\\
+	\begin{minipage}{0.3\textwidth}
+	\begin{figure}[H]
+	\includegraphics[width=300px, height=200px]{Integral_2.png}
+	%\includegraphics[width=300px, height=200px]{Ableitung_1.png}
+	\caption{}
+	\end{figure}
+	\end{minipage} \hfill
+	\\Nun muss man herrausfinden ob sich die Graphen im Intervall schneiden.\\
+
+	\begin{align*} 
+	f(x)&=g(x)\\
+	0,25x^2&=0,3x|-0,3x\\
+	0,25x^2-0,3x&=0|*4\\
+	x^2-1,2x&=0\\
+	x(x-1,2)&=0\\
+	x_1&=0,x_2=1,2
+	\end{align*}
+	\\Da sich $1,2$ im Intervall liegt muss sie als Integrationsgrenze benutzt werden.\\
+	$A=\int (g(x)-f(x))+\int (f(x)-g(x))=((G(1,2)-G(0))-(F(1,2)-F(0))+((F(1,6)-F(1,2))-(G(1,6)-G(1,2))=$\\
+	Falls die Funktion zusaetzlich noch die Abszisse schneidet muss auch dieser Schnittpunkt eine Integrationsgrenze sein.
 	\subsection{Mittelwert einer Funktion}
 	%Sekante Integral
 	\subsection{Rotationskoerper}                                                      
@@ -443,6 +499,7 @@
 	\subsection{Schnittpunkt mit der y-Achse}
 	Um den Schnittpunkt mit der Y-Achsen herauszufinden, muss man die Variable der Funktion 0 setzen.
 	\subsection{Nullstellen}
+	Um die Nullstellen einer Funktion zu berechnen muss man die Funktion = $0$ setzen und die dadruch enstandene Gleichung nach der Variable aufloesen.
 	\subsection{Ableitungen}
 	\subsection{Extrema berechnen}
 	Um die Extrema einer Funktion zu erhalten muss ihre erste Ableitung $0$ gesetzt werden, nun muss man die Punkte in die 2. Ableitung 
