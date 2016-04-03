@@ -1,0 +1,31 @@
+{
+	"build_systems":
+	[
+		{
+			"name": "Electron",
+			"shell_cmd": "npm start ."
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "Kapitel",
+			"file_exclude_patterns": ["*.log"],
+			"file_exclude_patterns": ["*.aux"],
+			"file_exclude_patterns": ["*.fls"],
+			"file_exclude_patterns": ["*.gz"],
+			"file_exclude_patterns": ["*.thm"]
+
+
+
+
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4
+	}
+}

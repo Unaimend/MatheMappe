@@ -1,4 +1,6 @@
  % !TEX TS-program = pdflatex
+
+
 % !TEX encoding = UTF-8 Unicode
 
 % This is a simple template for a LaTeX document using the "article" class.
@@ -18,11 +20,14 @@
 % \geometry{margin=2in} % for example, c\texttt{}hange the margins to 2 inches all round
 % \geometry{landscape} % set up the page for landscape
 %   read geometry.pdf for detailed page layout information
-
+\usepackage{lipsum}
+\usepackage{framed} 
+\usepackage[framed]{ntheorem}
+\usepackage{ dsfont }
 \usepackage{graphicx} % support the \includegraphics command and options
-
+\usepackage{mdframed}
 % \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
-
+\usepackage{subfiles}
 %%% PACKAGES
 \usepackage{booktabs} % for much better looking tables
 \usepackage{array} % for better arrays (eg matrices) in maths
@@ -69,7 +74,7 @@
 \usepackage{tikz}
 \usetikzlibrary{matrix,arrows,decorations.pathmorphing}
 
-\usetikzlibrary{matrix} 
+\usetikzlibrary{matrix}
 
 \usepackage[utf8]{inputenc}
 \usepackage[upright]{fourier}
@@ -110,10 +115,10 @@
 	\subsubsection{Eigenschaften einer linearen Funktionen}
 	Bei einer Linearen Funktion stellt $m$ die Steigung und $b$ die Verschiebung auf der Y-Achsen dar.
 	Die \textbf{Steigung} $m$ einer linearen Funktion $ f(x)= mx+b$ berechnet sich durch $m =\frac{\Delta y}{\Delta x}  = \frac{ y_{2}-y_{1} }{x_{2}-x_{1} }$
-	
-	\begin{tabular}[t]{lr} 
+
+	\begin{tabular}[t]{lr}
 	\end{tabular}
-	
+
 	\begin{minipage}{0.5\textwidth}
 		\begin{figure}[H]
 			\includegraphics[width=200px, height=200px]{lineare.pdf}
@@ -123,70 +128,70 @@
 	\end{minipage} \hfill
 	\begin{minipage}{0.45\textwidth}
 
-	Beispiel: 
-		\begin{alignat*}{4} 
+	Beispiel:
+		\begin{alignat*}{4}
 		m &=\frac{\Delta y}{\Delta x} = \frac{ y_{2}-y_{1} }{x_{2}-x_{1} } \\
 		  &\leftrightarrows \frac{3,5 - 1,5}{4 - 0} = 0,5
-		\end{alignat*} 
+		\end{alignat*}
 	\end{minipage}
 	\newpage
 	\subsubsection{Schnittpunkt zweier linearer Funktionen}
-		\begin{tabular}[t]{llr} 
+		\begin{tabular}[t]{llr}
 			Der \textbf{Schnittpunkt} $x$ zweier linearer Funktonen berechnet sich durch das Gleichsetzen\\ zweier lineare Funktionen:\\
 			$f(x) = 0,5x+1,5$\\
 			$g(x) = 1x+0,2$
-	
+
 		\end{tabular}
-		
+
 		\begin{minipage}{0.5\textwidth}
 			\begin{figure}[H]
 				\includegraphics[width=200px, height=200px]{lineare2.pdf}
 					\captionsetup{labelformat=empty}
 				\caption{  }
-			
+
 			\end{figure}
 		\end{minipage} \hfill
 		\begin{minipage}{0.45\textwidth}
 				Beispiel:
-			\begin{alignat*}{4} 
-			0,5x+1,5 &= 1 && x +0,2 && |-0,5x \\ 
-			1,5 	 &= 0,5 && x+0,2 && |-0,2\\ 
+			\begin{alignat*}{4}
+			0,5x+1,5 &= 1 && x +0,2 && |-0,5x \\
+			1,5 	 &= 0,5 && x+0,2 && |-0,2\\
 			1,3 	 &= 0,5 && x &&|*2 \\
-			2,6		 &=  && x  
-			\end{alignat*} 
+			2,6		 &=  && x
+			\end{alignat*}
 				Jetzt kann das Ergebnis\\($x=2,6$) in die Gleichungen eingesetzt werden um das Ergebnis zu ueberpruefen.\\
 				$f(2,6) = 2,8$\\
 				$g(2,6) = 2,8$\\
 				Da die beiden Werte gleich sind heisst das, dass die Rechnung korrekt ist.
-		
-		
+
+
 		\end{minipage}
 	\newpage
 	\subsection{Quadratische Funktionen}
-	\begin{tabular}[t]{llr} 
+	\begin{tabular}[t]{llr}
 			Eine quadratische Funktionen ist eine Funktion der Form $ f(x)= ax^{2}+bx+c$ in der Normal\\ -und $f(x) = a(x-x_s)^{2}+y_s$ in der Scheitelpunktform.
 		\end{tabular}\\
-		\begin{tabular}[t]{llr} 
+		\begin{tabular}[t]{llr}
 		\begin{minipage}{0.5\textwidth}
 			\begin{figure}[H]
 				\includegraphics[width=200px, height=200px]{quadr-B.pdf}
-				
+
 				\captionsetup{labelformat=empty}
 				\centering
-				\caption{Gestreckte Parabel:\\  $h(x) =0,2x^{2}+0x+0; \hspace{0,3 cm} 0,2(x-0)^2+0$ } 
+				\caption{Gestreckte Parabel:\\  $h(x) =0,2x^{2}+0x+0; \hspace{0,3 cm} 0,2(x-0)^2+0$ }
 				\vspace{-0,3 cm}
 				\caption{Normale Parabel:\\ $f(x) =1x^2+0x+0; \hspace{0,3 cm}1(x-0)^2+0  $}
 				\vspace{-0,3 cm}
 				\caption{Gespreizte Parabel\\ $g(x)=4x^2+0x+0; \hspace{0,3 cm}4(x-0)^2+0 $}
-			
+
 			\end{figure}
-		\end{minipage} 
+		\end{minipage}
 		\end{tabular}
 		\begin{minipage}[t]{0.5\textwidth}
 			\vspace{-3.8 cm}
-			
-		\end{minipage}	
-	
+
+		\end{minipage}
+
 	\subsubsection{Eigenschaften einer quadratischen Funktionen}
 	Die Verschiedenen Koeffinzienten einer quadratichen Funktion, haben verchiedene Auswirkungen auf das Aussehen einer
 	quadratischen Funktion.\\
@@ -197,22 +202,22 @@
 	ob die Parabel die Ordinate, mit dem fallenden Ast der Parbel geschnitten wird oder mit dem Steigenden.
 	Ist $b < 0$, scheidet der fallende Ast die Ordinate, sonst der Andere.
 	Eine Veraenderung des Koeffinzienten $b$ bewirkt eine Verschiebung sowohl in x- als auch in y-Richtung. Wird $b$ um eins eroeht, dann wird der Graph um $\frac{1}{2a}$ Einheiten nach links und $\frac{2b+1}{4a}$ nach unten verschoben. Wird b um eins verringert, wird der Graph dagegen um $\frac{1}{2a}$ Einheiten nach rechts und $\frac{2b-1}{4a}$ nach oben verschoben.
-	
-	
+
+
 
 	\hspace{-1.5 cm}
 	Der \textbf{Koeffizient $c$} bestimmt wie die Funktion auf der Ordinatenachse verschoben ist.
 
 
 	\subsubsection{Umwandlung der Normalform in die Scheitelpunktform}
-	
+
 		Es sei $f(x)=2x^2+2x+5$, um diese Funktion in die Scheitelpunktform zu ueberfuehren\\ muessen folgende Schritte vollzogen werden.
-		
-		\begin{alignat*}{4} 
+
+		\begin{alignat*}{4}
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		%Nochmal allgemeingueltig |SP \hspace{0.1 cm} der Funktion, Werte einzs\\
 		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5%%
-		 f(x) 						&=  (ax^{2}    	     + && bx) 										 	   							  &&+c     && \hspace{0.3 cm}|a \hspace{0.1 cm} ausklammern \\ 
+		 f(x) 						&=  (ax^{2}    	     + && bx) 										 	   							  &&+c     && \hspace{0.3 cm}|a \hspace{0.1 cm} ausklammern \\
 									&= a\bigg( x^{2} 	     + && \frac{b}{a}x \bigg) 						 		   	   							  && +c    && \hspace{0.3 cm}|q.E. \\
 									&=  a \bigg[ x^{2}   + && 2\frac{b}{2a}x + \bigg(\frac{b}{2a}\bigg)^2 - \bigg(\frac{b}{2a}\bigg)^2 \bigg]&& +c    && \hspace{0.3 cm}|bin. Form\hspace{0.12 cm} rueckwaerts\\
 									&=  a \bigg[\bigg( x + && \frac{b}{2a} \bigg)^{2}  - \bigg(\frac{b}{2a}\bigg)^2 \bigg]				  && +c    && \hspace{0.3 cm}|Klammer\hspace{0.1 cm} aufloesen\\
@@ -221,23 +226,23 @@
 		\end{alignat*}
 		\hspace{-0.1 cm}
 		Hier kann man nun den Scheitelpunkt ablesen: \\
-		
-		S =   $\bigg( -\frac{b}{2a}  | c - \frac{b^{2}}{4a}\bigg)$ =  $\bigg( -0,5  | 4,5\bigg)$ 
+
+		S =   $\bigg( -\frac{b}{2a}  | c - \frac{b^{2}}{4a}\bigg)$ =  $\bigg( -0,5  | 4,5\bigg)$
 		\subsubsection{Schnittpunkt zweier quadratischer Funktionen}
 		$f(x)=5x^2-10x+2$\\
 		$g(x)=x^2+2x+0$
-		
+
 		\begin{align*}
 			5x^2-10x+2 &= x^2+2x+0 & 	|&-2x\\
 			5x^2-12x+2 &= x^2 & 		|&-x^2\\
 			4x^2-12x+2 &= 0   & 		|&:4\\
-			x^2-3x+0.5 &= 0 	
+			x^2-3x+0.5 &= 0
 		\end{align*}
 			Nun kann die Gleichung mit der P-Q-Formel geloest werden.
 		\newpage
 		\subsection{Funtionen mit dem Grad $> 2$}
-		\subsubsection{Substitution}
-		\subsubsection{Polynomdivision}
+		%\subsubsection{Substitution}
+		%\subsubsection{Polynomdivision}
 		\subsection{Trigonometrische Funktionen}
 		Trigonmetrische Funktionen sind Funktionen der Form $a*<trig>(b*x+c)+d$, wobei $<trig>$ fuer einen Ausdruck wie die Sinus- oder Kosinusfunktion stehen kann z.B. ist $a*sin(x+5)$ eine trigonometrische Funktion.
 		\subsubsection{Eigenschaften Trigonometrische Fuktionen\\}
@@ -246,13 +251,78 @@
 		\textbf{Funktionen der Form $a*<trig>(x)+d$\\}
 		Der Parameter \textbf{d} bestimmt die Verschiebung in Ordinatenrichtung d.h. die Funktionswerte gehen von $-a$ bis $a$ aber um $d$ verschoben.\\\\
 		\textbf{Funktionen der Form $a*<trig>(b*x)+d$\\}
+		Der Parameter \textbf{b} bestimmt die Periodizität der Funktion d.h. $f(x)=sin(x)$ hat eine Periode von $0$ bis $2\pi$ $g(x)=sin(2x)$ von $0$ bis $\pi$, die anderen Parameter haben keinen Einfluss auf die Peridizitaet.\\\\
+		\textbf{Funktionen der Form $a*<trig>(c+b*x)+d$\\}
+		Der Parameter \textbf{c} bestimmt die Verschiebung der Funktion auf der Abzisse z.B. ist die Funktion $f(x)=sin(0.5+x)$
+		um $0.5\pi$ nach links verschoben
 
 		\subsection{Tangente und Normale}
+		\pagebreak
 		\subsection{Exponentialfunktionen}
 		\subsubsection{Natuerliche Expoentialfunktion}
 		Als natuerliche Exponentialfunktion bezeichnet man Variationen der Funtion $f(x)=e^x$.
 		\paragraph{Eigenschaften der Natuerlichen Exponentialfunktion}
-		\subsection{Umkehrfunktion}
+		\hspace{0 cm} \\ \noindent \\
+		\begin{minipage}{0.3\textwidth}
+		\begin{figure}[H]
+		\includegraphics[width=300px, height=200px]{E_1.png}
+			\captionsetup{labelformat=empty}
+				\centering
+				\caption{$e^x$}
+				\vspace{-0,3 cm}
+				\caption{$-e^x$}
+				\vspace{-0,3 cm}
+				\caption{$e^{-x}$}
+				\vspace{-0,3 cm}
+				\caption{$-e^{-x}$}
+		\end{figure}
+		\end{minipage} \hfill
+		\begin{minipage}{0.5\textwidth}
+		\end{minipage}\\\\
+		\begin{minipage}{0.3\textwidth}
+		\begin{figure}[H]
+		\includegraphics[width=300px, height=200px]{E_2.png}
+			\captionsetup{labelformat=empty}
+				\centering
+				\caption{$e^x$}
+				\vspace{-0,3 cm}
+				\caption{$2e^x$}
+				\vspace{-0,3 cm}
+				\caption{$4e^{x}$}
+				\vspace{-0,3 cm}
+				\caption{$8e^{x}$}
+		\end{figure}
+		\end{minipage} \hfill
+		\\\\
+		\begin{minipage}{0.3\textwidth}
+		\begin{figure}[H]
+		\includegraphics[width=300px, height=200px]{E_3.png}
+			\captionsetup{labelformat=empty}
+				\centering
+				\caption{$e^{x-1}$}
+				\vspace{-0,3 cm}
+				\caption{$e^{x+1}$}
+				\vspace{-0,3 cm}
+				\caption{$e^{x}$}
+		\end{figure}
+		\end{minipage} \hfill
+		\\\\
+		\begin{minipage}{0.3\textwidth}
+		\begin{figure}[H]
+		\includegraphics[width=300px, height=200px]{E_4.png}
+			\captionsetup{labelformat=empty}
+				\centering
+				\caption{$e^{x}$}
+				\vspace{-0,3 cm}
+				\caption{$e^{2x}$}
+				\vspace{-0,3 cm}
+				\caption{$e^{3x}$}
+				\vspace{-0,3 cm}
+				\caption{$e^{3x}$}
+		\end{figure}
+		\end{minipage} \hfill
+
+		%\subsection{Umkehrfunktion}
 		\subsection{Funktionenscharen}
 		%\subsection{Herleitung}
 		%\subsubsection{Trigonometrische Funktionen}
@@ -263,7 +333,7 @@
 	\newpage
 	\section{Differentialrechnung}
 	\subsection{Visualisierung}
-	
+
 
 	\begin{minipage}{0.3\textwidth}
 	\begin{figure}[H]
@@ -273,28 +343,28 @@
 	\end{figure}
 	\end{minipage} \hfill
 	\begin{minipage}{0.5\textwidth}
-	
+
 	Hier zu sehen ist der Graph $f(x)$, mit seinen Ableitungen $f'(x)$ und $f''(x)$.
 	Hier kann man sehr gut erkennen wie die Nullstellen der 1. Ableitung $f'(x)$, genau an
 	der Position liegen an der auch die Steigung von $f(x)$ gleich 0 ist.\\
 	Schaut man sich nun die 2. Ableitung an, kann man erkennen das sich Nullstelle der 2. Ableitung an der Stelle befinden wo $f(x)$ einen Wendepunkt hat.
-	
+
 	\end{minipage}
 
 
-			
-		
+
+
 %	\end{tabular}
 	\subsection{Bedeutung der 1. Ableitung}
-	
-	Die 1. Ableitung gibt die Steigung der Originalfunktion wieder, d.h wenn die 1. Ableitung 0 ist \\hat die Originalfunktion an diesem Punkt eine 
+
+	Die 1. Ableitung gibt die Steigung der Originalfunktion wieder, d.h wenn die 1. Ableitung 0 ist \\hat die Originalfunktion an diesem Punkt eine
 	Steigung von 0 und damit einen moeglichen Extrempunkt.
-	
+
 	\subsection{Bedeutung der 2. Ableitung}
-	Die 2. Ableitung gibt die Steigung der 1. Ableitung wieder, d.h wenn die 2. Ableitung 0 ist \\hat die 1. Ableitung an diesem Punkt eine 
+	Die 2. Ableitung gibt die Steigung der 1. Ableitung wieder, d.h wenn die 2. Ableitung 0 ist \\hat die 1. Ableitung an diesem Punkt eine
 	Steigung von 0. und damit hat die Originalfunktion an diesem Punkt meisstens einen Steigunswechsel.
 	\subsection{Kurzform des Ableitens}
-	
+
 	Das Ableiten besitzt eine Kurzform, ohne jedes mal den Limes benutzen zu muessen, dabei muss man die Ableitungsregeln sowie die Tatsache dass ein konstanten Summand beim Ableiten wegfaellt beachten(Summenregel).
 \\	Beispiel:\\
 		\begin{align*}
@@ -302,11 +372,11 @@
 	f'(x)  &= 2*5x^{2-1}+1*3x^{1-1} = 10x^1+3x^0\\
 	\end{align*}
 	In Worte gefasst bedeutet das, dass der Originalexponent vor den Koeffizenten gezogen und mit diesem multipliziert wird, danach wird der Exponent um 1 dekrementiert.
-	
+
 	\subsection{Ableitungsregeln}
 	\subsubsection{Summenregel}
 	Summen von Funktionen werden getrennt abgeleitet. \\
-	Beispiel: \\ 
+	Beispiel: \\
 		\begin{align*}
 			f(x) &= 5x^2+8x  \\
 			 f'(x)&= 10x+8
@@ -314,22 +384,27 @@
 	\subsubsection{Faktorregel}
 	Konstante Faktoren bleiben beim Ableiten erhalten. \\
 	Beispiel: \\ \begin{align*}
-					f(x)&= 5*x^2 \\ 
+					f(x)&= 5*x^2 \\
 					f'(x) &= 5*2x
 				\end{align*}
-	
+
 	\subsubsection{Produktregel}
 	\begin{align*}
 		f(x)&=u(x)*v(x)\\
 		f'(x)&=u'(x)*v(x)+u(x)*v'(x)
 	\end{align*}
-	Beispiel: \\ 
+
+	%\begin{equation}
+	%	f(x)=u(x)*v(x)\\
+		% f'(x)=u'(x)*v(x)+u(x)*v'(x)
+	% \end{equation}
+	Beispiel: \\
 	\begin{align*}
 		f(x) &= 5x^2*8x-1  \\
 		f'(x)&= 10x*8x+5x^2*8
 	\end{align*}
 	\subsubsection{Kettenregel}
-	"Auessere mal innere Ableitung".\\
+	''Auessere mal innere Ableitung.''\\
 	Ist eine Funktion das Ergebnis der Vekettung von 2 anderen Funktionen dann gilt:\\
 	 \begin{align*}
 		f(x)&=(u \circ v)(x)\\
@@ -351,8 +426,8 @@
 		f(x)&=\frac{u(x)}{v(x)}\\
 		f'(x)&=\frac{u'(x)*v(x)-u(x)*v'(x)}{(v(x))^2}
 		\end{align*}
-		Beispiel: \\ 
-	
+		Beispiel: \\
+
 	\subsection{Ableitung der $e$-Funktion}
 	Die Ableitung der Funktion $f(x)=e^x$ ist $f'(x)=e^x$
 	\\Beispiel:\\
@@ -366,8 +441,8 @@
 	Beispiel
 	\\\begin{align*}
 	f(x)&=5e^{4x-2}\\
-	f'(x) &=4*5e^{4x-2} \hspace{0.5cm} 
-	\end{align*} 
+	f'(x) &=4*5e^{4x-2} \hspace{0.5cm}
+	\end{align*}
 	\subsection{Ableitung trigonometrischer Funktionen}
 	\begin{align*}
 	f(x) &= sin(x)\\
@@ -409,6 +484,26 @@
 	\end{align*}\\
 	Die Funktion lautet also $F(x)=\frac{1}{3}*x^3+2$
 	\subsection{Integrationsregeln}
+	\subsubsection{Summenregel" der Integration}
+
+	\begin{align*}
+	h(x)=f(x)+g(x)=>H(x)= F(x)+ G(x)
+	\end{align*}
+
+
+	\subsubsection{Faktorregel}
+	Konstante Faktoren bleiben beim Integrieren erhalten.
+	\begin{align*}
+	h(x) = r * f(x) => H(x)=r*F(x)
+	\end{align*}
+	\subsubsection{Kettenregel der Integration}
+
+	\begin{align*}
+	f(x)=u(ax+b)=> F(x)=\frac{1}{a}U(ax+b)
+	\end{align*}
+	%"Produktregel" der Integration
+	%"Umformungs regeln" r \int = \int * r
+	%\int G - \int F = \int G - F
 	\subsection{Flaechenberechnung}
 	\subsubsection{Flaeche unter Kurve}
 
@@ -426,9 +521,9 @@
 	Um die Flaeche der Funktion $f(x)=x^2-2x$ im Intervall [2;2,5] zu berechnen muss zuert das Integral gebildet werden,
 	dieses lautet $\int f(x)=F(x)=\frac{1}{3}x^3-1x^2+c$, nun setzen wir die Intervallgrenzen ein um die Flaeche zu berechnen.\\
 	$F(2,5)-F(2)=\frac{1}{3}*2,5^3-1*2,5^2-\frac{1}{3}*2^3-1*2^2=0,29FE$
-	
+
 	\end{minipage}
-	
+
 
 	\subsubsection{Gemischte Flaechen}
 	Falls die zu berechnende Flaeche sich jedoch zum Teil unter der Abszisse befindet, muss man beachte das
@@ -442,7 +537,7 @@
 	0=&x(x-2)\\
 	x_1=&0,x_2=2
 	\end{align*}\\
-	Da $2$ im Intervall liegt muss sie als Integrationsgrenze benutzt werden d.h. fuer die Flaeche gilt 
+	Da $2$ im Intervall liegt muss sie als Integrationsgrenze benutzt werden d.h. fuer die Flaeche gilt
 	$A=-\int f(x)+\int f(x)=-(F(2)-F(0))+F(2,5)-F(2)=1,63FE$, da die Flaeche unter der Abszisse negativ ist muss man hier das Vorzeichen beachten.\\
 	\subsubsection{Flaeche zwischen Kurven}
 	Falls man die Flaeche zwischen zwei Funktionen berechnen soll, muss man falls sich Schittpunkte der Graphen im Intervall befinden
@@ -458,7 +553,7 @@
 	\end{minipage} \hfill
 	\\Nun muss man herrausfinden ob sich die Graphen im Intervall schneiden.\\
 
-	\begin{align*} 
+	\begin{align*}
 	f(x)&=g(x)\\
 	0,25x^2&=0,3x|-0,3x\\
 	0,25x^2-0,3x&=0|*4\\
@@ -470,13 +565,18 @@
 	$A=\int (g(x)-f(x))+\int (f(x)-g(x))=((G(1,2)-G(0))-(F(1,2)-F(0))+((F(1,6)-F(1,2))-(G(1,6)-G(1,2))=$\\
 	Falls die Funktion zusaetzlich noch die Abszisse schneidet muss auch dieser Schnittpunkt eine Integrationsgrenze sein.
 	\subsection{Mittelwert einer Funktion}
+	Um den Mittelwert der Funktion f(x) im Intervall $[a;b]$ mit Hilfe des Integrals zu bestimmen, muss man die Formel
+	$\frac{1}{b-a}\int\limits_{a}^{b} f(x)dx$  benutzen.
 	%Sekante Integral
-	\subsection{Rotationskoerper}                                                      
+	\subsection{Rotationskoerper}
+	Fuer das Rotationsvolumen eines Graphen um die Abszisse gilt die Formel $V = \pi*\int\limits_{a}^{b}(f(x))^2dx$\\
+	\textbf{Beachte} fuer das Volumen zwischen zwei Graphen gilt \textbf{nicht} die Formel $V = \pi*\int\limits_{a}^{b}(f(x)-g(x))^2dx$
+	sondern $V = \pi*\int\limits_{a}^{b}(f(x)^2-g(x)^2)dx$
 	%\subsection{Herleitungen}
 	%\subsubsection{Flaeche mit Hilfe des Riemann-Integrals}
 	\section{Kurvendiskussion}
 	\subsection{Symmetrie}
-	Um herauszufinden ob eine Funktion Y-Achsensymmetrisch oder Ursprungspunktsymmetrisch ist, muss man die Exponenten einer Funktion betrachen, falls alle Exponenten einer Funktion gerade sind ist sie Achsensymmetrisch, sonst ist die Funktion Ursprungspuktsymmetrisch. Trifft keiner der beiden Bedingungen auf die Funktion zu laesst sich ihre Symmetrie nicht bestimmen.
+	Um herauszufinden ob eine Funktion Y-Achsensymmetrisch oder Ursprungspunktsymmetrisch ist, muss man die Exponenten einer Funktion betrachen, falls alle Exponenten einer Funktion gerade sind ist sie Achsensymmetrisch, sonst ist die Funktion Ursprungspunktsymmetrisch. Trifft keiner der beiden Bedingungen auf die Funktion zu laesst sich ihre Symmetrie nicht bestimmen.
 	\begin{align*}
 	& Achsensymmetrie:  & f(x)&=f(-x)\\
 		& Ursprungspunktsymmetrie:  & f(x)&=-f(x)
@@ -492,7 +592,7 @@
 	Falls der hoechste Exponent gerade und positiv ist gilt fuer $x\rightarrow\infty+ = f(x)\rightarrow\infty+$\\
 	\hspace*{8.5cm} 	$x\rightarrow\infty- = f(x)\rightarrow\infty+$\\
 	\textbf{Beachte} den Koeffizienten vor dem hoechsten Exponenten!
-	
+
 	%\begin{align*}
 	%\end{align*}
 
@@ -502,7 +602,7 @@
 	Um die Nullstellen einer Funktion zu berechnen muss man die Funktion = $0$ setzen und die dadruch enstandene Gleichung nach der Variable aufloesen.
 	\subsection{Ableitungen}
 	\subsection{Extrema berechnen}
-	Um die Extrema einer Funktion zu erhalten muss ihre erste Ableitung $0$ gesetzt werden, nun muss man die Punkte in die 2. Ableitung 
+	Um die Extrema einer Funktion zu erhalten muss ihre erste Ableitung $0$ gesetzt werden, nun muss man die Punkte in die 2. Ableitung
 	einsetzen um herrauszufinden ob es um einen Hoch(Maximum) -oder Tiefpunkt(Minimum) handelt. Ist das Ergebnis des letzten Schrittes groesser 0
 	handelt es sich um ein lokales Minimum, andernfalls handelt es sich um ein lokales Maximum. Besitzt die Funktion jedoch keine 2. Ableitung muessen die Umgebungswerte der Steigung der Punkte betrachtet werden, wechselt die Steigung von negativ zu positiv hat man ein lokales  Minimum, sonst ein lokales Maximum, um nun herrauszufinden ob ein globales Extrema vorliegt muessen alle loaklen Extrema verglichen werden.\\\\
 	\begin{align*}
@@ -510,10 +610,8 @@
 		&Hinreichende\enspace Bedingung\enspace Hochpunkt\enspace &f''(x_0)&<0\enspace \lor \enspace f'(x_0)+\rightarrow f'(x_0)- \\
 		&Hinreichende\enspace Bedingung\enspace Tiefpunkt\enspace &f''(x_0&>0\enspace \lor \enspace f'(x_0)+\rightarrow f'(x_0)-
 	\end{align*}
-
-
 	\subsection{Wendepunkte berechnen}
-	Um die Wendepunkte einer Funktion zu berechen muss die 2. Ableitung 0 gesetzt werden, um nun zu ueberpruefen ob der Punkt ein Sattelpunt ist muss falls die Funktion eine 3. Ableitung besitzt diese an dem vorher berechneten Punt $\neq 0$ sein, ist die 3. Ableitung nicht vorhanden muss an diesem Punkt ein Vorzeichenwechsel stattfinden.
+	Um die Wendepunkte einer Funktion zu berechen muss die 2. Ableitung 0 gesetzt werden, um nun zu ueberpruefen ob der Punkt ein Sattelpunkt ist muss falls die Funktion eine 3. Ableitung besitzt diese an dem vorher berechneten Punkt $\neq 0$ sein, ist die 3. Ableitung nicht vorhanden muss an diesem Punkt ein Vorzeichenwechsel stattfinden.
 	\begin{align*}
 		&Notwendige\enspace Bedingung\enspace &f''(x_0)&=0\\
 		&Hinreichende\enspace Bedingung\enspace Wendepunkt\enspace &f'''(x_0)& \neq 0\enspace \lor \enspace f''(x_0)\pm\rightarrow f''(x_0)\mp \\
@@ -530,17 +628,17 @@
 					\captionsetup{labelformat=empty}
 				\caption{3D Koordinatensystem}
 			\end{figure}
-		\end{minipage} 
+		\end{minipage}
 	\subsection{Besondere Vektoren}
 	\subsubsection{Nullvektor}
-	Der Nullvektor ist ein Vektor der Form $\vec{v} = \begin{pmatrix} 0 \\ \vdots \\ 0 \end{pmatrix}$, 
+	Der Nullvektor ist ein Vektor der Form $\vec{v} = \begin{pmatrix} 0 \\ \vdots \\ 0 \end{pmatrix}$,
 	 zudem ist er das neutrale Element der Vektoraddition d.h. $ \vec{a} + \begin{pmatrix} 0 \\ \vdots \\ 0 \end{pmatrix} = \vec{a}$.
 	\subsubsection{Gegenvektor}
 	Der Gegenvektor ist das inverse Element der Vektoraddtion d.h $ \vec{a}+ -\vec{a}=\vec{0}$, wobei $\vec{0}$ den Nullvektor bezeichnet.
 	\subsubsection{Ortsvektor}
 	Ein Ortsvektor bezeichnet einen Vektor der vom Koordinatenursprung aus geht d.h. er hat die Form $\vec{OP}$, wobei $P$ ein beliebiger Punkt im Raum ist.
 	\subsubsection{Normalenvektor}
-	Ein Normalenvektor ist ein Vektor der orthogonal zu seinem Bezugsobjekt z.B. einer Gerade ist. 
+	Ein Normalenvektor ist ein Vektor der orthogonal zu seinem Bezugsobjekt z.B. einer Gerade ist.
 	\subsubsection{Einheitsvektor}
 	Ein Einheitsvektor ist ein Vektor der Laenge 1, d.h. dass sein Betrag = 1 ist($|\vec{a}|=1$).
 	\\\\\textbf{Beispiel}\\
@@ -555,7 +653,7 @@
 	\begin{align*}  s*\vec{a}=s*\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}=\begin{pmatrix}s*a_1\\s*a_2\\s*a_3\end{pmatrix} \end{align*}
 	\subsubsection{Linearkombination}
 	Einen Ausdruck der Form $r_1*\vec{a}_1 + r_2*\vec{a}_2 + \hdots + r_n*\vec{a}_n $ nennt man Linearekombination der Vektoren $a_1$ bis $a_n$.
-	Beachte das $a_1$ bis $a_n$ Vektoren keine Vektorkomponenten sind.
+	Beachte das $a_1$ bis $a_n$ keine Vektorkomponenten sondern Vektoren sind.
 	\subsubsection{Laenge eines Vektors}
 	Der Betrag eines Vektors $\vec{a}$ stellt seine Laege da, d.h. $|a|=\sqrt{a_1^2+a_2^2+a_3^2}$ ist die Laenge eines Vektors.
 	\subsubsection{Lineare Abhaengigkeit}
@@ -571,11 +669,11 @@
 	Das Kreuzprodukt leasst sich auch mithilfe der Determinante berechnen indem man, eine quadr. Matrix mit der Standardbasis und zwei sich schneidende Vektoren
 	bildet.\\\\
 	$\begin{array}{cc}
-	\vec{a} x \vec{b}=det\begin{pmatrix} e_1 & a_1 & b_1 \\ e_2 & a_2 & b_2  \\ e_3 & a_3 & b_3  \end{pmatrix} 
+	\vec{a} x \vec{b}=det\begin{pmatrix} e_1 & a_1 & b_1 \\ e_2 & a_2 & b_2  \\ e_3 & a_3 & b_3  \end{pmatrix}
 	&= e_1\left|\begin{array}{cc} a_2 & b_2 \\ a_3 & b_3\end{array} \right|-e_2\left|\begin{array}{cc} a_1 & b_1 \\ a_3 & b_3\end{array} \right|+e_3\left|\begin{array}{cc} a_1 & b_1 \\ a_2 & b_2\end{array} \right|\\
 	&= e_1\left|\begin{array}{cc} a_2 & b_2 \\ a_3 & b_3\end{array} \right|+e_2\left|\begin{array}{cc} a_3 & b_3 \\ a_1 & b_1\end{array} \right|+e_3\left|\begin{array}{cc} a_1 & b_1 \\ a_2 & b_2\end{array} \right|\\
 	&= e_1(a_2*b_3-a_3*b_2)+e_2(a_3*b_1-a_1*b_3)+e_3(a_1*b_2-a_2*b_1)\\
-	&=\begin{pmatrix} e_1 \\ e_2 \\ e_3 \end{pmatrix} \circ \begin{pmatrix} a_2*b_3-a_3*b_2 \\ a_3*b_1-a_1*b_3 \\ a_1*b_2-a_2*b_1 \end{pmatrix} 
+	&=\begin{pmatrix} e_1 \\ e_2 \\ e_3 \end{pmatrix} \circ \begin{pmatrix} a_2*b_3-a_3*b_2 \\ a_3*b_1-a_1*b_3 \\ a_1*b_2-a_2*b_1 \end{pmatrix}
 	\end{array}$
 	\\Der hintere Teil entspricht nun dem Kreutzprodukt.
 	%Be\subsubsection{Spatprodukt}
@@ -593,7 +691,7 @@
 	\paragraph{Abstand Punkt Gerade}
 	\hspace{0 cm} \\ \noindent \\
 	Um den Abstand von einem Punkt($\vec{p}$) zu einer Geraden($g: \vec{x}=\vec{o}+r*\vec{s}$) berechnen, bilden wir einen Vektor von einem beliebingen Punkt auf der Gerade zu dem Punkt zu dem wir den Abstand berechnen wollen. Nun berechnen wir den Betrag von Kreuzprodukt dieses Vektors und dem Richtungsvektor von $g$, dies stell die Flaeche des Parallelogramms dar das sie aufspannen,
-	da die Flaecheformdel des Parallelogramms $A=g*h$ ist berechnen wir nun den Betrag des Richtungsvektors von $g$ und stellen die Flaechenformel nach $h$ um, dann setzen wir die Werte die wir eben berechnet haben ein.
+	da die Flaecheformdel des Parallelogramms $A=g*h$ ist berechnen wir nun den Betrag des Richtungsvektors von $g$ und stellen die Flaechenformel nach $h$ um, dann setzen wir die Werte ein die wir eben berechnet haben ein.
 	%\\\textbf{Abstand mit Hilfe der 2D-HNF}
 	\paragraph{Abstand Gerade Gerade}
 	\hspace{0 cm} \\ \noindent \\
@@ -604,7 +702,7 @@
 	Siehe Abstand Gerade Punkt, wobei der Punkt ein beliebiger Punkt der 2. Gerade ist.
 	\paragraph{Winkel zwischen Geraden}
 	\hspace{0 cm} \\ \noindent \\
-	Seien die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ und $ g_2: \vec{x}=\vec{o_2}+s*\vec{b} $  geschnitten, dann berechnet sich der Winkel zwischen ihnen folgendermassen: 
+	Seien die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ und $ g_2: \vec{x}=\vec{o_2}+s*\vec{b} $  geschnitten, dann berechnet sich der Winkel zwischen ihnen folgendermassen:
 	\begin{align*}
 		cos(\phi)= \frac{\vec{a} \circ \vec{b}}{|\vec{a}|*|\vec{b}|}
 	\end{align*}
@@ -640,11 +738,11 @@
 	\hspace{0 cm} \\ \noindent \\
 	HNF einer Ebene $E : d = \vec{n_0}\circ\left[\left(\vec{x}-\vec{p}\right)   \right]$\\
 	Die HNF ist eine abgewandelte Form der Normalenform, sie unterscheidet sich dadurch das ihr Normalenvektor($\vec{n_0}$)
-	normiert ist, d.h er hat die Laenge 1, dadurch kann der Abstand von einer mit ihr beschrieben Ebene zu einem anderen Objekt sehr einfach durch das einsetzen dieses Objekts berechnet werden(Vektorprojektion). 
+	normiert ist, d.h er hat die Laenge 1, dadurch kann der Abstand von einer mit ihr beschrieben Ebene zu einem anderen Objekt sehr einfach durch das einsetzen dieses Objekts berechnet werden(Vektorprojektion).
 	\subsubsection{Lage Ebene Gerade}
 	Um die Lage einer Gerade zu Ebene zu bestimment, muss man zuert ueberpruefen ob die Gerade echt parallel ist, dies kann man mit Hilfe der Normale der Ebene und des Richtungsvektors der Gerade ueberpruefen indem man ueberprueft ob die Normale orthogonal zum Richtungsvektor der Gerade liegt.
 	Fall die Gerade parallel zur Ebene liegt, kann man nun den Ortsvektor der Gerade in die Ebene einsetzen um zu ueberpruefen ob sie identisch sind.
-	Falls die Gerade sich jedoch nicht parallel zur Ebene verhaelt hat sie garantiert einen Schnittpunkt mit der Ebene. 
+	Falls die Gerade sich jedoch nicht parallel zur Ebene verhaelt hat sie garantiert einen Schnittpunkt mit der Ebene.
 	\paragraph{Schnittpunkt}
 		\hspace{0 cm} \\ \noindent \\
 		Um den Schnittpunkt einer Gerade mit einer Ebene zu berechnen, bringt man die Ebene in Koordinatenform und setzt die Gerade dann in diese ein.
@@ -660,7 +758,7 @@
 	\textbf{Abstand ohne die HNF}\\
 	\textbf{Abstand mit Hilfe der HNF}\\
 	Siehe Abstand Ebene Ebene, wobei der Punkt ein beliebiger der Geraden sein kann.
-	
+
 	\paragraph{Winkel zwischen Gerade und Ebene}
 	\hspace{0 cm} \\ \noindent \\
 	Sei die Gerade $g_1: \vec{x}= \vec{o_1}+r*\vec{a}$ nicht parallel zu $E : \vec{x} = \vec{p}+ r*\vec{u}+s*\vec{v}$, dann existiert ein Winklel($\phi$) zwischen ihnen, der sich mit Hilfe der Normalenvektors der Ebene($\vec{n}$) folgendermassen berechnen laesst:
@@ -740,8 +838,8 @@
 	\end{align*}
 
 
-	
-	
+
+
 	%\subsubsection{Pythagoras im Raum}
 	%\subsubsection{Kosinussatz}
 	%\subsubsection{Skalarprodukt}
@@ -754,15 +852,15 @@
 	\subsubsection{Treppenstuffen Verfahren}
 	\subsubsection{Koeffizienten Matrix}
 	\pagebreak
-	
-	\subsubsection{Determinante} 
+
+	\subsubsection{Determinante}
 	Die Determinante einer Matrix laesst sich mit Hilfe des Laplacescher Entwicklungssatz in zwei ...Richtungs" entwickeln.\\
 	$det A = \sum\limits_{i=1}^{n}(-1)^{j+i}*a_{ij}*detA_{ij} $ (Entwicklung nach der $j$-ten Spalte)\\
 	$det A = \sum\limits_{j=1}^{n}(-1)^{j+i}*a_{ij}*detA_{ij} $ (Entwicklung nach der $i$-ten Zeile)\\\\
 	wobei $A_{ij}$ die ${(n-1)} \times {(n-1)}$-Untermatrix von $A$ ist, um diese zu Erhalten muss jeweil die $i-te$ Zeile und die $j-te$ Spalten gestrichen werden.
 	\\\\Beispiel
 	\subsection{Matrizen}
-	 \hspace{0 cm} 
+	 \hspace{0 cm}
 	Eine Matrix vom Typ $M_{m,n}$ ist eine Zusammenfassung von Werten der Form $M =$
 	$
 	\begin{pmatrix}
@@ -774,7 +872,7 @@
 	$\\
 	 mit $m$ Zeilen und $n$ Spalten
 	\subsubsection{Besondere Matrizen}
-		\paragraph{Nullmatrix  } 
+		\paragraph{Nullmatrix  }
 		\hspace{0 cm} \\ \noindent \\
 		Die Nullmatrix ist eine Matrix in der alle Elemente Null sind, sie ist damit das neutrale Element der Matrixaddition.\\
 		\\$M =$
@@ -786,19 +884,19 @@
 		0 & 0	& ...	& 0
 		\end{pmatrix}
 		$\\
-	
-	\paragraph{Stochastische Matrix  } 
+
+	\paragraph{Stochastische Matrix  }
 	\hspace{0 cm} \\ \noindent \\
 	Eine Stochastische Matrix ist eine quadratische Matrix deren Elemente zwischen 0 und 1 liegen, und der Spalten bzw. Zeilensumme 1 ist.
-	
-	\paragraph{Inverse  } 
+
+	\paragraph{Inverse  }
 	 \hspace{0 cm} \\ \noindent \\
 	 Seien  $M$ und $I$ beliebige quadratische Matrizen und $E$ die Einheitsmatrix, dann nennt man die Matrix $I$ die, die Gleichung $M*I=I*M=E$ erfuellt, Inverse der Matrix $M$. Sie wird mit $M^{-1}$ dargestellt.\\
 	 Eine Matrix mit einer Inversen nennt man regluaere Matrix.
 	 \\\\\textbf{Inverse mit Hilfe der Determinante}
 	 \\\\\textbf{Inverse mit Hilfe der Einheitsmatrix}
 
-	\paragraph{Einheitsmatrix} 
+	\paragraph{Einheitsmatrix}
 	 \hspace{0 cm} \\ \noindent \\ Eine Einheitsmatrix ist eine quadratische Matrix, bei der alle Elemente auf der Hauptdiagonale gleich 1 sind.
 	Sie ist das neutrale Element der Matrizenmultiplikation d.h. $M*E = E*M = M$ wobei $M$ eine beliebige regulaere Matrix ist, und $E$ ihre Einheitsmatrix ist.\\
 	Sie ist symmetrisch, d.h $E^{t}=E$.\\
@@ -829,7 +927,7 @@
 	\textbf{Addition}\\
 	Die Summe zweier Matrizen, berechnet man in dem man sie komponentenweise addiert.\\\\
 	\small
-	$M = A + B = $ 	
+	$M = A + B = $
 	$
 	\begin{pmatrix}
 		a_{11} & a_{12} & ... 	& a_{1n}\\
@@ -860,8 +958,8 @@
 	Die Matrixaddition ist sowohl \textbf{kommutativ}$(A+B=B+A)$,\\ als auch \textbf{assoziativ}$( (A+B)+C = A +(B+C))$.\\
 	Es koennen nur Matrizen der gleiche Dimension addiert werden.\\\\
 	\textbf{Skalarmultiplikation}\\
-	
-		$r * M = r * $ 	
+
+		$r * M = r * $
 		$
 		\begin{pmatrix}
 		a_{11} & a_{12} & ... 	& a_{1n}\\
@@ -884,35 +982,35 @@
 		Zwei Matrizen werden multipliziert indem man das Skalaprodukt von den Zeilenvektoren der erstem Matrix\\
 		Es koennen nur Matrizen multipliziert wenn die \textbf{Spaltenanzahl} der 1. Matrix mit der \textbf{Zeilenanzahl} der 2. Matrix uebereinstimmt.\\
 		Die Matrizenmultiplikation ist im allgemeinen\textbf{ nicht} kommutativ$(A*B\neq B*A)$, daraus folgt dass beim \textbf{Distributivgesetz} die Richtung eine Rolle spielt$(A*(B+C)\neq (B+C)*A)$.
-	
+
 		\begin{align*}
 			\begin{tabular}{c|c}
-		$A_{2,3}*B_{3,4} = C_{2,4}$  & 		
+		$A_{2,3}*B_{3,4} = C_{2,4}$  &
 		$\left(\begin{array}{cccc}
-			a_{11} 	&  a_{12}  &	a_{13} 	&	 a_{14}  \\ 
+			a_{11} 	&  a_{12}  &	a_{13} 	&	 a_{14}  \\
 			a_{21}  &  a_{22}  &	a_{23} 	&	 a_{24}  \\
 			a_{31}  &  a_{32}  &	a_{33}  &	 a_{34}  \\
 		\end{array}\right)$ \\
 		\hline \\
-		$				 
+		$
 		\left(\begin{array}{ccc}
-		 b_{11} 	&  b_{12} &	b_{13}\\  
+		 b_{11} 	&  b_{12} &	b_{13}\\
 		 b_{21} 	&  b_{22} &	b_{23}\\
-		\end{array}\right) 
-		$ & 
+		\end{array}\right)
+		$ &
 		$\left(\begin{array}{cccc}
-			c_{11} 	& c_{12} &	c_{13}	&	c_{14} \\ 
+			c_{11} 	& c_{12} &	c_{13}	&	c_{14} \\
 			c_{21} 	&  c_{22} &	c_{23}	&	 c_{24} \\
 		\end{array}\right)$ \\
 		\end{tabular}
 		\end{align*}
-	
+
 
 		\begin{align*}
 		c_{11}=b_{11}*a_{11}+b_{12}*a_{21}+b_{13}*a_{31}\\
 		c_{12}=b_{11}*a_{12}+b_{12}*a_{22}+b_{13}*a_{32}\\
 		c_{13}=b_{11}*a_{13}+b_{12}*a_{23}+b_{13}*a_{33}\\
-		c_{14}=b_{11}*a_{14}+b_{12}*a_{24}+b_{13}*a_{34} 
+		c_{14}=b_{11}*a_{14}+b_{12}*a_{24}+b_{13}*a_{34}
 		\\\\
 		c_{21}=b_{21}*a_{11}+b_{22}*a_{21}+b_{23}*a_{31}\\
 		c_{22}=b_{21}*a_{12}+b_{22}*a_{22}+b_{23}*a_{32}\\
@@ -923,7 +1021,7 @@
 
 
 	\subsubsection{Matrizengleichungen}
-	
+
 
 	\subsubsection{Einstufige Prozesse}
 	\subsubsection{Mehrstufige Prozesse}
@@ -951,15 +1049,14 @@
 	%\section{Quellen}
 	%[5]. „Plane equation qtl1“ von Quartl - Wikipedia
 
-	%\begin{titlepage}
-	%\title{Hochschulmathematik}
-	%\author{Thomas Dost}
-	%\date{} % Activate to display a given date or no date (if empty),
-	%\maketitle
-	%\newpage
-	%\tableofcontents
-	%\newpage
-	%end{titlepage}
-
-
+	% \begin{titlepage}
+	\title{Hochschulmathematik}
+	\date{} % Activate to display a given date or no date (if empty),
+	\maketitle
+	\newpage
+	% \tableofcontents
+	% \newpage
+	% \end{titlepage}
+	\subfile{Kapitel/Koeperaxiome}
+	\subfile{Kapitel/Peanoaxiome}
 \end{document}

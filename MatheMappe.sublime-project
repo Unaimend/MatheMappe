@@ -1,0 +1,19 @@
+{
+	"build_systems":
+	[
+		{
+			"name": "Electron",
+			"shell_cmd": "npm start ."
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4
+	}
+}

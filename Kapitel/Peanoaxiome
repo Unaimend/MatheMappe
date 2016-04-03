@@ -1,0 +1,19 @@
+\documentclass[../AbiMappe_Mathe.tex]{subfiles}
+
+\begin{document}
+
+\theoremstyle{nonumberplain}
+\newtheorem{mytheo}{Remark}
+\newframedtheorem{fmytheo}{}
+
+\section{Peanoaxiome}
+Peano-Axiome/
+
+\begin{fmytheo}
+\vspace{-0.5 cm}
+\begin{align*}
+das
+\end{align*}
+\end{fmytheo}
+
+\end{document}

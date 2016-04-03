@@ -1,11 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  26 MAR 2016 10:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  26 MAR 2016 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**AbiMappe_Mathe.tex
-(./AbiMappe_Mathe.tex
+**Koeperaxiome.tex
+(./Koeperaxiome.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../AbiMappe_Mathe.tex'
+(../AbiMappe_Mathe.tex
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
@@ -25,8 +35,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
@@ -245,7 +255,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks18
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
@@ -269,7 +279,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen108
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks19
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
@@ -289,37 +299,37 @@ Package: ntheorem 2011/08/15 1.33
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\theorem@style=\toks18
-\theorem@@style=\toks19
-\theorembodyfont=\toks20
-\theoremnumbering=\toks21
+\theorem@style=\toks20
+\theorem@@style=\toks21
+\theorembodyfont=\toks22
+\theoremnumbering=\toks23
 \theorempreskipamount=\skip44
 \theorempostskipamount=\skip45
 \theoremframepreskipamount=\skip46
 \theoremframepostskipamount=\skip47
 \theoreminframepreskipamount=\skip48
 \theoreminframepostskipamount=\skip49
-\theorem@preskip=\toks22
-\theorem@postskip=\toks23
-\theorem@framepreskip=\toks24
-\theorem@framepostskip=\toks25
-\theorem@inframepreskip=\toks26
-\theorem@inframepostskip=\toks27
+\theorem@preskip=\toks24
+\theorem@postskip=\toks25
+\theorem@framepreskip=\toks26
+\theorem@framepostskip=\toks27
+\theorem@inframepreskip=\toks28
+\theorem@inframepostskip=\toks29
 \theoremindent=\dimen115
 \theorem@indent=\dimen116
 \theoremrightindent=\dimen117
 \theorem@rightindent=\dimen118
-\theoremheaderfont=\toks28
-\theoremseparator=\toks29
-\theoremprework=\toks30
-\theorempostwork=\toks31
-\theoremsymbol=\toks32
-\qedsymbol=\toks33
-\theoremkeyword=\toks34
+\theoremheaderfont=\toks30
+\theoremseparator=\toks31
+\theoremprework=\toks32
+\theorempostwork=\toks33
+\theoremsymbol=\toks34
 \qedsymbol=\toks35
+\theoremkeyword=\toks36
+\qedsymbol=\toks37
 \thm@topsep=\skip50
 \thm@topsepadd=\skip51
-\shadecolor=\toks36
+\shadecolor=\toks38
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
@@ -519,12 +529,16 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
 )
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 )
 \c@abspage=\count121
@@ -642,13 +656,7 @@ Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks37
-\verbatim@line=\toks38
-\verbatim@in@stream=\read1
-))
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen152
@@ -1586,54 +1594,51 @@ brarydecorations.pathmorphing.code.tex))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip194
-)
-(./AbiMappe_Mathe.aux)
-\openout1 = `AbiMappe_Mathe.aux'.
+)))
+(./Koeperaxiome.aux)
+\openout1 = `Koeperaxiome.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 99.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 99.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 3.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 99.
-
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 99.
-
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 99.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
@@ -1693,793 +1698,67 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
+\c@mytheo=\count186
+\c@fmytheo=\count187
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 105.
+(Font)              scaled to size 9.19998pt on input line 13.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 105.
+(Font)              scaled to size 6.99199pt on input line 13.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 105.
-LaTeX Font Info:    Try loading font information for U+msa on input line 105.
+(Font)              scaled to size 5.51999pt on input line 13.
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 105.
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 10
-5.
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 13
+.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 105.
+(Font)              scaled to size 9.19998pt on input line 13.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 105.
+(Font)              scaled to size 6.99199pt on input line 13.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 105.
+(Font)              scaled to size 5.51999pt on input line 13.
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 20.
+\tf@thm=\write4
+\openout4 = `Koeperaxiome.thm'.
+
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 107.
-
-(./AbiMappe_Mathe.toc
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
- []  
- []
-
-[2] [3] [4] [5])
-\tf@toc=\write4
-\openout4 = `AbiMappe_Mathe.toc'.
-
- [6]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 111.
- <lineare.pdf, id=28, 2870.725pt x 1574.88374pt>
-File: lineare.pdf Graphic file (type pdf)
-
-<use lineare.pdf>
-Package pdftex.def Info: lineare.pdf used on input line 124.
-(pdftex.def)             Requested size: 200.70847pt x 200.72893pt.
-
-Overfull \hbox (20.93071pt too wide) in paragraph at lines 122--137
-[]$[]$  $[]$ 
- []
-
-[1 <./lineare.pdf>] <lineare2.pdf, id=36, 2870.725pt x 1574.88374pt>
-File: lineare2.pdf Graphic file (type pdf)
-
-<use lineare2.pdf>
-Package pdftex.def Info: lineare2.pdf used on input line 148.
-(pdftex.def)             Requested size: 200.70847pt x 200.72893pt.
-
-Overfull \hbox (20.93071pt too wide) in paragraph at lines 146--169
-[]$[]$  $[]$ 
- []
-
-[2 <./lineare2.pdf>] <quadr-B.pdf, id=41, 963.6pt x 527.9725pt>
-File: quadr-B.pdf Graphic file (type pdf)
-
-<use quadr-B.pdf>
-Package pdftex.def Info: quadr-B.pdf used on input line 177.
-(pdftex.def)             Requested size: 200.7446pt x 200.74442pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 199.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 196--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--205
-
- []
-
-[3 <./quadr-B.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 226--229
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--258
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--258
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--258
-
- []
-
-[5] <E_1.png, id=53, 343.5234pt x 198.5016pt>
-File: E_1.png Graphic file (type png)
- <use E_1.png>
-Package pdftex.def Info: E_1.png used on input line 268.
-(pdftex.def)             Requested size: 301.1431pt x 200.75157pt.
-
-Overfull \hbox (177.37234pt too wide) in paragraph at lines 268--271
- [][] 
- []
-
-<E_2.png, id=55, 343.5234pt x 198.5016pt>
-File: E_2.png Graphic file (type png)
- <use E_2.png>
-Package pdftex.def Info: E_2.png used on input line 284.
-(pdftex.def)             Requested size: 301.1431pt x 200.75157pt.
-
-Overfull \hbox (177.37234pt too wide) in paragraph at lines 284--287
- [][] 
- []
-
-<E_3.png, id=56, 1571.6316pt x 908.6748pt>
-File: E_3.png Graphic file (type png)
- <use E_3.png>
-Package pdftex.def Info: E_3.png used on input line 299.
-(pdftex.def)             Requested size: 301.10715pt x 200.74098pt.
-
-Overfull \hbox (177.3364pt too wide) in paragraph at lines 299--302
- [][] 
- []
-
-<E_4.png, id=57, 1571.6316pt x 908.6748pt>
-File: E_4.png Graphic file (type png)
- <use E_4.png>
-Package pdftex.def Info: E_4.png used on input line 312.
-(pdftex.def)             Requested size: 301.10715pt x 200.74098pt.
-
-Overfull \hbox (177.3364pt too wide) in paragraph at lines 312--315
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--324
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--324
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--324
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--324
-
- []
-
-[6 <./E_1.png>] [7 <./E_2.png> <./E_3.png>] [8 <./E_4.png>]
-Package epstopdf Info: Source file: <a.eps>
-(epstopdf)                    date: 2016-01-07 23:08:02
-(epstopdf)                    size: 9781585 bytes
-(epstopdf)             Output file: <a-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-07 23:08:02
-(epstopdf)                    size: 51217 bytes
-(epstopdf)             Command: <repstopdf --outfile=a-eps-converted-to.pdf a.e
-ps>
-(epstopdf)             \includegraphics on input line 340.
-Package epstopdf Info: Output file is already uptodate.
-
-<a-eps-converted-to.pdf, id=72, 3119.655pt x 1711.39375pt>
-File: a-eps-converted-to.pdf Graphic file (type pdf)
-
-<use a-eps-converted-to.pdf>
-Package pdftex.def Info: a-eps-converted-to.pdf used on input line 340.
-(pdftex.def)             Requested size: 301.0829pt x 200.73625pt.
-
-Overfull \hbox (177.31215pt too wide) in paragraph at lines 340--342
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--370
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
-
- []
-
-[9 <./a-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 407--409
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 428--430
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--434
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 439--442
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 439--442
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--479
-
- []
-
-[12] <Integral_1.png, id=88, 1583.1948pt x 922.8879pt>
-File: Integral_1.png Graphic file (type png)
- <use Integral_1.png>
-Package pdftex.def Info: Integral_1.png used on input line 512.
-(pdftex.def)             Requested size: 301.12419pt x 200.74057pt.
-
-Overfull \hbox (177.35344pt too wide) in paragraph at lines 512--514
-[][] 
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 519--524
-\T1/futs/m/n/10 Kur-ve laesst sich mit Hil-fe des In-te-grals leicht
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--524
-
- []
-
-
-Underfull \hbox (badness 1946) in paragraph at lines 519--524
-\T1/futs/m/n/10 Um die Flae-che der Funk-ti-on $\FML/futm/m/it/10 f\T1/futs/m/n
-/10 (\FML/futm/m/it/10 x\T1/futs/m/n/10 ) \FMS/futm/m/n/10 Å \FML/futm/m/it/10 
-x[] \FMS/futm/m/n/10 ^^@ \T1/futs/m/n/10 2\FML/futm/m/it/10 x$
- []
-
-
-Underfull \hbox (badness 7851) in paragraph at lines 519--524
-\T1/futs/m/n/10 im In-ter-vall [2;2,5] zu be-rech-nen muss zu-
- []
-
-
-Underfull \hbox (badness 1635) in paragraph at lines 519--524
-\T1/futs/m/n/10 ert das In-te-gral ge-bil-det wer-den, die-ses lau-tet
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 529--535
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 529--535
-
- []
-
-[13 <./Integral_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 539--542
-
- []
-
-<Integral_2.png, id=94, 839.2956pt x 485.1726pt>
-File: Integral_2.png Graphic file (type png)
- <use Integral_2.png>
-Package pdftex.def Info: Integral_2.png used on input line 549.
-(pdftex.def)             Requested size: 301.12166pt x 200.75063pt.
-
-Overfull \hbox (177.3509pt too wide) in paragraph at lines 549--551
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--555
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--555
-
- []
-
-[14 <./Integral_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 585--595
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 605--608
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 605--608
-
- []
-
-[16] [17] <koordinatensystem.png, id=108, 555.07375pt x 483.8075pt>
-File: koordinatensystem.png Graphic file (type png)
-
-<use koordinatensystem.png>
-Package pdftex.def Info: koordinatensystem.png used on input line 627.
-(pdftex.def)             Requested size: 200.74959pt x 200.75423pt.
- [18 <./koordinatensystem.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 643--646
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 648--650
-
- []
-
-
-Overfull \hbox (4.7543pt too wide) in paragraph at lines 660--662
-\T1/futs/m/n/10 Die Li-nea-re Anhae-nig-keit be-schreibt die Ei-gen-schaft ei-n
-es Vek-tors $[]$ sich mit Hil-fe der s-Multiplikation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 660--662
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 665--665
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 668--680
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 668--680
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 684--691
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 684--691
-
- []
-
-
-Overfull \hbox (1.52489pt too wide) in paragraph at lines 684--691
-\T1/futs/m/n/10 Hat sich je-doch er-ge-ben dass die Rich-tungs-vek-to-ren li-ne
--ar Un-abhaen-gig sind, mu-ess wird als naechs-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 692--696
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 697--703
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 697--703
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 704--706
-
- []
-
-<Ebene.png, id=121, 471.7625pt x 311.1625pt>
-File: Ebene.png Graphic file (type png)
- <use Ebene.png>
-Package pdftex.def Info: Ebene.png used on input line 712.
-(pdftex.def)             Requested size: 150.56396pt x 150.56229pt.
- [21]
-Underfull \hbox (badness 10000) in paragraph at lines 718--727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 718--727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 728--731
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 733--737
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 733--737
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 738--742
-
- []
-
-[22 <./Ebene.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 747--750
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 747--750
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 751--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 751--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 763--765
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 773--776
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 780--786
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--786
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 787--789
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 791--794
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 805--808
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 811--814
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 811--814
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 815--819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 827--829
-
- []
-
-<pytha.png, id=135, 220.825pt x 103.38625pt>
-File: pytha.png Graphic file (type png)
- <use pytha.png>
-Package pdftex.def Info: pytha.png used on input line 831.
-(pdftex.def)             Requested size: 220.83455pt x 103.38913pt.
- [25] [26 <./pytha.png>]
-Overfull \hbox (2.70436pt too wide) in paragraph at lines 857--862
-\T1/futs/m/n/10 Die De-ter-mi-nan-te ei-ner Ma-trix laesst sich mit Hil-fe des 
-La-pla-ce-scher Ent-wick-lungs-satz in zwei ...Rich-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 857--862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 857--862
-
- []
-
-
-Overfull \hbox (16.30983pt too wide) in paragraph at lines 863--874
-  \T1/futs/m/n/10 Ei-ne Ma-trix vom Typ $\FML/futm/m/it/10 M[]$ \T1/futs/m/n/10
- ist ei-ne Zu-sam-men-fas-sung von Wer-ten der Form $\FML/futm/m/it/10 M \FMS/f
-utm/m/n/10 Å$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 876--887
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 876--887
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 876--887
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 889--891
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 893--898
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 893--898
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 893--898
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 900--914
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 900--914
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 900--914
-
- []
-
-[27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 917--920
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 917--920
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 922--926
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 922--926
-
- []
-
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 958.
-
-Underfull \hbox (badness 10000) in paragraph at lines 927--961
-
- []
-
-
-Overfull \hbox (4.32166pt too wide) in paragraph at lines 927--961
-\FML/futm/m/it/9 M \FMS/futm/m/n/9 Å \FML/futm/m/it/9 A \FMS/futm/m/n/9 Ä \FML/
-futm/m/it/9 B \FMS/futm/m/n/9 Å$ $[]$ \T1/futs/m/n/9 + $[]$ = $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 927--961
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 927--961
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 927--961
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 962--985
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 962--985
-
- []
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
-
- []
-
-[30] [31] (./Kapitel/Koeperaxiome.tex
-\c@mytheo=\count186
-\c@fmytheo=\count187
-LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <9> not available
-(Font)              Font shape `T1/futs/b/it' tried instead on input line 20.
-) (./Kapitel/Peanoaxiome.tex
-\c@fmytheo1=\count188
-)
-\tf@thm=\write5
-\openout5 = `AbiMappe_Mathe.thm'.
-
- [32]
-(./AbiMappe_Mathe.aux) ) 
+(./Koeperaxiome.aux) ) 
 Here is how much of TeX's memory you used:
- 26064 strings out of 493089
- 503198 string characters out of 6134843
- 640228 words of memory out of 5000000
- 28984 multiletter control sequences out of 15000+600000
- 109132 words of font info for 115 fonts, out of 8000000 for 9000
+ 25887 strings out of 493089
+ 500613 string characters out of 6134843
+ 626574 words of memory out of 5000000
+ 28855 multiletter control sequences out of 15000+600000
+ 67581 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,23n,75p,10424b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/bas
-e/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier
--bb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-
-mex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-
-ml.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-m
-s.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putb8a.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on AbiMappe_Mathe.pdf (38 pages, 1128288 bytes).
+ 64i,11n,71p,10446b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/
+8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-m
+s.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Koeperaxiome.pdf (1 page, 54724 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 32 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
