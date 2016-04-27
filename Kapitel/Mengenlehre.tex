@@ -6,6 +6,7 @@
 
 \newframedtheorem{fmytheo2}{}
 
+%qlmanage -t -s 1000 -o . picture.svg 
 
 \section{Naive Mengenlehre}
 Eine Menge ist eine Zusammenfassung von wohlbestimmten Objekten zu einem Ganzen.
@@ -19,7 +20,8 @@ Eine endliche Menge kann durch aufzaehlung all ihrer Elemente angegeben werde z.
 \textbf{Bildungsgesetz:}\\
 Eine unedliche Menge kann mit Hilfe eines Bildungsgesetzes angegeben werden z.B. \\$M=\{1,2,3,\dots\}=\mathbb{N}$\\\\
 \textbf{Eigenschaft:}\\
-Sei $M$ eine Menge und $E$ eine Eingenschaft die alle Elemente der Menge $M$ entweder besitzen oder nicht
+Eine Teilmenge $M$ einer Menger $N$ kann mit Hilfe einer Eingenschaft $E$ die alle Elemente der Menge entweder besitzen oder nicht angegeben werden $M=\{x \in N|E(x)\}$
+
 \subsection{Mengenbeziehungen}
 
 \subsubsection{Teilmenge:}
@@ -44,5 +46,56 @@ N \subseteq M
 \mathcal P&(\{ a \}) = \bigl\{ \emptyset, \{ a \} \bigr\}\\
 \mathcal P&(\{ a, b \}) = \bigl\{ \emptyset, \{ a \}, \{ b \}, \{ a, b \} \bigr\}\\
 \end{align*}
+
+\subsection{Leere Menge}
+\textbf{Definition:} Eine Menge $M$ die keine Elemente enhaelt nennt man leere Menge
+\begin{align*}
+M = \{\forall x:x\notin M\}  \Leftrightarrow: \emptyset
+\end{align*}
+\\
+\textbf{Notation:}
+\begin{align*}
+\emptyset
+\end{align*}
+
+\subsection{Disjunktion(Vereinigung)}
+\textbf{Definition:} Seien $N_1,N_2$ $\subseteq$ M, dann nennt man die Menge $X$ disjunktion(vereinigung) von $N_1$ und  $N_2$ wenn fuer alle $x \in X$ gilt, das $x \in N_1$ oder $x \in N_2$.
+\begin{align*}
+X=\{x \in M| x \in N_1 \lor x \in N_2 \}
+\end{align*}
+\\
+\textbf{Notation:}
+\begin{align*}
+X=N_1 \cup N_2
+\end{align*}
+\\
+\textbf{Venn-Diagramm}
+\begin{figure}[H]
+\centering
+\includegraphics[width=117px, height=85.5px]{VennDis.png}
+			% \captionsetup{labelformat=empty}
+			% \caption{\label{fig:blue_rectangle} }
+\end{figure}
+
+
+\subsection{Konjunktion(Schnittmenge)}
+\textbf{Definition:} Seien $N_1,N_2$ $\subseteq$ M, dann nennt man die Menge $X$ konjunktion(schnittmengen) von $N_1$ und  $N_2$ wenn fuer alle $x \in X$ gilt, das $x \in N_1$ und $x \in N_2$.
+\begin{align*}
+X=\{x \in M| x \in N_1 \land x \in N_2 \}
+\end{align*}
+\\
+\textbf{Notation:}
+\begin{align*}
+X=N_1 \cap N_2
+\end{align*}
+\\
+\textbf{Venn-Diagramm}
+\begin{figure}[H]
+\centering
+\includegraphics[width=117px, height=85.5px]{VennKon.png}
+			% \captionsetup{labelformat=empty}
+			% \caption{\label{fig:blue_rectangle} }
+\end{figure}
+
 
 \end{document}
