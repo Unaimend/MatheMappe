@@ -131,3 +131,6 @@
 \contentsline {section}{\numberline {9}K\IeC {\"o}rper-Axiome}{32}
 \contentsline {section}{\numberline {10}Ordnungs-Axiome}{32}
 \contentsline {section}{\numberline {11}Peano-Axiome}{32}
+\contentsline {section}{\numberline {12}Naive Mengenlehre}{32}
+\contentsline {subsection}{\numberline {12.1}Angabe von Mengen}{33}
+\contentsline {subsection}{\numberline {12.2}Mengenbeziehungen}{33}
