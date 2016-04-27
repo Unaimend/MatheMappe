@@ -1,0 +1,48 @@
+\documentclass[../AbiMappe_Mathe.tex]{subfiles}
+
+\begin{document}
+
+\theoremstyle{nonumberplain}
+
+\newframedtheorem{fmytheo2}{}
+
+
+\section{Naive Mengenlehre}
+Eine Menge ist eine Zusammenfassung von wohlbestimmten Objekten zu einem Ganzen.
+Diese Objekte heissen Elemente.\\\\
+\textbf{Elementbeziehung}\\
+Sei $M$ eine beliebiege nichtleere Menge dann bedeutet, $x \in M$, das wir ein beliebiges $x$ der Menge $M$ auswaehlen.
+
+\subsection{Angabe von Mengen}
+\textbf{Aufzaehlung:}\\
+Eine endliche Menge kann durch aufzaehlung all ihrer Elemente angegeben werde z.B. stellt\\ $M=\{1,2,3,4,5\}$, die Menge aller natuerliche Zahlen $<6$ dar.\\\\
+\textbf{Bildungsgesetz:}\\
+Eine unedliche Menge kann mit Hilfe eines Bildungsgesetzes angegeben werden z.B. \\$M=\{1,2,3,\dots\}=\mathbb{N}$\\\\
+\textbf{Eigenschaft:}\\
+Sei $M$ eine Menge und $E$ eine Eingenschaft die alle Elemente der Menge $M$ entweder besitzen oder nicht
+\subsection{Mengenbeziehungen}
+
+\subsubsection{Teilmenge:}
+\textbf{Definition:} Sei M eine Menge. Dann heisst eine weitere Menge N Teilmenge von M wenn gilt:
+\begin{align*}
+x \in N \Rightarrow x \in M
+\end{align*}
+\textbf{Notation:} 
+\begin{align*}
+N \subseteq M
+\end{align*}
+
+
+\subsection{Potenzmenge}
+\textbf{Defintion:} Sei $M$ eine Menge, dann nennt die Menge all ihrer Teilmengen $U$ Potenzmenge der Menge $M$.
+\begin{align*}
+\mathcal{P}(M) := \{U|U \subseteq M  \}
+\end{align*}
+\\\textbf{Beispiel:} 
+\begin{align*}
+\mathcal P&(\emptyset) = \{ \emptyset \}\\
+\mathcal P&(\{ a \}) = \bigl\{ \emptyset, \{ a \} \bigr\}\\
+\mathcal P&(\{ a, b \}) = \bigl\{ \emptyset, \{ a \}, \{ b \}, \{ a, b \} \bigr\}\\
+\end{align*}
+
+\end{document}
