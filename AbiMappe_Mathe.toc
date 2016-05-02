@@ -132,5 +132,16 @@
 \contentsline {section}{\numberline {10}Ordnungs-Axiome}{32}
 \contentsline {section}{\numberline {11}Peano-Axiome}{32}
 \contentsline {section}{\numberline {12}Naive Mengenlehre}{32}
-\contentsline {subsection}{\numberline {12.1}Angabe von Mengen}{33}
+\contentsline {subsection}{\numberline {12.1}Angabe von Mengen}{32}
 \contentsline {subsection}{\numberline {12.2}Mengenbeziehungen}{33}
+\contentsline {subsubsection}{\numberline {12.2.1}Elementbeziehung}{33}
+\contentsline {subsubsection}{\numberline {12.2.2}Teilmenge:}{33}
+\contentsline {subsubsection}{\numberline {12.2.3}Potenzmenge}{33}
+\contentsline {subsubsection}{\numberline {12.2.4}Leere Menge}{33}
+\contentsline {subsubsection}{\numberline {12.2.5}Gleichheit}{34}
+\contentsline {subsubsection}{\numberline {12.2.6}Disjunktion(Vereinigung)}{34}
+\contentsline {paragraph}{\numberline {12.2.6.1}Disjunktion undendlich vieler Menge}{34}
+\contentsline {subsubsection}{\numberline {12.2.7}Konjunktion(Schnittmenge)}{34}
+\contentsline {paragraph}{\numberline {12.2.7.1}Konjunktion undendlich vieler Menge}{34}
+\contentsline {subsubsection}{\numberline {12.2.8}Komplement}{35}
+\contentsline {subsubsection}{\numberline {12.2.9}Differenz}{35}

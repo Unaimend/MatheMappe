@@ -29,6 +29,11 @@
 % \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{subfiles}
 %%% PACKAGES
+\usepackage[ngerman]{babel}
+\newfont{\suet}{suet14}
+\DeclareTextFontCommand{\textsuet}{\suet}
+\usepackage{svg}
+\usepackage{graphicx,import}
 \usepackage{booktabs} % for much better looking tables
 \usepackage{array} % for better arrays (eg matrices) in maths
 \usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
@@ -53,7 +58,7 @@
 \usepackage{amssymb}
 \usepackage[ngerman]{babel}
 \usepackage{float}
-\usepackage{svg}
+
 \usepackage{amssymb}
 
 % (This matches ConTeXt defaults)
@@ -97,6 +102,9 @@
 \setlength{\parskip}{1em}
 
 \begin{document}
+
+
+\graphicspath{{Kapitel/}}
 
 \begin{titlepage}
 	\title{Mathematik der Oberstufe}
@@ -1060,5 +1068,8 @@
 	\subfile{Kapitel/Koeperaxiome}
 	\subfile{Kapitel/Peanoaxiome}
 	\subfile{Kapitel/Mengenlehre}
+	
+
+
 
 \end{document}

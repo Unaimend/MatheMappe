@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  27 APR 2016 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  2 MAY 2016 12:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,196 +649,6 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks38
 \verbatim@in@stream=\read1
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen152
-\lightrulewidth=\dimen153
-\cmidrulewidth=\dimen154
-\belowrulesep=\dimen155
-\belowbottomsep=\dimen156
-\aboverulesep=\dimen157
-\abovetopsep=\dimen158
-\cmidrulesep=\dimen159
-\cmidrulekern=\dimen160
-\defaultaddspace=\dimen161
-\@cmidla=\count128
-\@cmidlb=\count129
-\@aboverulesep=\dimen162
-\@belowrulesep=\dimen163
-\@thisruleclass=\count130
-\@lastruleclass=\count131
-\@thisrulewidth=\dimen164
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen165
-\extrarowheight=\dimen166
-\NC@list=\toks39
-\extratabsurround=\skip125
-\backup@length=\skip126
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/paralist/paralist.sty
-Package: paralist 2013/06/09 v2.4 Extended list environments
-\pltopsep=\skip127
-\plpartopsep=\skip128
-\plitemsep=\skip129
-\plparsep=\skip130
-\pl@lab=\toks40
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen167
-\captionmargin@=\dimen168
-\captionwidth=\dimen169
-\caption@tempdima=\dimen170
-\caption@indent=\dimen171
-\caption@parindent=\dimen172
-\caption@hangindent=\dimen173
-)
-\c@ContinuedFloat=\count132
-)
-\c@KVtest=\count133
-\sf@farskip=\skip131
-\sf@captopadj=\dimen174
-\sf@capskip=\skip132
-\sf@nearskip=\skip133
-\c@subfigure=\count134
-\c@subfigure@save=\count135
-\c@lofdepth=\count136
-\c@subtable=\count137
-\c@subtable@save=\count138
-\c@lotdepth=\count139
-\sf@top=\skip134
-\sf@bottom=\skip135
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip136
-\f@ncyO@elh=\skip137
-\f@ncyO@erh=\skip138
-\f@ncyO@olh=\skip139
-\f@ncyO@orh=\skip140
-\f@ncyO@elf=\skip141
-\f@ncyO@erf=\skip142
-\f@ncyO@olf=\skip143
-\f@ncyO@orf=\skip144
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count140
-\calc@Bcount=\count141
-\calc@Adimen=\dimen175
-\calc@Bdimen=\dimen176
-\calc@Askip=\skip145
-\calc@Bskip=\skip146
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count142
-\calc@Cskip=\skip147
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
-)
-\AM@pagewidth=\dimen177
-\AM@pageheight=\dimen178
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
-)
-\AM@pagebox=\box46
-\AM@toc@title=\toks41
-\c@AM@survey=\count143
-\AM@templatesizebox=\box47
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/sectsty/sectsty.sty
-Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
-les
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip148
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks42
-\ex@=\dimen179
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen180
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count144
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count145
-\leftroot@=\count146
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count147
-\DOTSCASE@=\count148
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box48
-\strutbox@=\box49
-\big@size=\dimen181
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count149
-\c@MaxMatrixCols=\count150
-\dotsspace@=\muskip16
-\c@parentequation=\count151
-\dspbrk@lvl=\count152
-\tag@help=\toks43
-\row@=\count153
-\column@=\count154
-\maxfields@=\count155
-\andhelp@=\toks44
-\eqnshift@=\dimen182
-\alignsep@=\dimen183
-\tagshift@=\dimen184
-\tagwidth@=\dimen185
-\totwidth@=\dimen186
-\lineht@=\dimen187
-\@envbody=\toks45
-\multlinegap=\skip149
-\multlinetaggap=\skip150
-\mathdisplay@stack=\toks46
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count156
-\float@exts=\toks47
-\float@box=\box50
-\@float@everytoks=\toks48
-\@floatcapt=\box51
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2014/09/25 3.9l The Babel package
 
@@ -850,8 +660,8 @@ Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/09/25 3.9l Babel common definitions
-\babel@savecnt=\count157
-\U@D=\dimen188
+\babel@savecnt=\count128
+\U@D=\dimen152
 )
 \l@naustrian = a dialect from \language\l@ngerman 
 \l@nswissgerman = a dialect from \language\l@ngerman 
@@ -865,12 +675,45 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks49
-\XKV@tempa@toks=\toks50
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
 )
-\XKV@depth=\count158
+\XKV@depth=\count129
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen153
+\captionmargin@=\dimen154
+\captionwidth=\dimen155
+\caption@tempdima=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+)
+\c@ContinuedFloat=\count130
+)
+\c@KVtest=\count131
+\sf@farskip=\skip125
+\sf@captopadj=\dimen160
+\sf@capskip=\skip126
+\sf@nearskip=\skip127
+\c@subfigure=\count132
+\c@subfigure@save=\count133
+\c@lofdepth=\count134
+\c@subtable=\count135
+\c@subtable@save=\count136
+\c@lotdepth=\count137
+\sf@top=\skip128
+\sf@bottom=\skip129
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
 )
@@ -896,10 +739,167 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-\SVG@out@width=\skip151
-\SVG@out@height=\skip152
-\c@svgfigure=\count159
+\SVG@out@width=\skip130
+\SVG@out@height=\skip131
+\c@svgfigure=\count138
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
+\@cmidla=\count139
+\@cmidlb=\count140
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
+\@thisruleclass=\count141
+\@lastruleclass=\count142
+\@thisrulewidth=\dimen173
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen174
+\extrarowheight=\dimen175
+\NC@list=\toks41
+\extratabsurround=\skip132
+\backup@length=\skip133
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2013/06/09 v2.4 Extended list environments
+\pltopsep=\skip134
+\plpartopsep=\skip135
+\plitemsep=\skip136
+\plparsep=\skip137
+\pl@lab=\toks42
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip138
+\f@ncyO@elh=\skip139
+\f@ncyO@erh=\skip140
+\f@ncyO@olh=\skip141
+\f@ncyO@orh=\skip142
+\f@ncyO@elf=\skip143
+\f@ncyO@erf=\skip144
+\f@ncyO@olf=\skip145
+\f@ncyO@orf=\skip146
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count143
+\calc@Bcount=\count144
+\calc@Adimen=\dimen176
+\calc@Bdimen=\dimen177
+\calc@Askip=\skip147
+\calc@Bskip=\skip148
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count145
+\calc@Cskip=\skip149
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
+)
+\AM@pagewidth=\dimen178
+\AM@pageheight=\dimen179
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box46
+\AM@toc@title=\toks43
+\c@AM@survey=\count146
+\AM@templatesizebox=\box47
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip150
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks44
+\ex@=\dimen180
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen181
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count147
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count148
+\leftroot@=\count149
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count150
+\DOTSCASE@=\count151
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen182
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count152
+\c@MaxMatrixCols=\count153
+\dotsspace@=\muskip16
+\c@parentequation=\count154
+\dspbrk@lvl=\count155
+\tag@help=\toks45
+\row@=\count156
+\column@=\count157
+\maxfields@=\count158
+\andhelp@=\toks46
+\eqnshift@=\dimen183
+\alignsep@=\dimen184
+\tagshift@=\dimen185
+\tagwidth@=\dimen186
+\totwidth@=\dimen187
+\lineht@=\dimen188
+\@envbody=\toks47
+\multlinegap=\skip151
+\multlinetaggap=\skip152
+\mathdisplay@stack=\toks48
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count159
+\float@exts=\toks49
+\float@box=\box50
+\@float@everytoks=\toks50
+\@floatcapt=\box51
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
@@ -1590,50 +1590,52 @@ Package: fullpage 1999/02/23 1.1 (PWD)
 (./AbiMappe_Mathe.aux)
 \openout1 = `AbiMappe_Mathe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 99.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 99.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 104.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 104
+.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 99.
-
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 104
+.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 99.
-
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 104
+.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
+
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 99.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 104.
+
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
@@ -1694,38 +1696,38 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 105.
+(Font)              scaled to size 11.03998pt on input line 113.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 105.
+(Font)              scaled to size 8.27998pt on input line 113.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 105.
-LaTeX Font Info:    Try loading font information for U+msa on input line 105.
+(Font)              scaled to size 6.43999pt on input line 113.
+LaTeX Font Info:    Try loading font information for U+msa on input line 113.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 105.
+LaTeX Font Info:    Try loading font information for U+msb on input line 113.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 10
-5.
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 11
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 105.
+(Font)              scaled to size 11.03998pt on input line 113.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 105.
+(Font)              scaled to size 8.27998pt on input line 113.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 105.
+(Font)              scaled to size 6.43999pt on input line 113.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 107.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 115.
 
 (./AbiMappe_Mathe.toc
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
@@ -1753,15 +1755,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
  [6]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 111.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 119.
  <lineare.pdf, id=28, 2870.725pt x 1574.88374pt>
 File: lineare.pdf Graphic file (type pdf)
 
 <use lineare.pdf>
-Package pdftex.def Info: lineare.pdf used on input line 124.
+Package pdftex.def Info: lineare.pdf used on input line 132.
 (pdftex.def)             Requested size: 200.70847pt x 200.72893pt.
 
-Overfull \hbox (20.93071pt too wide) in paragraph at lines 122--137
+Overfull \hbox (20.93071pt too wide) in paragraph at lines 130--145
 []$[]$  $[]$ 
  []
 
@@ -1769,10 +1771,10 @@ Overfull \hbox (20.93071pt too wide) in paragraph at lines 122--137
 File: lineare2.pdf Graphic file (type pdf)
 
 <use lineare2.pdf>
-Package pdftex.def Info: lineare2.pdf used on input line 148.
+Package pdftex.def Info: lineare2.pdf used on input line 156.
 (pdftex.def)             Requested size: 200.70847pt x 200.72893pt.
 
-Overfull \hbox (20.93071pt too wide) in paragraph at lines 146--169
+Overfull \hbox (20.93071pt too wide) in paragraph at lines 154--177
 []$[]$  $[]$ 
  []
 
@@ -1780,104 +1782,104 @@ Overfull \hbox (20.93071pt too wide) in paragraph at lines 146--169
 File: quadr-B.pdf Graphic file (type pdf)
 
 <use quadr-B.pdf>
-Package pdftex.def Info: quadr-B.pdf used on input line 177.
+Package pdftex.def Info: quadr-B.pdf used on input line 185.
 (pdftex.def)             Requested size: 200.7446pt x 200.74442pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 199.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 207.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 196--205
+Underfull \hbox (badness 10000) in paragraph at lines 204--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--205
+Underfull \hbox (badness 10000) in paragraph at lines 204--213
 
  []
 
 [3 <./quadr-B.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 226--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--237
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--258
+Underfull \hbox (badness 10000) in paragraph at lines 257--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--258
+Underfull \hbox (badness 10000) in paragraph at lines 257--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--258
+Underfull \hbox (badness 10000) in paragraph at lines 257--266
 
  []
 
 [5] <E_1.png, id=53, 343.5234pt x 198.5016pt>
 File: E_1.png Graphic file (type png)
  <use E_1.png>
-Package pdftex.def Info: E_1.png used on input line 268.
+Package pdftex.def Info: E_1.png used on input line 276.
 (pdftex.def)             Requested size: 301.1431pt x 200.75157pt.
 
-Overfull \hbox (177.37234pt too wide) in paragraph at lines 268--271
+Overfull \hbox (177.37234pt too wide) in paragraph at lines 276--279
  [][] 
  []
 
 <E_2.png, id=55, 343.5234pt x 198.5016pt>
 File: E_2.png Graphic file (type png)
  <use E_2.png>
-Package pdftex.def Info: E_2.png used on input line 284.
+Package pdftex.def Info: E_2.png used on input line 292.
 (pdftex.def)             Requested size: 301.1431pt x 200.75157pt.
 
-Overfull \hbox (177.37234pt too wide) in paragraph at lines 284--287
+Overfull \hbox (177.37234pt too wide) in paragraph at lines 292--295
  [][] 
  []
 
 <E_3.png, id=56, 1571.6316pt x 908.6748pt>
 File: E_3.png Graphic file (type png)
  <use E_3.png>
-Package pdftex.def Info: E_3.png used on input line 299.
+Package pdftex.def Info: E_3.png used on input line 307.
 (pdftex.def)             Requested size: 301.10715pt x 200.74098pt.
 
-Overfull \hbox (177.3364pt too wide) in paragraph at lines 299--302
+Overfull \hbox (177.3364pt too wide) in paragraph at lines 307--310
  [][] 
  []
 
 <E_4.png, id=57, 1571.6316pt x 908.6748pt>
 File: E_4.png Graphic file (type png)
  <use E_4.png>
-Package pdftex.def Info: E_4.png used on input line 312.
+Package pdftex.def Info: E_4.png used on input line 320.
 (pdftex.def)             Requested size: 301.10715pt x 200.74098pt.
 
-Overfull \hbox (177.3364pt too wide) in paragraph at lines 312--315
+Overfull \hbox (177.3364pt too wide) in paragraph at lines 320--323
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--324
+Underfull \hbox (badness 10000) in paragraph at lines 273--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--324
+Underfull \hbox (badness 10000) in paragraph at lines 273--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--324
+Underfull \hbox (badness 10000) in paragraph at lines 273--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--324
+Underfull \hbox (badness 10000) in paragraph at lines 273--332
 
  []
 
@@ -1890,174 +1892,174 @@ Package epstopdf Info: Source file: <a.eps>
 (epstopdf)                    size: 51217 bytes
 (epstopdf)             Command: <repstopdf --outfile=a-eps-converted-to.pdf a.e
 ps>
-(epstopdf)             \includegraphics on input line 340.
+(epstopdf)             \includegraphics on input line 348.
 Package epstopdf Info: Output file is already uptodate.
 
 <a-eps-converted-to.pdf, id=72, 3119.655pt x 1711.39375pt>
 File: a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use a-eps-converted-to.pdf>
-Package pdftex.def Info: a-eps-converted-to.pdf used on input line 340.
+Package pdftex.def Info: a-eps-converted-to.pdf used on input line 348.
 (pdftex.def)             Requested size: 301.0829pt x 200.73625pt.
 
-Overfull \hbox (177.31215pt too wide) in paragraph at lines 340--342
+Overfull \hbox (177.31215pt too wide) in paragraph at lines 348--350
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--370
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
+Underfull \hbox (badness 10000) in paragraph at lines 386--388
 
  []
 
 [9 <./a-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--409
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
+Underfull \hbox (badness 10000) in paragraph at lines 420--422
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 428--430
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--434
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--442
+Underfull \hbox (badness 10000) in paragraph at lines 447--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--442
+Underfull \hbox (badness 10000) in paragraph at lines 447--450
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--470
+Underfull \hbox (badness 10000) in paragraph at lines 475--478
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--479
+Underfull \hbox (badness 10000) in paragraph at lines 485--487
 
  []
 
 [12] <Integral_1.png, id=88, 1583.1948pt x 922.8879pt>
 File: Integral_1.png Graphic file (type png)
  <use Integral_1.png>
-Package pdftex.def Info: Integral_1.png used on input line 512.
+Package pdftex.def Info: Integral_1.png used on input line 520.
 (pdftex.def)             Requested size: 301.12419pt x 200.74057pt.
 
-Overfull \hbox (177.35344pt too wide) in paragraph at lines 512--514
+Overfull \hbox (177.35344pt too wide) in paragraph at lines 520--522
 [][] 
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 519--524
+Underfull \hbox (badness 1072) in paragraph at lines 527--532
 \T1/futs/m/n/10 Kur-ve laesst sich mit Hil-fe des In-te-grals leicht
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--524
+Underfull \hbox (badness 10000) in paragraph at lines 527--532
 
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 519--524
+Underfull \hbox (badness 1946) in paragraph at lines 527--532
 \T1/futs/m/n/10 Um die Flae-che der Funk-ti-on $\FML/futm/m/it/10 f\T1/futs/m/n
 /10 (\FML/futm/m/it/10 x\T1/futs/m/n/10 ) \FMS/futm/m/n/10 Å \FML/futm/m/it/10 
 x[] \FMS/futm/m/n/10 ^^@ \T1/futs/m/n/10 2\FML/futm/m/it/10 x$
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 519--524
+Underfull \hbox (badness 7851) in paragraph at lines 527--532
 \T1/futs/m/n/10 im In-ter-vall [2;2,5] zu be-rech-nen muss zu-
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 519--524
+Underfull \hbox (badness 1635) in paragraph at lines 527--532
 \T1/futs/m/n/10 ert das In-te-gral ge-bil-det wer-den, die-ses lau-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--535
+Underfull \hbox (badness 10000) in paragraph at lines 537--543
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--535
+Underfull \hbox (badness 10000) in paragraph at lines 537--543
 
  []
 
 [13 <./Integral_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 539--542
+Underfull \hbox (badness 10000) in paragraph at lines 547--550
 
  []
 
 <Integral_2.png, id=94, 839.2956pt x 485.1726pt>
 File: Integral_2.png Graphic file (type png)
  <use Integral_2.png>
-Package pdftex.def Info: Integral_2.png used on input line 549.
+Package pdftex.def Info: Integral_2.png used on input line 557.
 (pdftex.def)             Requested size: 301.12166pt x 200.75063pt.
 
-Overfull \hbox (177.3509pt too wide) in paragraph at lines 549--551
+Overfull \hbox (177.3509pt too wide) in paragraph at lines 557--559
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--555
+Underfull \hbox (badness 10000) in paragraph at lines 551--563
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--555
+Underfull \hbox (badness 10000) in paragraph at lines 551--563
 
  []
 
 [14 <./Integral_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 585--595
+Underfull \hbox (badness 10000) in paragraph at lines 593--603
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 605--608
+Underfull \hbox (badness 10000) in paragraph at lines 613--616
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--608
+Underfull \hbox (badness 10000) in paragraph at lines 613--616
 
  []
 
@@ -2065,373 +2067,333 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--608
 File: koordinatensystem.png Graphic file (type png)
 
 <use koordinatensystem.png>
-Package pdftex.def Info: koordinatensystem.png used on input line 627.
+Package pdftex.def Info: koordinatensystem.png used on input line 635.
 (pdftex.def)             Requested size: 200.74959pt x 200.75423pt.
  [18 <./koordinatensystem.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 643--646
+Underfull \hbox (badness 10000) in paragraph at lines 651--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 648--650
+Underfull \hbox (badness 10000) in paragraph at lines 656--658
 
  []
 
 
-Overfull \hbox (4.7543pt too wide) in paragraph at lines 660--662
+Overfull \hbox (4.7543pt too wide) in paragraph at lines 668--670
 \T1/futs/m/n/10 Die Li-nea-re Anhae-nig-keit be-schreibt die Ei-gen-schaft ei-n
 es Vek-tors $[]$ sich mit Hil-fe der s-Multiplikation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--662
+Underfull \hbox (badness 10000) in paragraph at lines 668--670
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 665--665
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--680
+Underfull \hbox (badness 10000) in paragraph at lines 676--688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--680
+Underfull \hbox (badness 10000) in paragraph at lines 676--688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--691
+Underfull \hbox (badness 10000) in paragraph at lines 692--699
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--691
+Underfull \hbox (badness 10000) in paragraph at lines 692--699
 
  []
 
 
-Overfull \hbox (1.52489pt too wide) in paragraph at lines 684--691
+Overfull \hbox (1.52489pt too wide) in paragraph at lines 692--699
 \T1/futs/m/n/10 Hat sich je-doch er-ge-ben dass die Rich-tungs-vek-to-ren li-ne
 -ar Un-abhaen-gig sind, mu-ess wird als naechs-
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 692--696
+Underfull \hbox (badness 10000) in paragraph at lines 700--704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--703
+Underfull \hbox (badness 10000) in paragraph at lines 705--711
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--703
+Underfull \hbox (badness 10000) in paragraph at lines 705--711
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 704--706
+Underfull \hbox (badness 10000) in paragraph at lines 712--714
 
  []
 
 <Ebene.png, id=121, 471.7625pt x 311.1625pt>
 File: Ebene.png Graphic file (type png)
  <use Ebene.png>
-Package pdftex.def Info: Ebene.png used on input line 712.
+Package pdftex.def Info: Ebene.png used on input line 720.
 (pdftex.def)             Requested size: 150.56396pt x 150.56229pt.
  [21]
-Underfull \hbox (badness 10000) in paragraph at lines 718--727
+Underfull \hbox (badness 10000) in paragraph at lines 726--735
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 718--727
+Underfull \hbox (badness 10000) in paragraph at lines 726--735
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--731
+Underfull \hbox (badness 10000) in paragraph at lines 736--739
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 733--737
+Underfull \hbox (badness 10000) in paragraph at lines 741--745
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 733--737
+Underfull \hbox (badness 10000) in paragraph at lines 741--745
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--742
+Underfull \hbox (badness 10000) in paragraph at lines 746--750
 
  []
 
 [22 <./Ebene.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 747--750
+Underfull \hbox (badness 10000) in paragraph at lines 755--758
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 747--750
+Underfull \hbox (badness 10000) in paragraph at lines 755--758
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 751--761
+Underfull \hbox (badness 10000) in paragraph at lines 759--769
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 751--761
+Underfull \hbox (badness 10000) in paragraph at lines 759--769
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 763--765
+Underfull \hbox (badness 10000) in paragraph at lines 771--773
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 773--776
+Underfull \hbox (badness 10000) in paragraph at lines 781--784
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 780--786
+Underfull \hbox (badness 10000) in paragraph at lines 788--794
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 780--786
+Underfull \hbox (badness 10000) in paragraph at lines 788--794
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 787--789
+Underfull \hbox (badness 10000) in paragraph at lines 795--797
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--794
+Underfull \hbox (badness 10000) in paragraph at lines 799--802
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 805--808
+Underfull \hbox (badness 10000) in paragraph at lines 813--816
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--814
+Underfull \hbox (badness 10000) in paragraph at lines 819--822
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--814
+Underfull \hbox (badness 10000) in paragraph at lines 819--822
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 815--819
+Underfull \hbox (badness 10000) in paragraph at lines 823--827
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--829
+Underfull \hbox (badness 10000) in paragraph at lines 835--837
 
  []
 
 <pytha.png, id=135, 220.825pt x 103.38625pt>
 File: pytha.png Graphic file (type png)
  <use pytha.png>
-Package pdftex.def Info: pytha.png used on input line 831.
+Package pdftex.def Info: pytha.png used on input line 839.
 (pdftex.def)             Requested size: 220.83455pt x 103.38913pt.
  [25] [26 <./pytha.png>]
-Overfull \hbox (2.70436pt too wide) in paragraph at lines 857--862
+Overfull \hbox (2.70436pt too wide) in paragraph at lines 865--870
 \T1/futs/m/n/10 Die De-ter-mi-nan-te ei-ner Ma-trix laesst sich mit Hil-fe des 
 La-pla-ce-scher Ent-wick-lungs-satz in zwei ...Rich-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 857--862
+Underfull \hbox (badness 10000) in paragraph at lines 865--870
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 857--862
+Underfull \hbox (badness 10000) in paragraph at lines 865--870
 
  []
 
 
-Overfull \hbox (16.30983pt too wide) in paragraph at lines 863--874
+Overfull \hbox (16.30983pt too wide) in paragraph at lines 871--882
   \T1/futs/m/n/10 Ei-ne Ma-trix vom Typ $\FML/futm/m/it/10 M[]$ \T1/futs/m/n/10
  ist ei-ne Zu-sam-men-fas-sung von Wer-ten der Form $\FML/futm/m/it/10 M \FMS/f
 utm/m/n/10 Å$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--887
+Underfull \hbox (badness 10000) in paragraph at lines 884--895
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--887
+Underfull \hbox (badness 10000) in paragraph at lines 884--895
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--887
+Underfull \hbox (badness 10000) in paragraph at lines 884--895
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--891
+Underfull \hbox (badness 10000) in paragraph at lines 897--899
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--898
+Underfull \hbox (badness 10000) in paragraph at lines 901--906
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--898
+Underfull \hbox (badness 10000) in paragraph at lines 901--906
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--898
+Underfull \hbox (badness 10000) in paragraph at lines 901--906
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--914
+Underfull \hbox (badness 10000) in paragraph at lines 908--922
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--914
+Underfull \hbox (badness 10000) in paragraph at lines 908--922
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--914
+Underfull \hbox (badness 10000) in paragraph at lines 908--922
 
  []
 
 [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 917--920
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--920
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--926
+Underfull \hbox (badness 10000) in paragraph at lines 930--934
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--926
+Underfull \hbox (badness 10000) in paragraph at lines 930--934
 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 958.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 966.
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--961
+Underfull \hbox (badness 10000) in paragraph at lines 935--969
 
  []
 
 
-Overfull \hbox (4.32166pt too wide) in paragraph at lines 927--961
+Overfull \hbox (4.32166pt too wide) in paragraph at lines 935--969
 \FML/futm/m/it/9 M \FMS/futm/m/n/9 Å \FML/futm/m/it/9 A \FMS/futm/m/n/9 Ä \FML/
 futm/m/it/9 B \FMS/futm/m/n/9 Å$ $[]$ \T1/futs/m/n/9 + $[]$ = $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--961
+Underfull \hbox (badness 10000) in paragraph at lines 935--969
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--961
+Underfull \hbox (badness 10000) in paragraph at lines 935--969
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--961
+Underfull \hbox (badness 10000) in paragraph at lines 935--969
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 962--985
+Underfull \hbox (badness 10000) in paragraph at lines 970--993
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 962--985
+Underfull \hbox (badness 10000) in paragraph at lines 970--993
 
  []
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1032--1033
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1038
 
  []
 
@@ -2442,6 +2404,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
 
  []
 
@@ -2456,47 +2458,140 @@ LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <9> not available
 (./Kapitel/Mengenlehre.tex
 \c@fmytheo2=\count189
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--21
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+
+ []
+
+<Kapitel/VennDis.png, id=168, 939.51pt x 686.565pt>
+File: Kapitel/VennDis.png Graphic file (type png)
+ <use Kapitel/VennDis.png>
+Package pdftex.def Info: Kapitel/VennDis.png used on input line 85.
+(pdftex.def)             Requested size: 117.43846pt x 85.8204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+[34 <./Kapitel/VennDis.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
+
+ []
+
+<Kapitel/VennKon.png, id=173, 501.875pt x 366.36874pt>
+File: Kapitel/VennKon.png Graphic file (type png)
+
+<use Kapitel/VennKon.png>
+Package pdftex.def Info: Kapitel/VennKon.png used on input line 110.
+(pdftex.def)             Requested size: 117.43521pt x 85.81714pt.
+
+<Kapitel/VennKom.png, id=174, 501.875pt x 366.36874pt>
+File: Kapitel/VennKom.png Graphic file (type png)
+
+<use Kapitel/VennKom.png>
+Package pdftex.def Info: Kapitel/VennKom.png used on input line 124.
+(pdftex.def)             Requested size: 117.43521pt x 85.81714pt.
+
+<Kapitel/VennDiff.png, id=175, 501.875pt x 366.36874pt>
+File: Kapitel/VennDiff.png Graphic file (type png)
+
+<use Kapitel/VennDiff.png>
+Package pdftex.def Info: Kapitel/VennDiff.png used on input line 139.
+(pdftex.def)             Requested size: 117.43521pt x 85.81714pt.
 )
 \tf@thm=\write5
 \openout5 = `AbiMappe_Mathe.thm'.
 
- [33] (./AbiMappe_Mathe.aux) ) 
+ [35 <./Kapitel/VennKon.png> <./Kapitel/VennKom.png> <./Kapitel/VennDiff.png>] 
+(./AbiMappe_Mathe.aux) ) 
 Here is how much of TeX's memory you used:
- 26087 strings out of 493089
- 503553 string characters out of 6134843
- 640228 words of memory out of 5000000
- 29004 multiletter control sequences out of 15000+600000
- 109132 words of font info for 115 fonts, out of 8000000 for 9000
+ 26119 strings out of 493089
+ 504111 string characters out of 6134843
+ 642457 words of memory out of 5000000
+ 29031 multiletter control sequences out of 15000+600000
+ 109635 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,23n,75p,10424b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
-ps/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/f
-ourier-bb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fo
-urier-mex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fo
-urier-ml.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fou
-rier-ms.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/sym
-bols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/pu
-tb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putbi8a.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on AbiMappe_Mathe.pdf (39 pages, 1132137 bytes).
+ 68i,23n,98p,10424b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier
+-bb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-
+mcl.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-
+mex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-
+ml.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-m
+s.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/m
+sam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putb
+8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on AbiMappe_Mathe.pdf (41 pages, 1220358 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 223 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

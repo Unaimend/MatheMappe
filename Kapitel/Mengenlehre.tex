@@ -11,8 +11,7 @@
 \section{Naive Mengenlehre}
 Eine Menge ist eine Zusammenfassung von wohlbestimmten Objekten zu einem Ganzen.
 Diese Objekte heissen Elemente.\\\\
-\textbf{Elementbeziehung}\\
-Sei $M$ eine beliebiege nichtleere Menge dann bedeutet, $x \in M$, das wir ein beliebiges $x$ der Menge $M$ auswaehlen.
+
 
 \subsection{Angabe von Mengen}
 \textbf{Aufzaehlung:}\\
@@ -23,6 +22,9 @@ Eine unedliche Menge kann mit Hilfe eines Bildungsgesetzes angegeben werden z.B.
 Eine Teilmenge $M$ einer Menger $N$ kann mit Hilfe einer Eingenschaft $E$ die alle Elemente der Menge entweder besitzen oder nicht angegeben werden $M=\{x \in N|E(x)\}$
 
 \subsection{Mengenbeziehungen}
+
+\subsubsection{Elementbeziehung}
+\textbf{Definition:} Sei $M$ eine beliebiege Menge dann bedeutet, $x \in M$, das wir ein beliebiges $x$ der Menge $M$ auswaehlen.
 
 \subsubsection{Teilmenge:}
 \textbf{Definition:} Sei M eine Menge. Dann heisst eine weitere Menge N Teilmenge von M wenn gilt:
@@ -50,25 +52,33 @@ N \subseteq M
 \subsubsection{Leere Menge}
 \textbf{Definition:} Eine Menge $M$ die keine Elemente enhaelt nennt man leere Menge.
 \begin{align*}
-M = \{\forall x:x\notin M\}  \Leftrightarrow: \emptyset
+\emptyset:= \{\forall x:x\notin M\}  
+\end{align*}\\
+\textbf{Eigenschaften:}\\
+\begin{description}
+\vspace{-1cm}
+\item[$\bullet$] ist Teilmenge jeder Menge.
+\end{description}
+
+\subsubsection{Gleichheit}
+\textbf{Definition:} Seien $A,B$ Mengen, dann nennt man diese Mengen gleich wenn alle Elemente aus $A$ in $B$ und alle Elemente aus $B$ in $A$ liegen.
+\begin{align*}
+A = B:= A \subseteq B \land B \subseteq A =\{x|x \in A \Leftrightarrow x \in B\}
 \end{align*}
 \\
-\textbf{Notation:}
-\begin{align*}
-\emptyset
-\end{align*}
-
 \subsubsection{Disjunktion(Vereinigung)}
 \textbf{Definition:} Seien $N_1,N_2$ $\subseteq$ M, dann nennt man die Menge $X$ disjunktion(vereinigung) von $N_1$ und  $N_2$ wenn fuer alle $x \in X$ gilt, das $x \in N_1$ oder $x \in N_2$.
 \begin{align*}
-X=\{x \in M| x \in N_1 \lor x \in N_2 \}
+N_1 \cup N_2:=\{x \in M| x \in N_1 \lor x \in N_2 \}
 \end{align*}
 \\
-\textbf{Notation:}
+\paragraph{Disjunktion undendlich vieler Menge}
+		\hspace{0 cm} \\ \noindent \\
+		Sei $\mathfrak{S}$ ein endliches oder unendliches System von Mengen, dann besteht $\underset{M \in \mathfrak{S}}{\cup}$M aus den Elementen die in mindesten einem $M \in  \mathfrak{S}$ liegen.\\\\
+\textbf{Notation:}\\
 \begin{align*}
-X=N_1 \cup N_2
-\end{align*}
-\\
+\underset{k=1}{\overset{n}{\cup}}M_k \;\;bzw\;\; \underset{k=1}{\overset{\infty}{\cup}}M_k
+\end{align*}\\
 \textbf{Venn-Diagramm}
 \begin{figure}[H]
 \centering
@@ -76,19 +86,24 @@ X=N_1 \cup N_2
 			% \captionsetup{labelformat=empty}
 			% \caption{\label{fig:blue_rectangle} }
 \end{figure}
-
-
-\subsubsection{Konjunktion(Schnittmenge)}
+\subsubsection{Konjunktion(Durchschnitt)}
 \textbf{Definition:} Seien $N_1,N_2$ $\subseteq$ M, dann nennt man die Menge $X$ konjunktion(schnittmengen) von $N_1$ und  $N_2$ wenn fuer alle $x \in X$ gilt, das $x \in N_1$ und $x \in N_2$.
 \begin{align*}
-X=\{x \in M| x \in N_1 \land x \in N_2 \}
-\end{align*}
-\\
-\textbf{Notation:}
+N_1 \cap N_2:=\{x \in M| x \in N_1 \land x \in N_2 \}
+\end{align*}\\
+\paragraph{Konjunktion undendlich vieler Menge}
+		\hspace{0 cm} \\ \noindent \\
+		Sei $\mathfrak{S}$ ein endliches oder unendliches System von Mengen, dann besteht $\underset{M \in \mathfrak{S}}{\cap}$M aus den Elementen die in jedem $M \in  $ $\mathfrak{S}$ liegen.\\\\
+\textbf{Notation:}\\
 \begin{align*}
-X=N_1 \cap N_2
-\end{align*}
+\underset{k=1}{\overset{n}{\cap}}M_k \;\;bzw\;\; \underset{k=1}{\overset{\infty}{\cap}}M_k
+\end{align*}\\
+\textbf{Eigenschaft:}\\
 \\
+\begin{description}
+\vspace{-1cm}
+\item[$\bullet$]zwei Mengen heissen disjunkt falls $N_1$ $\cap$ $N_2$ = $\emptyset$.
+\end{description}
 \textbf{Venn-Diagramm}
 \begin{figure}[H]
 \centering
@@ -97,5 +112,49 @@ X=N_1 \cap N_2
 			% \caption{\label{fig:blue_rectangle} }
 \end{figure}
 
+\subsubsection{Komplement}
+\textbf{Definition:} Sei $B$ $\subsetneq$ $M$, dann nennt man die Menge aller $x$ die in $M$ aber nicht in $B$ sind komplement von $B$ im Bezug auf $M$. Es wird mit $B^c$ notiert.
+\begin{align*}
+B^c:=\{x|x \notin B\}
+\end{align*}
+\\
+\textbf{Venn-Diagramm}
+\begin{figure}[H]
+\centering
+\includegraphics[width=117px, height=85.5px]{VennKom.png}
+			% \captionsetup{labelformat=empty}
+			% \caption{\label{fig:blue_rectangle} }
+\end{figure}
 
+
+\subsubsection{Differenz}
+\textbf{Definition:} Seien $A,B$ Mengen, dann nennt man alle $x$ die in $A$ aber nicht in $B$ sind Differenz von $A$ und $B$.
+\begin{align*}
+A \setminus B:=\{x|x \in A \land x \notin B\}
+\end{align*}
+\\
+\textbf{Venn-Diagramm}
+\begin{figure}[H]
+\centering
+\includegraphics[width=117px, height=85.5px]{VennDiff.png}
+			% \captionsetup{labelformat=empty}
+			% \caption{\label{fig:blue_rectangle} }
+\end{figure}
+
+A=B
+Hat man eine solche Gleichung zu beweisen, so muß man also zeigen, daß aus x $\in$ M stets x $\in$ N und umgekehrt aus x $\in$ N auch immer x $\in$ M folgt. bzw M $\subseteq$ N und umgekehrt
+ $\mathfrak{S}$
+
+ \section{Beweise}
+ \subsection{Morganschen Komplementierungsregeln}
+ \textbf{1. }Das Komplement der Vereinigung ist gleich dem Durchschnitt der Komplemente.\\
+ \begin{align*}
+	(\underset{M \in \mathfrak{S}}{\overset{}{\cup}}M)^c =  \underset{M \in \mathfrak{S}}{\overset{}{\cap}}(M^c)
+ \end{align*}
+ Da klar is das M $\in \mathfrak{S}$ wird dies beim folgenden Beweis nicht weiter angegeben.\\
+\textbf{Beweis:}\\\\
+\textbf{2. }Das Komplement des Durchschnitts ist gleich der Vereinigung der Komplemente.\\
+ \begin{align*}
+	(\underset{M \in \mathfrak{S}}{\overset{}{\cap}}M)^c =  \underset{M \in \mathfrak{S}}{\overset{}{\cup}}(M^c)
+ \end{align*}
 \end{document}
