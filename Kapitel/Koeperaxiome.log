@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  27 APR 2016 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  4 MAY 2016 14:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -657,6 +657,24 @@ Package zref Info: New property: mdf@pagevalue on input line 895.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
 )
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count128
+\U@D=\dimen152
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+\l@nswissgerman = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 88.
+)))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2012/09/05 v1.0 SVG inclusion and extraction
 
@@ -668,7 +686,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks39
 \XKV@tempa@toks=\toks40
 )
-\XKV@depth=\count128
+\XKV@depth=\count129
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
@@ -680,27 +698,27 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen152
-\captionmargin@=\dimen153
-\captionwidth=\dimen154
-\caption@tempdima=\dimen155
-\caption@indent=\dimen156
-\caption@parindent=\dimen157
-\caption@hangindent=\dimen158
+\captionmargin=\dimen153
+\captionmargin@=\dimen154
+\captionwidth=\dimen155
+\caption@tempdima=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
 )
-\c@ContinuedFloat=\count129
+\c@ContinuedFloat=\count130
 )
-\c@KVtest=\count130
+\c@KVtest=\count131
 \sf@farskip=\skip125
-\sf@captopadj=\dimen159
+\sf@captopadj=\dimen160
 \sf@capskip=\skip126
 \sf@nearskip=\skip127
-\c@subfigure=\count131
-\c@subfigure@save=\count132
-\c@lofdepth=\count133
-\c@subtable=\count134
-\c@subtable@save=\count135
-\c@lotdepth=\count136
+\c@subfigure=\count132
+\c@subfigure@save=\count133
+\c@lofdepth=\count134
+\c@subtable=\count135
+\c@subtable@save=\count136
+\c@lotdepth=\count137
 \sf@top=\skip128
 \sf@bottom=\skip129
 )
@@ -731,32 +749,32 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 \SVG@out@width=\skip130
 \SVG@out@height=\skip131
-\c@svgfigure=\count137
+\c@svgfigure=\count138
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen160
-\lightrulewidth=\dimen161
-\cmidrulewidth=\dimen162
-\belowrulesep=\dimen163
-\belowbottomsep=\dimen164
-\aboverulesep=\dimen165
-\abovetopsep=\dimen166
-\cmidrulesep=\dimen167
-\cmidrulekern=\dimen168
-\defaultaddspace=\dimen169
-\@cmidla=\count138
-\@cmidlb=\count139
-\@aboverulesep=\dimen170
-\@belowrulesep=\dimen171
-\@thisruleclass=\count140
-\@lastruleclass=\count141
-\@thisrulewidth=\dimen172
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
+\@cmidla=\count139
+\@cmidlb=\count140
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
+\@thisruleclass=\count141
+\@lastruleclass=\count142
+\@thisrulewidth=\dimen173
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen173
-\extrarowheight=\dimen174
+\col@sep=\dimen174
+\extrarowheight=\dimen175
 \NC@list=\toks41
 \extratabsurround=\skip132
 \backup@length=\skip133
@@ -785,29 +803,29 @@ Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count142
-\calc@Bcount=\count143
-\calc@Adimen=\dimen175
-\calc@Bdimen=\dimen176
+\calc@Acount=\count143
+\calc@Bcount=\count144
+\calc@Adimen=\dimen176
+\calc@Bdimen=\dimen177
 \calc@Askip=\skip147
 \calc@Bskip=\skip148
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count144
+\calc@Ccount=\count145
 \calc@Cskip=\skip149
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
 )
-\AM@pagewidth=\dimen177
-\AM@pageheight=\dimen178
+\AM@pagewidth=\dimen178
+\AM@pageheight=\dimen179
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box46
 \AM@toc@title=\toks43
-\c@AM@survey=\count145
+\c@AM@survey=\count146
 \AM@templatesizebox=\box47
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/sectsty/sectsty.sty
@@ -825,46 +843,46 @@ Package: amstext 2000/06/29 v2.01
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks44
-\ex@=\dimen179
+\ex@=\dimen180
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen180
+\pmbraise@=\dimen181
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count146
+\inf@bad=\count147
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count147
-\leftroot@=\count148
+\uproot@=\count148
+\leftroot@=\count149
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count149
-\DOTSCASE@=\count150
+\classnum@=\count150
+\DOTSCASE@=\count151
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box48
 \strutbox@=\box49
-\big@size=\dimen181
+\big@size=\dimen182
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count151
-\c@MaxMatrixCols=\count152
+\macc@depth=\count152
+\c@MaxMatrixCols=\count153
 \dotsspace@=\muskip16
-\c@parentequation=\count153
-\dspbrk@lvl=\count154
+\c@parentequation=\count154
+\dspbrk@lvl=\count155
 \tag@help=\toks45
-\row@=\count155
-\column@=\count156
-\maxfields@=\count157
+\row@=\count156
+\column@=\count157
+\maxfields@=\count158
 \andhelp@=\toks46
-\eqnshift@=\dimen182
-\alignsep@=\dimen183
-\tagshift@=\dimen184
-\tagwidth@=\dimen185
-\totwidth@=\dimen186
-\lineht@=\dimen187
+\eqnshift@=\dimen183
+\alignsep@=\dimen184
+\tagshift@=\dimen185
+\tagwidth@=\dimen186
+\totwidth@=\dimen187
+\lineht@=\dimen188
 \@envbody=\toks47
 \multlinegap=\skip151
 \multlinetaggap=\skip152
@@ -874,7 +892,7 @@ LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count158
+\c@float@type=\count159
 \float@exts=\toks49
 \float@box=\box50
 \@float@everytoks=\toks50
@@ -890,24 +908,6 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
-\babel@savecnt=\count159
-\U@D=\dimen188
-)
-\l@naustrian = a dialect from \language\l@ngerman 
-\l@nswissgerman = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 88.
-)))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
@@ -1742,11 +1742,11 @@ LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10> not available
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Koeperaxiome.aux) ) 
 Here is how much of TeX's memory you used:
- 25905 strings out of 493089
- 500831 string characters out of 6134843
- 627594 words of memory out of 5000000
- 28871 multiletter control sequences out of 15000+600000
- 68011 words of font info for 64 fonts, out of 8000000 for 9000
+ 25909 strings out of 493089
+ 500858 string characters out of 6134843
+ 629833 words of memory out of 5000000
+ 28874 multiletter control sequences out of 15000+600000
+ 68514 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,11n,100p,10446b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/
@@ -1755,7 +1755,7 @@ s.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Koeperaxiome.pdf (1 page, 55397 bytes).
+Output written on Koeperaxiome.pdf (1 page, 55399 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream

@@ -147,14 +147,39 @@ Hat man eine solche Gleichung zu beweisen, so muß man also zeigen, daß aus x $
 
  \section{Beweise}
  \subsection{Morganschen Komplementierungsregeln}
+ Sind alle Mengen M $\in \mathfrak{S}$ Teilmengen einer festen Universalmenge U und bezeichnen wir das Komplement U ohne N einer Teilmenge N von U der Kürze halber mit $N^c$.\\\\
  \textbf{1. }Das Komplement der Vereinigung ist gleich dem Durchschnitt der Komplemente.\\
  \begin{align*}
 	(\underset{M \in \mathfrak{S}}{\overset{}{\cup}}M)^c =  \underset{M \in \mathfrak{S}}{\overset{}{\cap}}(M^c)
  \end{align*}
  Da klar is das M $\in \mathfrak{S}$ wird dies beim folgenden Beweis nicht weiter angegeben.\\
 \textbf{Beweis:}\\\\
-\textbf{2. }Das Komplement des Durchschnitts ist gleich der Vereinigung der Komplemente.\\
+\textbf{A $\Rightarrow$ B }
+\begin{align*}
+	x \in (\cup M)^c \Rightarrow (x \in U \land x \notin \cup M ) \Rightarrow (x \in U \land x \notin \cup M \; \forall \; M \in \mathfrak{S}) \Rightarrow x\in M^c\;\forall\; M \Rightarrow x \in \cap(M^c)\\
+	\blacksquare
+ \end{align*}
+ \textbf{B $\Rightarrow$ A }\\
+ \begin{align*}
+ x \in \cap (M^c) \Rightarrow (x \in M^c\;\forall\;M^c) \Rightarrow (x \in U \land x \notin M\; \forall\; M) \Rightarrow (x \in U \land x \notin \cup M) \Rightarrow x \in (\cup M)^c\\
+ \blacksquare
+ \end{align*}
+ \textbf{A $\Leftrightarrow$ B}
+ \\\textbf{2. }Das Komplement des Durchschnitts ist gleich der Vereinigung der Komplemente.\\
  \begin{align*}
 	(\underset{M \in \mathfrak{S}}{\overset{}{\cap}}M)^c =  \underset{M \in \mathfrak{S}}{\overset{}{\cup}}(M^c)
  \end{align*}
+\textbf{Beweis:}\\\\
+\textbf{A $\Rightarrow$ B } 
+\begin{align*}
+x \in (\cap M)^c \Rightarrow (x \in U \land x \notin \cap M) \Rightarrow (x \in U \land \exists M : x \notin M ) \Rightarrow (\exists M : x \in M^c ) \Rightarrow (x \in \cup (M^c))\\
+ 	\blacksquare
+% x \in (\cap M)^c \Rightarrow (x \in U \land x \in \cap M^c \;\exists M)
+\end{align*}
+ \textbf{B $\Rightarrow$ A }\\
+ \begin{align*}
+ x \in \cup(M^c) \Rightarrow (x \in U \land \exists M : x \in M^c ) \Rightarrow (\exists M : x \notin M) \Rightarrow ( x \notin \cap M) \Rightarrow (x \in (\cap M)^c)\\
+ 	\blacksquare
+ \end{align*}
+
 \end{document}

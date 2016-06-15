@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  2 MAY 2016 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.7)  16 MAY 2016 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1749,14 +1749,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--12
  []  
  []
 
-[2] [3] [4] [5])
+[2] [3] [4] [5] [6])
 \tf@toc=\write4
 \openout4 = `AbiMappe_Mathe.toc'.
 
- [6]
+ [7]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 119.
- <lineare.pdf, id=28, 2870.725pt x 1574.88374pt>
+ <lineare.pdf, id=32, 2870.725pt x 1574.88374pt>
 File: lineare.pdf Graphic file (type pdf)
 
 <use lineare.pdf>
@@ -1767,7 +1767,7 @@ Overfull \hbox (20.93071pt too wide) in paragraph at lines 130--145
 []$[]$  $[]$ 
  []
 
-[1 <./lineare.pdf>] <lineare2.pdf, id=36, 2870.725pt x 1574.88374pt>
+[1 <./lineare.pdf>] <lineare2.pdf, id=39, 2870.725pt x 1574.88374pt>
 File: lineare2.pdf Graphic file (type pdf)
 
 <use lineare2.pdf>
@@ -1778,7 +1778,7 @@ Overfull \hbox (20.93071pt too wide) in paragraph at lines 154--177
 []$[]$  $[]$ 
  []
 
-[2 <./lineare2.pdf>] <quadr-B.pdf, id=41, 963.6pt x 527.9725pt>
+[2 <./lineare2.pdf>] <quadr-B.pdf, id=44, 963.6pt x 527.9725pt>
 File: quadr-B.pdf Graphic file (type pdf)
 
 <use quadr-B.pdf>
@@ -1823,7 +1823,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--266
 
  []
 
-[5] <E_1.png, id=53, 343.5234pt x 198.5016pt>
+[5] <E_1.png, id=56, 343.5234pt x 198.5016pt>
 File: E_1.png Graphic file (type png)
  <use E_1.png>
 Package pdftex.def Info: E_1.png used on input line 276.
@@ -1833,7 +1833,7 @@ Overfull \hbox (177.37234pt too wide) in paragraph at lines 276--279
  [][] 
  []
 
-<E_2.png, id=55, 343.5234pt x 198.5016pt>
+<E_2.png, id=58, 343.5234pt x 198.5016pt>
 File: E_2.png Graphic file (type png)
  <use E_2.png>
 Package pdftex.def Info: E_2.png used on input line 292.
@@ -1843,7 +1843,7 @@ Overfull \hbox (177.37234pt too wide) in paragraph at lines 292--295
  [][] 
  []
 
-<E_3.png, id=56, 1571.6316pt x 908.6748pt>
+<E_3.png, id=59, 1571.6316pt x 908.6748pt>
 File: E_3.png Graphic file (type png)
  <use E_3.png>
 Package pdftex.def Info: E_3.png used on input line 307.
@@ -1853,7 +1853,7 @@ Overfull \hbox (177.3364pt too wide) in paragraph at lines 307--310
  [][] 
  []
 
-<E_4.png, id=57, 1571.6316pt x 908.6748pt>
+<E_4.png, id=60, 1571.6316pt x 908.6748pt>
 File: E_4.png Graphic file (type png)
  <use E_4.png>
 Package pdftex.def Info: E_4.png used on input line 320.
@@ -1895,7 +1895,7 @@ ps>
 (epstopdf)             \includegraphics on input line 348.
 Package epstopdf Info: Output file is already uptodate.
 
-<a-eps-converted-to.pdf, id=72, 3119.655pt x 1711.39375pt>
+<a-eps-converted-to.pdf, id=75, 3119.655pt x 1711.39375pt>
 File: a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use a-eps-converted-to.pdf>
@@ -1976,7 +1976,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--487
 
  []
 
-[12] <Integral_1.png, id=88, 1583.1948pt x 922.8879pt>
+[12] <Integral_1.png, id=92, 1583.1948pt x 922.8879pt>
 File: Integral_1.png Graphic file (type png)
  <use Integral_1.png>
 Package pdftex.def Info: Integral_1.png used on input line 520.
@@ -2028,7 +2028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 547--550
 
  []
 
-<Integral_2.png, id=94, 839.2956pt x 485.1726pt>
+<Integral_2.png, id=97, 839.2956pt x 485.1726pt>
 File: Integral_2.png Graphic file (type png)
  <use Integral_2.png>
 Package pdftex.def Info: Integral_2.png used on input line 557.
@@ -2063,7 +2063,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 613--616
 
  []
 
-[16] [17] <koordinatensystem.png, id=108, 555.07375pt x 483.8075pt>
+[16] [17] <koordinatensystem.png, id=111, 555.07375pt x 483.8075pt>
 File: koordinatensystem.png Graphic file (type png)
 
 <use koordinatensystem.png>
@@ -2141,7 +2141,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 712--714
 
  []
 
-<Ebene.png, id=121, 471.7625pt x 311.1625pt>
+<Ebene.png, id=124, 471.7625pt x 311.1625pt>
 File: Ebene.png Graphic file (type png)
  <use Ebene.png>
 Package pdftex.def Info: Ebene.png used on input line 720.
@@ -2251,7 +2251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 835--837
 
  []
 
-<pytha.png, id=135, 220.825pt x 103.38625pt>
+<pytha.png, id=139, 220.825pt x 103.38625pt>
 File: pytha.png Graphic file (type png)
  <use pytha.png>
 Package pdftex.def Info: pytha.png used on input line 839.
@@ -2492,7 +2492,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
-
+LaTeX Font Info:    Try loading font information for U+euf on input line 77.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
 Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
  []
@@ -2507,7 +2510,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
  []
 
-<Kapitel/VennDis.png, id=168, 939.51pt x 686.565pt>
+<Kapitel/VennDis.png, id=171, 939.51pt x 686.565pt>
 File: Kapitel/VennDis.png Graphic file (type png)
  <use Kapitel/VennDis.png>
 Package pdftex.def Info: Kapitel/VennDis.png used on input line 85.
@@ -2542,56 +2545,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
-<Kapitel/VennKon.png, id=173, 501.875pt x 366.36874pt>
+<Kapitel/VennKon.png, id=178, 501.875pt x 366.36874pt>
 File: Kapitel/VennKon.png Graphic file (type png)
 
 <use Kapitel/VennKon.png>
 Package pdftex.def Info: Kapitel/VennKon.png used on input line 110.
 (pdftex.def)             Requested size: 117.43521pt x 85.81714pt.
 
-<Kapitel/VennKom.png, id=174, 501.875pt x 366.36874pt>
+<Kapitel/VennKom.png, id=179, 501.875pt x 366.36874pt>
 File: Kapitel/VennKom.png Graphic file (type png)
 
 <use Kapitel/VennKom.png>
 Package pdftex.def Info: Kapitel/VennKom.png used on input line 124.
 (pdftex.def)             Requested size: 117.43521pt x 85.81714pt.
 
-<Kapitel/VennDiff.png, id=175, 501.875pt x 366.36874pt>
+<Kapitel/VennDiff.png, id=180, 501.875pt x 366.36874pt>
 File: Kapitel/VennDiff.png Graphic file (type png)
 
 <use Kapitel/VennDiff.png>
 Package pdftex.def Info: Kapitel/VennDiff.png used on input line 139.
 (pdftex.def)             Requested size: 117.43521pt x 85.81714pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
+
+ []
+
+[35 <./Kapitel/VennKon.png> <./Kapitel/VennKom.png> <./Kapitel/VennDiff.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 154--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
+
+ []
+
 )
 \tf@thm=\write5
 \openout5 = `AbiMappe_Mathe.thm'.
 
- [35 <./Kapitel/VennKon.png> <./Kapitel/VennKom.png> <./Kapitel/VennDiff.png>] 
-(./AbiMappe_Mathe.aux) ) 
+ [36] (./AbiMappe_Mathe.aux) ) 
 Here is how much of TeX's memory you used:
- 26119 strings out of 493089
- 504111 string characters out of 6134843
+ 26131 strings out of 493089
+ 504357 string characters out of 6134843
  642457 words of memory out of 5000000
- 29031 multiletter control sequences out of 15000+600000
- 109635 words of font info for 116 fonts, out of 8000000 for 9000
+ 29038 multiletter control sequences out of 15000+600000
+ 110343 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,23n,98p,10424b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/bas
-e/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier
--bb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-
-mcl.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-
-mex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-
-ml.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/fourier-m
-s.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msbm10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putb
-8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on AbiMappe_Mathe.pdf (41 pages, 1220358 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
+ps/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+euler/eufm10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/euler/eufm7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourie
+r/fourier-bb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier
+/fourier-mcl.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier
+/fourier-mex.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier
+/fourier-ml.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/fourier/
+fourier-ms.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/ut
+opia/putb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/pu
+tbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on AbiMappe_Mathe.pdf (43 pages, 1227019 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
+ 238 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
