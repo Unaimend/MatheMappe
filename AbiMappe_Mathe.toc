@@ -24,126 +24,133 @@
 \contentsline {subsubsection}{\numberline {2.5.1}Summenregel}{10}
 \contentsline {subsubsection}{\numberline {2.5.2}Faktorregel}{10}
 \contentsline {subsubsection}{\numberline {2.5.3}Produktregel}{10}
-\contentsline {subsubsection}{\numberline {2.5.4}Kettenregel}{10}
+\contentsline {subsubsection}{\numberline {2.5.4}Kettenregel}{11}
 \contentsline {subsubsection}{\numberline {2.5.5}Quotientenregel}{11}
 \contentsline {subsection}{\numberline {2.6}Ableitung der $e$-Funktion}{11}
 \contentsline {subsubsection}{\numberline {2.6.1}Ableiten komplizierter $e$-Funktionen}{11}
-\contentsline {subsection}{\numberline {2.7}Ableitung trigonometrischer Funktionen}{11}
-\contentsline {subsubsection}{\numberline {2.7.1}Ableitung komplizierter trigonometrischer Funktionen}{11}
-\contentsline {section}{\numberline {3}Integralrechnung}{12}
-\contentsline {subsection}{\numberline {3.1}Unbestimmtes Integral}{12}
-\contentsline {subsection}{\numberline {3.2}Bestimmtes Integral}{12}
-\contentsline {subsection}{\numberline {3.3}Integrationsregeln}{12}
-\contentsline {subsubsection}{\numberline {3.3.1}Summenregel" der Integration}{12}
-\contentsline {subsubsection}{\numberline {3.3.2}Faktorregel}{13}
-\contentsline {subsubsection}{\numberline {3.3.3}Kettenregel der Integration}{13}
-\contentsline {subsection}{\numberline {3.4}Flaechenberechnung}{13}
-\contentsline {subsubsection}{\numberline {3.4.1}Flaeche unter Kurve}{13}
-\contentsline {subsubsection}{\numberline {3.4.2}Gemischte Flaechen}{14}
-\contentsline {subsubsection}{\numberline {3.4.3}Flaeche zwischen Kurven}{14}
-\contentsline {subsection}{\numberline {3.5}Mittelwert einer Funktion}{15}
-\contentsline {subsection}{\numberline {3.6}Rotationskoerper}{15}
-\contentsline {section}{\numberline {4}Kurvendiskussion}{15}
-\contentsline {subsection}{\numberline {4.1}Symmetrie}{15}
-\contentsline {subsection}{\numberline {4.2}Verhalten im Unendlichen}{15}
-\contentsline {subsection}{\numberline {4.3}Schnittpunkt mit der y-Achse}{16}
-\contentsline {subsection}{\numberline {4.4}Nullstellen}{16}
-\contentsline {subsection}{\numberline {4.5}Ableitungen}{16}
-\contentsline {subsection}{\numberline {4.6}Extrema berechnen}{16}
-\contentsline {subsection}{\numberline {4.7}Wendepunkte berechnen}{16}
-\contentsline {section}{\numberline {5}Analytische Geometrie}{18}
-\contentsline {subsection}{\numberline {5.1}Was ist ein Vektor}{18}
-\contentsline {subsection}{\numberline {5.2}Koordinatensystem}{18}
-\contentsline {subsection}{\numberline {5.3}Besondere Vektoren}{18}
-\contentsline {subsubsection}{\numberline {5.3.1}Nullvektor}{18}
-\contentsline {subsubsection}{\numberline {5.3.2}Gegenvektor}{18}
-\contentsline {subsubsection}{\numberline {5.3.3}Ortsvektor}{19}
-\contentsline {subsubsection}{\numberline {5.3.4}Normalenvektor}{19}
-\contentsline {subsubsection}{\numberline {5.3.5}Einheitsvektor}{19}
-\contentsline {subsection}{\numberline {5.4}Rechnen mit Vektoren}{19}
-\contentsline {subsubsection}{\numberline {5.4.1}Addition}{19}
-\contentsline {subsubsection}{\numberline {5.4.2}s-Multilipkation}{19}
-\contentsline {subsubsection}{\numberline {5.4.3}Linearkombination}{19}
-\contentsline {subsubsection}{\numberline {5.4.4}Laenge eines Vektors}{19}
-\contentsline {subsubsection}{\numberline {5.4.5}Lineare Abhaengigkeit}{20}
-\contentsline {subsubsection}{\numberline {5.4.6}Skalarprodukt}{20}
-\contentsline {subsubsection}{\numberline {5.4.7}Kreuzprodukt}{20}
-\contentsline {paragraph}{\numberline {5.4.7.1}Berechnung mithilfe der Determinante}{20}
-\contentsline {subsection}{\numberline {5.5}Geraden}{20}
-\contentsline {subsubsection}{\numberline {5.5.1}Was sind Geraden}{20}
-\contentsline {subsubsection}{\numberline {5.5.2}Lage von zwei Geraden im Raum}{20}
-\contentsline {paragraph}{\numberline {5.5.2.1}Abstand Punkt Gerade}{21}
-\contentsline {paragraph}{\numberline {5.5.2.2}Abstand Gerade Gerade}{21}
-\contentsline {paragraph}{\numberline {5.5.2.3}Winkel zwischen Geraden}{21}
-\contentsline {subsection}{\numberline {5.6}Ebenen}{21}
-\contentsline {subsubsection}{\numberline {5.6.1}Ebenenformen}{22}
-\contentsline {paragraph}{\numberline {5.6.1.1}Parameterform}{22}
-\contentsline {paragraph}{\numberline {5.6.1.2}Normalenform}{22}
-\contentsline {paragraph}{\numberline {5.6.1.3}Koordinatenform}{22}
-\contentsline {paragraph}{\numberline {5.6.1.4}Hessesche Normalenform(HNF)}{22}
-\contentsline {subsubsection}{\numberline {5.6.2}Lage Ebene Gerade}{23}
-\contentsline {paragraph}{\numberline {5.6.2.1}Schnittpunkt}{23}
-\contentsline {paragraph}{\numberline {5.6.2.2}Abstand Gerade Ebene}{23}
-\contentsline {paragraph}{\numberline {5.6.2.3}Winkel zwischen Gerade und Ebene}{23}
-\contentsline {subsubsection}{\numberline {5.6.3}Lage Ebene Ebene}{23}
-\contentsline {paragraph}{\numberline {5.6.3.1}Identisch}{24}
-\contentsline {paragraph}{\numberline {5.6.3.2}Schnittgerade}{24}
-\contentsline {paragraph}{\numberline {5.6.3.3}Abstand Ebene Ebene}{24}
-\contentsline {paragraph}{\numberline {5.6.3.4}Winkel zwischen Ebenen}{24}
-\contentsline {subsection}{\numberline {5.7}Kugeln}{24}
-\contentsline {subsubsection}{\numberline {5.7.1}Was ist eine Kugel}{24}
-\contentsline {subsubsection}{\numberline {5.7.2}Kugelgleichung}{24}
-\contentsline {subsubsection}{\numberline {5.7.3}Lage Kugel Gerade}{25}
-\contentsline {paragraph}{\numberline {5.7.3.1}Abstand}{25}
-\contentsline {subsubsection}{\numberline {5.7.4}Lage Kugel Ebene}{25}
-\contentsline {paragraph}{\numberline {5.7.4.1}Abstand}{25}
-\contentsline {paragraph}{\numberline {5.7.4.2}Flaeche der Schnittkreis}{25}
-\contentsline {subsubsection}{\numberline {5.7.5}Lage Kugel Kugel}{25}
-\contentsline {paragraph}{\numberline {5.7.5.1}Abstand}{25}
-\contentsline {subsection}{\numberline {5.8}Herleitungen}{26}
-\contentsline {subsubsection}{\numberline {5.8.1}Satz des Pythagoras}{26}
-\contentsline {section}{\numberline {6}Lineare Algebra}{26}
-\contentsline {subsection}{\numberline {6.1}Loesungsverfahren fuer LGS}{26}
-\contentsline {subsubsection}{\numberline {6.1.1}Treppenstuffen Verfahren}{26}
-\contentsline {subsubsection}{\numberline {6.1.2}Koeffizienten Matrix}{26}
-\contentsline {subsubsection}{\numberline {6.1.3}Determinante}{27}
-\contentsline {subsection}{\numberline {6.2}Matrizen}{27}
-\contentsline {subsubsection}{\numberline {6.2.1}Besondere Matrizen}{27}
-\contentsline {paragraph}{\numberline {6.2.1.1}Nullmatrix }{27}
-\contentsline {paragraph}{\numberline {6.2.1.2}Stochastische Matrix }{27}
-\contentsline {paragraph}{\numberline {6.2.1.3}Inverse }{27}
-\contentsline {paragraph}{\numberline {6.2.1.4}Einheitsmatrix}{28}
-\contentsline {paragraph}{\numberline {6.2.1.5}Fixvektor}{29}
-\contentsline {paragraph}{\numberline {6.2.1.6}Grenzmatrix}{29}
-\contentsline {subsubsection}{\numberline {6.2.2}Rechenregeln}{29}
-\contentsline {subsubsection}{\numberline {6.2.3}Matrizengleichungen}{30}
-\contentsline {subsubsection}{\numberline {6.2.4}Einstufige Prozesse}{30}
-\contentsline {subsubsection}{\numberline {6.2.5}Mehrstufige Prozesse}{30}
-\contentsline {paragraph}{\numberline {6.2.5.1}Markov-Ketten}{30}
-\contentsline {subsubsection}{\numberline {6.2.6}Lineare Optimierung}{30}
-\contentsline {paragraph}{\numberline {6.2.6.1}Maximierungsprobleme}{30}
-\contentsline {paragraph}{\numberline {6.2.6.2}Minimierungsprobleme}{30}
-\contentsline {paragraph}{\numberline {6.2.6.3}Sonderfaelle und Loesbarkeit}{30}
-\contentsline {paragraph}{\numberline {6.2.6.4}Simplex-Verfahren}{30}
-\contentsline {paragraph}{\numberline {6.2.6.5}Simplex-Algorithmus}{30}
-\contentsline {section}{\numberline {7}Taschenrechner}{30}
-\contentsline {section}{\numberline {8}Beispielaufgaben}{30}
-\contentsline {section}{\numberline {9}K\IeC {\"o}rper-Axiome}{32}
-\contentsline {section}{\numberline {10}Ordnungs-Axiome}{32}
-\contentsline {section}{\numberline {11}Peano-Axiome}{32}
-\contentsline {section}{\numberline {12}Naive Mengenlehre}{32}
-\contentsline {subsection}{\numberline {12.1}Angabe von Mengen}{32}
-\contentsline {subsection}{\numberline {12.2}Mengenbeziehungen}{33}
-\contentsline {subsubsection}{\numberline {12.2.1}Elementbeziehung}{33}
-\contentsline {subsubsection}{\numberline {12.2.2}Teilmenge:}{33}
-\contentsline {subsubsection}{\numberline {12.2.3}Potenzmenge}{33}
-\contentsline {subsubsection}{\numberline {12.2.4}Leere Menge}{33}
-\contentsline {subsubsection}{\numberline {12.2.5}Gleichheit}{34}
-\contentsline {subsubsection}{\numberline {12.2.6}Disjunktion(Vereinigung)}{34}
-\contentsline {paragraph}{\numberline {12.2.6.1}Disjunktion undendlich vieler Menge}{34}
-\contentsline {subsubsection}{\numberline {12.2.7}Konjunktion(Durchschnitt)}{34}
-\contentsline {paragraph}{\numberline {12.2.7.1}Konjunktion undendlich vieler Menge}{34}
-\contentsline {subsubsection}{\numberline {12.2.8}Komplement}{35}
-\contentsline {subsubsection}{\numberline {12.2.9}Differenz}{35}
-\contentsline {section}{\numberline {13}Beweise}{36}
-\contentsline {subsection}{\numberline {13.1}Morganschen Komplementierungsregeln}{36}
+\contentsline {subsection}{\numberline {2.7}Ableitung trigonometrischer Funktionen}{12}
+\contentsline {subsubsection}{\numberline {2.7.1}Ableitung komplizierter trigonometrischer Funktionen}{12}
+\contentsline {section}{\numberline {3}Integralrechnung}{13}
+\contentsline {subsection}{\numberline {3.1}Unbestimmtes Integral}{13}
+\contentsline {subsection}{\numberline {3.2}Bestimmtes Integral}{13}
+\contentsline {subsection}{\numberline {3.3}Integrationsregeln}{13}
+\contentsline {subsubsection}{\numberline {3.3.1}Summenregel" der Integration}{13}
+\contentsline {subsubsection}{\numberline {3.3.2}Faktorregel}{14}
+\contentsline {subsubsection}{\numberline {3.3.3}Kettenregel der Integration}{14}
+\contentsline {subsection}{\numberline {3.4}Flaechenberechnung}{14}
+\contentsline {subsubsection}{\numberline {3.4.1}Flaeche unter Kurve}{14}
+\contentsline {subsubsection}{\numberline {3.4.2}Gemischte Flaechen}{15}
+\contentsline {subsubsection}{\numberline {3.4.3}Flaeche zwischen Kurven}{15}
+\contentsline {subsection}{\numberline {3.5}Mittelwert einer Funktion}{16}
+\contentsline {subsection}{\numberline {3.6}Rotationskoerper}{16}
+\contentsline {section}{\numberline {4}Kurvendiskussion}{16}
+\contentsline {subsection}{\numberline {4.1}Symmetrie}{16}
+\contentsline {subsection}{\numberline {4.2}Verhalten im Unendlichen}{17}
+\contentsline {subsection}{\numberline {4.3}Schnittpunkt mit der y-Achse}{17}
+\contentsline {subsection}{\numberline {4.4}Nullstellen}{17}
+\contentsline {subsection}{\numberline {4.5}Ableitungen}{17}
+\contentsline {subsection}{\numberline {4.6}Extrema berechnen}{17}
+\contentsline {subsection}{\numberline {4.7}Wendepunkte berechnen}{18}
+\contentsline {section}{\numberline {5}Analytische Geometrie}{19}
+\contentsline {subsection}{\numberline {5.1}Was ist ein Vektor}{19}
+\contentsline {subsection}{\numberline {5.2}Koordinatensystem}{19}
+\contentsline {subsection}{\numberline {5.3}Besondere Vektoren}{19}
+\contentsline {subsubsection}{\numberline {5.3.1}Nullvektor}{19}
+\contentsline {subsubsection}{\numberline {5.3.2}Gegenvektor}{20}
+\contentsline {subsubsection}{\numberline {5.3.3}Ortsvektor}{20}
+\contentsline {subsubsection}{\numberline {5.3.4}Normalenvektor}{20}
+\contentsline {subsubsection}{\numberline {5.3.5}Einheitsvektor}{20}
+\contentsline {subsection}{\numberline {5.4}Rechnen mit Vektoren}{20}
+\contentsline {subsubsection}{\numberline {5.4.1}Addition}{20}
+\contentsline {subsubsection}{\numberline {5.4.2}s-Multilipkation}{20}
+\contentsline {subsubsection}{\numberline {5.4.3}Linearkombination}{21}
+\contentsline {subsubsection}{\numberline {5.4.4}Laenge eines Vektors}{21}
+\contentsline {subsubsection}{\numberline {5.4.5}Lineare Abhaengigkeit}{21}
+\contentsline {subsubsection}{\numberline {5.4.6}Skalarprodukt}{21}
+\contentsline {subsubsection}{\numberline {5.4.7}Kreuzprodukt}{21}
+\contentsline {paragraph}{\numberline {5.4.7.1}Berechnung mithilfe der Determinante}{21}
+\contentsline {subsection}{\numberline {5.5}Geraden}{22}
+\contentsline {subsubsection}{\numberline {5.5.1}Was sind Geraden}{22}
+\contentsline {subsubsection}{\numberline {5.5.2}Lage von zwei Geraden im Raum}{22}
+\contentsline {paragraph}{\numberline {5.5.2.1}Abstand Punkt Gerade}{22}
+\contentsline {paragraph}{\numberline {5.5.2.2}Abstand Gerade Gerade}{22}
+\contentsline {paragraph}{\numberline {5.5.2.3}Winkel zwischen Geraden}{23}
+\contentsline {subsection}{\numberline {5.6}Ebenen}{23}
+\contentsline {subsubsection}{\numberline {5.6.1}Ebenenformen}{23}
+\contentsline {paragraph}{\numberline {5.6.1.1}Parameterform}{23}
+\contentsline {paragraph}{\numberline {5.6.1.2}Normalenform}{24}
+\contentsline {paragraph}{\numberline {5.6.1.3}Koordinatenform}{24}
+\contentsline {paragraph}{\numberline {5.6.1.4}Hessesche Normalenform(HNF)}{24}
+\contentsline {subsubsection}{\numberline {5.6.2}Lage Ebene Gerade}{24}
+\contentsline {paragraph}{\numberline {5.6.2.1}Schnittpunkt}{24}
+\contentsline {paragraph}{\numberline {5.6.2.2}Abstand Gerade Ebene}{25}
+\contentsline {paragraph}{\numberline {5.6.2.3}Winkel zwischen Gerade und Ebene}{25}
+\contentsline {subsubsection}{\numberline {5.6.3}Lage Ebene Ebene}{25}
+\contentsline {paragraph}{\numberline {5.6.3.1}Identisch}{25}
+\contentsline {paragraph}{\numberline {5.6.3.2}Schnittgerade}{25}
+\contentsline {paragraph}{\numberline {5.6.3.3}Abstand Ebene Ebene}{25}
+\contentsline {paragraph}{\numberline {5.6.3.4}Winkel zwischen Ebenen}{26}
+\contentsline {subsection}{\numberline {5.7}Kugeln}{26}
+\contentsline {subsubsection}{\numberline {5.7.1}Was ist eine Kugel}{26}
+\contentsline {subsubsection}{\numberline {5.7.2}Kugelgleichung}{26}
+\contentsline {subsubsection}{\numberline {5.7.3}Lage Kugel Gerade}{26}
+\contentsline {paragraph}{\numberline {5.7.3.1}Abstand}{27}
+\contentsline {subsubsection}{\numberline {5.7.4}Lage Kugel Ebene}{27}
+\contentsline {paragraph}{\numberline {5.7.4.1}Abstand}{27}
+\contentsline {paragraph}{\numberline {5.7.4.2}Flaeche der Schnittkreis}{27}
+\contentsline {subsubsection}{\numberline {5.7.5}Lage Kugel Kugel}{27}
+\contentsline {paragraph}{\numberline {5.7.5.1}Abstand}{27}
+\contentsline {subsection}{\numberline {5.8}Herleitungen}{28}
+\contentsline {subsubsection}{\numberline {5.8.1}Satz des Pythagoras}{28}
+\contentsline {section}{\numberline {6}Lineare Algebra}{28}
+\contentsline {subsection}{\numberline {6.1}Loesungsverfahren fuer LGS}{28}
+\contentsline {subsubsection}{\numberline {6.1.1}Treppenstuffen Verfahren}{28}
+\contentsline {subsubsection}{\numberline {6.1.2}Koeffizienten Matrix}{28}
+\contentsline {subsubsection}{\numberline {6.1.3}Determinante}{29}
+\contentsline {subsection}{\numberline {6.2}Matrizen}{29}
+\contentsline {subsubsection}{\numberline {6.2.1}Besondere Matrizen}{29}
+\contentsline {paragraph}{\numberline {6.2.1.1}Nullmatrix }{29}
+\contentsline {paragraph}{\numberline {6.2.1.2}Stochastische Matrix }{29}
+\contentsline {paragraph}{\numberline {6.2.1.3}Inverse }{29}
+\contentsline {paragraph}{\numberline {6.2.1.4}Einheitsmatrix}{30}
+\contentsline {paragraph}{\numberline {6.2.1.5}Fixvektor}{31}
+\contentsline {paragraph}{\numberline {6.2.1.6}Grenzmatrix}{31}
+\contentsline {subsubsection}{\numberline {6.2.2}Rechenregeln}{31}
+\contentsline {subsubsection}{\numberline {6.2.3}Matrizengleichungen}{32}
+\contentsline {subsubsection}{\numberline {6.2.4}Einstufige Prozesse}{32}
+\contentsline {subsubsection}{\numberline {6.2.5}Mehrstufige Prozesse}{32}
+\contentsline {paragraph}{\numberline {6.2.5.1}Markov-Ketten}{32}
+\contentsline {subsubsection}{\numberline {6.2.6}Lineare Optimierung}{32}
+\contentsline {paragraph}{\numberline {6.2.6.1}Maximierungsprobleme}{32}
+\contentsline {paragraph}{\numberline {6.2.6.2}Minimierungsprobleme}{32}
+\contentsline {paragraph}{\numberline {6.2.6.3}Sonderfaelle und Loesbarkeit}{32}
+\contentsline {paragraph}{\numberline {6.2.6.4}Simplex-Verfahren}{32}
+\contentsline {paragraph}{\numberline {6.2.6.5}Simplex-Algorithmus}{33}
+\contentsline {section}{\numberline {7}Taschenrechner}{33}
+\contentsline {section}{\numberline {8}Beispielaufgaben}{33}
+\contentsline {section}{\numberline {9}K\IeC {\"o}rper-Axiome}{35}
+\contentsline {section}{\numberline {10}Ordnungs-Axiome}{35}
+\contentsline {section}{\numberline {11}Peano-Axiome}{35}
+\contentsline {section}{\numberline {12}Naive Mengenlehre}{35}
+\contentsline {subsection}{\numberline {12.1}Angabe von Mengen}{36}
+\contentsline {subsection}{\numberline {12.2}Mengenbeziehungen}{36}
+\contentsline {subsubsection}{\numberline {12.2.1}Elementbeziehung}{36}
+\contentsline {subsubsection}{\numberline {12.2.2}Teilmenge:}{36}
+\contentsline {subsubsection}{\numberline {12.2.3}Potenzmenge}{36}
+\contentsline {subsubsection}{\numberline {12.2.4}Leere Menge}{36}
+\contentsline {subsubsection}{\numberline {12.2.5}Gleichheit}{37}
+\contentsline {subsubsection}{\numberline {12.2.6}Disjunktion(Vereinigung)}{37}
+\contentsline {paragraph}{\numberline {12.2.6.1}Disjunktion undendlich vieler Menge}{37}
+\contentsline {subsubsection}{\numberline {12.2.7}Konjunktion(Durchschnitt)}{37}
+\contentsline {paragraph}{\numberline {12.2.7.1}Konjunktion undendlich vieler Menge}{38}
+\contentsline {subsubsection}{\numberline {12.2.8}Komplement}{38}
+\contentsline {subsubsection}{\numberline {12.2.9}Differenz}{38}
+\contentsline {section}{\numberline {13}Beweise}{39}
+\contentsline {subsection}{\numberline {13.1}Morganschen Komplementierungsregeln}{39}
+\contentsline {section}{\numberline {14}Bruchrechnung}{40}
+\contentsline {subsection}{\numberline {14.1}Erweitern}{40}
+\contentsline {subsection}{\numberline {14.2}Kuerzen}{40}
+\contentsline {subsection}{\numberline {14.3}Addition}{40}
+\contentsline {subsection}{\numberline {14.4}Subtraktion}{40}
+\contentsline {subsection}{\numberline {14.5}Multiplikation}{41}
+\contentsline {subsection}{\numberline {14.6}Division}{41}

@@ -80,18 +80,18 @@
 	"buffers":
 	[
 		{
-			"file": "Mathe.sublime-project",
+			"file": "Kapitel/Mengenlehre.tex",
 			"settings":
 			{
-				"buffer_size": 345,
+				"buffer_size": 7515,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "AbiMappe_Mathe.tex",
+			"file": "Kapitel/Peanoaxiome.tex",
 			"settings":
 			{
-				"buffer_size": 50534,
+				"buffer_size": 891,
 				"line_ending": "Unix"
 			}
 		}
@@ -119,20 +119,16 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 342.0,
-		"last_filter": "install",
+		"height": 359.0,
+		"last_filter": "pacla",
 		"selected_items":
 		[
-			[
-				"install",
-				"Package Control: Install Package"
-			],
 			[
 				"pacla",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -153,14 +149,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/thomasdost/Documents/Latex/MatheMappe"
+		"/home/unaimend/documents/Latex/MatheMappe"
 	],
 	"file_history":
 	[
-		"/Users/thomasdost/Documents/dev/docs/tinyxml2_wrapper/doc.tex",
-		"/Users/thomasdost/Documents/Latex/MatheMappe/Kapitel/Peanoaxiome.tex",
-		"/Users/thomasdost/Documents/Latex/MatheMappe/Kapitel/Mengenlehre.tex",
-		"/Users/thomasdost/Documents/Latex/MatheMappe/Kapitel/Koeperaxiome.tex",
+		"/home/unaimend/documents/Latex/MatheMappe/Kapitel/Koeperaxiome.tex",
+		"/home/unaimend/documents/Latex/MatheMappe/AbiMappe_Mathe.tex",
 		"/Users/thomasdost/Documents/dev/Test.cpp",
 		"/Users/thomasdost/Documents/dev/Test.cüü",
 		"/Users/thomasdost/Desktop/test.lua",
@@ -217,7 +211,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -231,9 +225,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"\\@xdblart]{lr}",
-			"\\subsection",
-			"yac",
 			"endl",
 			"#",
 			"1000000",
@@ -302,7 +293,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"\\subsection{\\textbf{"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -313,16 +303,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Mathe.sublime-project",
-					"semi_transient": true,
+					"file": "Kapitel/Mengenlehre.tex",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 345,
+						"buffer_size": 7515,
 						"regions":
 						{
 						},
@@ -335,43 +325,42 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 321.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "AbiMappe_Mathe.tex",
+					"file": "Kapitel/Peanoaxiome.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50534,
+						"buffer_size": 891,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2370,
-								2370
+								44,
+								44
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 995.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -418,13 +407,13 @@
 	},
 	"output.latextools":
 	{
-		"height": 134.0
+		"height": 140.0
 	},
 	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"project": "Mathe.sublime-project",
 	"replace":
 	{
-		"height": 76.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -466,7 +455,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 294.0,
+	"side_bar_width": 135.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
