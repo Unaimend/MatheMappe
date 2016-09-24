@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1473601053 "AbiMappe_Mathe.tex" "AbiMappe_Mathe.pdf" "AbiMappe_Mathe" 1473601060
+["pdflatex"] 1473787730 "AbiMappe_Mathe.tex" "AbiMappe_Mathe.pdf" "AbiMappe_Mathe" 1473787738
   "./E_1.png" 1456386199 780849 09f3054ae6e18fa3c3f9820d0bb2fc2b ""
   "./E_2.png" 1456386341 21754 5cfa5be50e189a205539f3cafe3a63d9 ""
   "./E_3.png" 1456386690 130020 1b42fb506cdf9bbb100bbbed1e38a221 ""
@@ -53,7 +53,6 @@
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb" 1164221255 37993 d2f34a65b241be35208ae648768194f6 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb" 1164221255 36507 bc28f9f0cdba50a8a348a6e4dc8a5378 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb" 1164221255 37756 112837e95d30cb64c320437ea63bd4d6 ""
-  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb" 1336858727 21098 d4aee7c0aac232caac5688b586b9363c ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb" 1336858727 21251 56705123063d7b34002d6b6e7142345e ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
@@ -246,9 +245,9 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1452193311 3849858 3bbe809c8a76379e401e4aebc136d963 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "AbiMappe_Mathe.aux" 1473601059 16258 2444bba5ad543f3478792534edfa4e05 ""
-  "AbiMappe_Mathe.tex" 1473601046 50541 653f9c519fe596e05acfd69da39707fa ""
-  "AbiMappe_Mathe.toc" 1473601059 10590 161537425edfe60277581821eb806224 ""
+  "AbiMappe_Mathe.aux" 1473787737 16258 2444bba5ad543f3478792534edfa4e05 ""
+  "AbiMappe_Mathe.tex" 1473614647 50539 fb732efd254a85f4ecc197f56d2ffba3 ""
+  "AbiMappe_Mathe.toc" 1473787737 10590 161537425edfe60277581821eb806224 ""
   "E_1.png" 1456386199 780849 09f3054ae6e18fa3c3f9820d0bb2fc2b ""
   "E_2.png" 1456386341 21754 5cfa5be50e189a205539f3cafe3a63d9 ""
   "E_3.png" 1456386690 130020 1b42fb506cdf9bbb100bbbed1e38a221 ""
@@ -270,8 +269,8 @@
   "pytha.png" 1452204482 4742 f4dd235aa028bd63d871921e7f045b7d ""
   "quadr-B.pdf" 1452204482 33340 9c6696698378a016076731102e030902 ""
   (generated)
+  "AbiMappe_Mathe.pdf"
+  "AbiMappe_Mathe.log"
+  "AbiMappe_Mathe.aux"
   "AbiMappe_Mathe.toc"
   "AbiMappe_Mathe.thm"
-  "AbiMappe_Mathe.log"
-  "AbiMappe_Mathe.pdf"
-  "AbiMappe_Mathe.aux"
